@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout from '../components/Layout'
+import Layout from '../components/shared/Layout'
 import IndexContent from '../components/IndexContent'
 import IndexCover from '../components/IndexCover'
 import IndexCards from '../components/IndexCards'

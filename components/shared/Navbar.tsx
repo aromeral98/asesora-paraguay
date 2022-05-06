@@ -17,15 +17,14 @@ const routes = [
 export default function Navbar() {
   const router = useRouter()
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-primaryColor shadow">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className="absolute inset-y-0 right-0  flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                
-                <Disclosure.Button className="inline-flex items-center border-2 focus:border-2 border-primaryColor justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100">
+                <Disclosure.Button className="inline-flex items-center border-2 focus:border-2 border-white justify-center p-2 rounded-md text-white hover:text-gray-500 hover:bg-gray-100 transition-all duration-300">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -40,12 +39,11 @@ export default function Navbar() {
                   {routes.map(route => {
                     return <a
                     href={route.path}
-                    className={((router.route === route.path) ? 'border-secondaryColor text-gray-900' : 'border-transparent text-gray-500') + "  inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"}
+                    className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-200 hover:border-white') + "  inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}
                   >
                     {route.title}
                   </a>
                   })
-
                   }
                 </div>
               </div>
@@ -60,36 +58,18 @@ export default function Navbar() {
         leaveTo="transform scale-95 opacity-0"
       >
           <Disclosure.Panel className="sm:hidden">
-            <div className="pt-2 pb-4 space-y-1">
-              {/* Current: "bg-indigo-50 border-secondaryColor text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
-              <Disclosure.Button
-                as="a"
-                href="/"
-                className="bg-indigo-50 border-secondaryColor text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Inicio
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Requisitos para obtener residencia
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Obtener Residencia
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/contact"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Contacto
-              </Disclosure.Button>
+            <div className="">
+              {/* Current: "bg-indigo-50 border-secondaryColor text-primaryColor", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+              {routes.map(route => {
+                    return <Disclosure.Button
+                    as="a"
+                    href={route.path}
+                    className={((router.route === route.path) ? 'bg-indigo-50 border-secondaryColor text-secondaryColor ' : 'border-transparent text-white hover:bg-gray-50 hover:border-secondaryColor hover:text-gray-700') + "  block pl-3 pr-4 py-2.5 border-l-4 text-base font-medium"}
+                  >
+                    {route.title}
+                  </Disclosure.Button>
+                  })
+                  }
             </div>
           </Disclosure.Panel>
           </Transition>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import ContactForm from '../components/ContactForm'
-import Layout from '../components/Layout'
+import Layout from '../components/shared/Layout'
 
 
 export default function Contact() {
@@ -12,7 +12,9 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='w-full'>
-      <ContactForm />
+        <div className='w-6/12 mx-auto'>
+        <ContactForm />
+        </div>
       </div>
     </Layout>
   )

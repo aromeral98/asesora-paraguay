@@ -3,15 +3,15 @@ import Countries from './helpers/Countries'
 export default function ContactForm() {
 
     return (
-    <div className="mt-5 md:mt-0 md:col-span-2 max-w-7xl mx-auto">
+    <div className="mt-5 md:mt-0 md:col-span-2 mx-auto">
       <form 
       // action="https://formspree.io/f/xbjwpkpo" 
-      method="POST" className="w-full lg:w-10/12 mx-auto py-4 md:py-16">
+      method="POST" className="w-full lg:w-full mx-auto py-4 md:py-16">
         <div className="shadow overflow-hidden sm:rounded-md">
           <div className="px-4 py-5 bg-white sm:p-6">
       <h3 className="text-lg leading-6 font-medium text-gray-900 mb-5">Formulario de contacto</h3>
               <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 md:col-span-6">
+              <div className="col-span-12">
                 <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                   Nombre
                 </label>
@@ -23,21 +23,7 @@ export default function ContactForm() {
                   className="mt-1 focus:ring-primaryColor border py-2 pl-3 focus:border-primaryColor block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
-
-              <div className="col-span-12 md:col-span-6">
-                <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">
-                  Apellido
-                </label>
-                <input
-                  type="text"
-                  name="last-name"
-                  id="last-name"
-                  autoComplete="family-name"
-                  className="mt-1 focus:ring-primaryColor border py-2 pl-3 focus:border-primaryColor  block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                />
-              </div>
-
-              <div className="col-span-12 md:col-span-6">
+              <div className="col-span-12">
                 <label htmlFor="email-address" className="block text-sm font-medium text-gray-700">
                   Email
                 </label>
@@ -50,7 +36,7 @@ export default function ContactForm() {
                 />
               </div>
 
-              <div className="col-span-12 md:col-span-6">
+              <div className="col-span-12">
                 <label htmlFor="country" className="block text-sm font-medium text-gray-700">
                   Pais
                 </label>
@@ -67,7 +53,7 @@ export default function ContactForm() {
                  }
                 </select>
               </div>
-              <div className="col-span-12 md:col-span-6">
+              <div className="col-span-12">
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
                   Telefono
                 </label>
@@ -79,7 +65,7 @@ export default function ContactForm() {
                   className="mt-1 focus:ring-primaryColor border py-2 pl-3 focus:border-primaryColor  block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
-              <div className="col-span-12 md:col-span-6">
+              <div className="col-span-12">
                 <label htmlFor="country" className="block text-sm font-medium text-gray-700">
                   ¿Como quieres recibir tu respuesta?
                 </label>
