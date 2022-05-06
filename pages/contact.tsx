@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import ContactForm from '../components/ContactForm'
 import Layout from '../components/Layout'
-import Slider from '../components/Slider'
 
-export default function Home() {
+
+export default function Contact() {
   return (
     <Layout>
       <Head>
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='w-full'>
-      <Slider />
+      <ContactForm />
       </div>
     </Layout>
   )

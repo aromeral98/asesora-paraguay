@@ -1,0 +1,9 @@
+
+.sliderButton button:hover{
+	background: rgb(193, 208, 255) !important;
+	font-size: 44px !important;
+}
+.sliderButton button{
+	transition: all 400ms ease;
+	
+}
