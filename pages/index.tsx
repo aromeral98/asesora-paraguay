@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import Slider from '../components/Slider'
 import IndexContent from '../components/IndexContent'
+import IndexCover from '../components/IndexCover'
+import IndexCards from '../components/IndexCards'
+
 
 export default function Home() {
   return (
@@ -12,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='w-full'>
-      <Slider />
+      <IndexCover />
       <IndexContent />
+      <IndexCards />
       </div>
     </Layout>
   )

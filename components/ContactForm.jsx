@@ -4,7 +4,9 @@ export default function ContactForm() {
 
     return (
     <div className="mt-5 md:mt-0 md:col-span-2 max-w-7xl mx-auto">
-      <form action="https://formspree.io/f/xbjwpkpo" method="POST" className="w-full lg:w-10/12 mx-auto py-4 md:py-16">
+      <form 
+      // action="https://formspree.io/f/xbjwpkpo" 
+      method="POST" className="w-full lg:w-10/12 mx-auto py-4 md:py-16">
         <div className="shadow overflow-hidden sm:rounded-md">
           <div className="px-4 py-5 bg-white sm:p-6">
       <h3 className="text-lg leading-6 font-medium text-gray-900 mb-5">Formulario de contacto</h3>
