@@ -1,5 +1,6 @@
+import Link from "next/link";
 
-export default function IndexCard({ title, description }) {
+export default function IndexCard({ title, description, href }) {
     return (
         <div className="p-5 rounded-xl shadow-lg bg-white">
             <div className="aspect-w-16 aspect-h-6">
@@ -15,7 +16,9 @@ export default function IndexCard({ title, description }) {
                 <p className="lg:text-lg leading-relaxed">
                     {description}
                 </p>
-                <a className="text-primary hover:text-secondary underline decoration-primary font-medium" href="https://tramiteitalia.com/es/consulado-italiano">Ver más</a>
+                <Link href={href}>
+                    <button className="text-primary hover:text-secondary underline decoration-primary font-medium" >Ver más</button>
+                </Link>
             </div>
         </div>
     )

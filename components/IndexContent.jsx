@@ -1,7 +1,7 @@
 
 export default function IndexContent() {
   return (
-    <div className="relative py-16 bg-white overflow-hidden max-w-7xl">
+    <div className="relative py-16 bg-white overflow-hidden max-w-7xl mx-auto">
       <section class="container space-y-4 lg:space-y-8 text-center mx-auto">
         <h2 class="text-secondary text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center text-secondaryColor">
           ¿Quiénes somos?
