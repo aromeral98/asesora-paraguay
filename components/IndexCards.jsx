@@ -7,7 +7,7 @@ export default function IndexCards() {
     ]
     return (
       <article className="pb-16 bg-white max-w-7xl mx-auto">
-      <h2 class="text-secondaryColor  bg-white text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+      <h2 className="text-secondaryColor  bg-white text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
         ¿En qué podemos ayudarte?
     </h2>
     <div className="max-w-7xl mx-auto grid gap-12 lg:grid-cols-2 mt-8">
