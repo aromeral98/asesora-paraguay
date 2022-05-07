@@ -13,3 +13,14 @@ body {
 input,button{
   outline: none;
 }
+.buttonTransition{
+  transition: all 300ms ease;
+}
+.buttonTransition svg{
+  transition: all 300ms ease;
+  fill: rgb(0 56 168);
+
+}
+.buttonTransition:hover svg{
+  fill: rgb(213 43 30);
+}
