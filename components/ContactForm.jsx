@@ -8,7 +8,7 @@ export default function ContactForm() {
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
           <div className="px-4 py-5 bg-white sm:p-6">
-            <h3 className="text-lg leading-6 font-medium text-secondaryColor mb-5">Formulario de contacto</h3>
+            <h4 className="text-lg leading-6 font-medium text-secondaryColor mb-5">Formulario de contacto</h4>
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">
                 <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
@@ -35,15 +35,17 @@ export default function ContactForm() {
                 />
               </div>
 
-              <div className="col-span-12">
+              <div className="col-span-12 styled-select relative">
+              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                 <label htmlFor="country" className="block text-sm font-medium text-gray-700">
                   Pais
                 </label>
                 <select
                   id="country"
                   name="country"
+                  defaultValue='Spain'
                   autoComplete="country-name"
-                  className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm"
+                  className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
                   {
                     Countries().map(country => {
@@ -64,7 +66,8 @@ export default function ContactForm() {
                   className="mt-1 focus:ring-primaryColor border py-2 pl-3 focus:border-primaryColor  block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
-              <div className="col-span-12">
+              <div className="col-span-12 styled-select relative">
+              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                 <label htmlFor="country" className="block text-sm font-medium text-gray-700">
                   ¿Como quieres recibir tu respuesta?
                 </label>
@@ -72,11 +75,30 @@ export default function ContactForm() {
                   id="country"
                   name="country"
                   autoComplete="country-name"
-                  className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm"
+                  className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
                   <option value='phone'>Llamada</option>
                   <option value='email'>Email</option>
                   <option value='whatsapp'>Whatsapp</option>
+                </select>
+              </div>
+              <div className="col-span-12 styled-select relative">
+              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+                <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+                  Asunto
+                </label>
+                <select
+                  id="country"
+                  name="country"
+                  autoComplete="country-name"
+                  className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
+                >
+                  <option value='Certificados'>Certificados</option>
+                  <option value='Ciudadania'>Ciudadania</option>
+                  <option value='Residencia'>Residencia</option>
+                  <option value='Tramites'>Tramites</option>
+                  <option value='Consulta'>Consulta</option>
+                  <option value='Otros'>Otros</option>
                 </select>
               </div>
               <div className="col-span-12 gap-6">
@@ -91,7 +113,6 @@ export default function ContactForm() {
                   className="mt-1 focus:ring-primaryColor border py-2 pl-3 focus:border-primaryColor  block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
-
             </div>
           </div>
           <div className="px-4 py-6 bg-gray-50 text-right sm:px-6">

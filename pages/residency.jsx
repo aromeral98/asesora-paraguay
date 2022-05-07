@@ -1,18 +1,18 @@
 import Head from 'next/head'
-import ProceduresParaguay from '../components/ProceduresParaguay'
+import ResidencyContent from '../components/ResidencyContent'
 import Layout from '../components/shared/Layout'
 
 
-export default function Procedures() {
+export default function Residency() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay - Tramites</title>
+        <title>Invest on paraguay - Residencia</title>
         <meta name="description" content="Invest on paraguay" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full'>
-        <ProceduresParaguay />
+        <ResidencyContent />
       </section>
     </Layout>
   )
