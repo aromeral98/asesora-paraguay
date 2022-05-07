@@ -4,7 +4,7 @@ export default function ProceduresParaguay() {
         <section className="py-8 xl:py-16 max-w-7xl mx-auto px-8">
             <div className="grid xl:grid-cols-3 gap-16">
                 <div className="xl:col-span-2 px-8 xl:px-0">
-                    <h2 className="text-secondary text-xl lg:text-4xl font-medium lg:leading-snug">
+                    <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
                         Que certificados italianos se pueden solicitar
                     </h2>
                     <div className="prose max-w-max mt-6">
@@ -100,11 +100,13 @@ export default function ProceduresParaguay() {
                         </p>
                     </div>
                 </div>
-
-                <div id="procedureRequestForm" className="scroll-mt-4 space-y-4" >
-                    <ContactForm />
+                <div className='relative block w-full'>
+                    <div className='flex flex-col sticky top-8'>
+                        <div className='h-full w-full relative'>
+                            <ContactForm />
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </section>
     )

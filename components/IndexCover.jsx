@@ -5,7 +5,7 @@ export default function IndexCover() {
         <div className='relative' style={{ backgroundImage: `url(https://pbs.twimg.com/media/EB7kAwQXkAAH7uP.png)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' ,backgroundPosition: 'center'}}>
             <div className='absolute w-full h-full z-0' style={{ background: 'rgba(255,255,255,0.4)'}}></div>
             <div className='absolute w-6/12 right-0 -bottom-6 z-10 hidden lg:block' >
-                <img src='https://w7.pngwing.com/pngs/436/242/png-transparent-computer-icons-passport-pasport.png'></img>
+                <img alt='passport' src='https://w7.pngwing.com/pngs/436/242/png-transparent-computer-icons-passport-pasport.png'></img>
             </div>
             <div className='max-w-7xl py-48 mx-auto z-10 relative lg:pl-16 xl:pl-0'>
                 <div class="w-full lg:w-6/12 space-y-10">

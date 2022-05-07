@@ -100,11 +100,13 @@ export default function CertificatesAvailables() {
                         </p>
                     </div>
                 </div>
-
-                <div id="procedureRequestForm" className="scroll-mt-4 space-y-4" >
-                    <ContactForm />
+                <div className='relative block w-full'>
+                    <div className='flex flex-col sticky top-8'>
+                        <div className='h-full w-full relative'>
+                            <ContactForm />
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </section>
     )

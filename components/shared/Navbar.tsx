@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="relative flex justify-between h-16">
               <div className='absolute left-0 h-full p-4 bg-white rounded-full'>
               <Link href={'/'}>
-              <img className='h-full' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png'></img>
+              <img alt='brand' className='h-full' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png'></img>
               </Link>
               </div>
               <div className="absolute inset-y-0 right-0  flex items-center lg:hidden">

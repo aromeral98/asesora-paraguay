@@ -1,5 +1,16 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function CoverImage() {
+  const router = useRouter()
+  const titles = [
+    {title: 'Certificados Paraguayos', subtitle: 'Certificados', path: '/certificates'},
+    {title: 'Obtener Ciudadania', subtitle: 'Ciudadania', path: '/citizenship'},
+    {title: 'Tramites paraguayos', subtitle: 'Tramites en Paraguay', path: '/procedures'},
+    {title: 'contacto', subtitle: 'Contacto', path: '/contact'}
+  ]
+  const caption = titles.find(routes => router.route === routes.path)
+
   return (
     <div className="aspect-w-16 aspect-h-6 lg:aspect-h-3 relative">
       <div className="absolute w-full h-full bg-black/60 z-10"></div>
@@ -8,18 +19,18 @@ export default function CoverImage() {
       </picture>
 
       <section className="container text-center h-full w-full flex items-center justify-center flex-col z-20 py-28">
-        <h1 className="text-2xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">Certificados Italianos</h1>
-        <ol className="flex text-white text-xs md:text-sm lg:text-base space-x-2 mt-4 font-normal z-10" itemScope="" itemType="https://schema.org/BreadcrumbList">
-          <li itemProp="itemListElement" itemScope="" itemType="https://schema.org/ListItem">
-            <a itemProp="item" href="https://tramiteitalia.com/es">
-              <span itemProp="name">Inicio</span>
-            </a>
-            <meta itemProp="position" content="1" />
+        <h1 className="text-2xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption.title}</h1>
+        <ol className="flex text-white text-xs md:text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
+          <li>
+            <Link href='/'>
+              <span className="cursor-pointer underline">Inicio</span>
+            </Link>
+            <meta content="1" />
           </li>
           <span>/</span>
-          <li itemProp="itemListElement" itemScope="" itemType="https://schema.org/ListItem">
-            <span itemProp="name">Certificados Paraguayos</span>
-            <meta itemProp="position" content="2" />
+          <li>
+            <span className="underline cursor-default">{caption?.subtitle}</span>
+            <meta content="2" />
           </li>
         </ol>
       </section>

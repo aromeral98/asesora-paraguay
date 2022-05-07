@@ -9,6 +9,7 @@ type Props = {
 }
 const Layout: React.FC<Props> = ({ children }) => {
     const router = useRouter()
+
     return (
         <>
             <Navbar />
