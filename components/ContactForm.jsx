@@ -2,20 +2,21 @@ import Countries from './helpers/Countries'
 
 export default function ContactForm() {
   return (
-    <div className="mt-5 md:mt-0 md:col-span-2 mx-auto">
+    <div className="mt-5 md:mt-0 md:col-span-2 mx-auto bg-white">
       <form
         // action="https://formspree.io/f/xbjwpkpo" 
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
-          <div className="px-4 py-5 bg-white sm:p-6">
-            <h4 className="text-lg leading-6 font-medium text-secondaryColor mb-5">Formulario de contacto</h4>
+          <div className="px-4 py-5 sm:px-6 sm:pb-6 sm:pt-0">
+            <p className="text-2xl leading-6 text-secondaryColor my-5">Formulario de contacto</p>
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">
-                <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="first-name" className="block font-medium text-gray-700">
                   Nombre
                 </label>
                 <input
                   type="text"
+                  required
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
@@ -23,11 +24,12 @@ export default function ContactForm() {
                 />
               </div>
               <div className="col-span-12">
-                <label htmlFor="email-address" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="email-address" className="block font-medium text-gray-700">
                   Email
                 </label>
                 <input
                   type="text"
+                  required
                   name="email-address"
                   id="email-address"
                   autoComplete="email"
@@ -37,7 +39,7 @@ export default function ContactForm() {
 
               <div className="col-span-12 styled-select relative">
               <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
-                <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="country" className="block font-medium text-gray-700">
                   Pais
                 </label>
                 <select
@@ -55,11 +57,12 @@ export default function ContactForm() {
                 </select>
               </div>
               <div className="col-span-12">
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="phone" className="block font-medium text-gray-700">
                   Telefono
                 </label>
                 <input
                   type="text"
+                  required
                   name="phone"
                   id="phone"
                   autoComplete="family-name"
@@ -68,13 +71,13 @@ export default function ContactForm() {
               </div>
               <div className="col-span-12 styled-select relative">
               <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
-                <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="response-method" className="block font-medium text-gray-700">
                   ¿Como quieres recibir tu respuesta?
                 </label>
                 <select
-                  id="country"
-                  name="country"
-                  autoComplete="country-name"
+                  id="response-method"
+                  name="response-method"
+                  autoComplete="response-method"
                   className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
                   <option value='phone'>Llamada</option>
@@ -84,13 +87,13 @@ export default function ContactForm() {
               </div>
               <div className="col-span-12 styled-select relative">
               <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
-                <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="topic" className="block font-medium text-gray-700">
                   Asunto
                 </label>
                 <select
-                  id="country"
-                  name="country"
-                  autoComplete="country-name"
+                  id="topic"
+                  name="topic"
+                  autoComplete="topic"
                   className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
                   <option value='Certificados'>Certificados</option>
@@ -102,7 +105,7 @@ export default function ContactForm() {
                 </select>
               </div>
               <div className="col-span-12 gap-6">
-                <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="message" className="block font-medium text-gray-700">
                   Consulta
                 </label>
                 <textarea

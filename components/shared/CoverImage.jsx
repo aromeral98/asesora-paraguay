@@ -22,20 +22,20 @@ export default function CoverImage() {
       </picture>
 
       <section className="container text-center h-full w-full flex items-center justify-center flex-col z-20 py-28">
-        <h1 className="text-2xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
-        <ol className="flex text-white text-xs md:text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
-          <li>
+        <h1 className="text-3xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
+        <div className="flex text-white text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
+          <p>
             <Link href='/'>
               <span className="cursor-pointer underline">Inicio</span>
             </Link>
             <meta content="1" />
-          </li>
+          </p>
           <span>/</span>
-          <li>
+          <p>
             <span className="underline cursor-default">{caption?.subtitle}</span>
             <meta content="2" />
-          </li>
-        </ol>
+          </p>
+        </div>
       </section>
     </div>
   )

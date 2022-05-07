@@ -4,8 +4,8 @@ export default function IndexCards() {
     const procedures =[
       {title: 'Registro civil paraguayo', description: 'Tramitamos directamente en Paraguay actas de registro civil, matrimonio, defunción, partidas de nacimiento, certificados de antecedentes penales, traducciones y legalizaciones con Apostilla de la Haya', href: '/certificates'},
         {title: 'Ciudadanía Paraguaya', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Dicha ciudadanía puede ser adquirida por varias vías', href: '/citizenship'},
-        {title: 'Residencia Paraguaya', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Dicha ciudadanía puede ser adquirida por varias vías', href: '/citizenship'},
-        {title: 'Tramites en Paraguay', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Dicha ciudadanía puede ser adquirida por varias vías', href: '/citizenship'}
+        {title: 'Residencia Paraguaya', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Dicha ciudadanía puede ser adquirida por varias vías', href: '/residency'},
+        {title: 'Tramites en Paraguay', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Dicha ciudadanía puede ser adquirida por varias vías', href: '/procedures'}
         
     ]
     return (
