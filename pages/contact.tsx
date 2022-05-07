@@ -11,11 +11,11 @@ export default function Contact() {
         <meta name="description" content="Invest on paraguay" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='w-full'>
+      <section className='w-full'>
         <div className='w-6/12 mx-auto'>
         <ContactForm />
         </div>
-      </div>
+      </section>
     </Layout>
   )
 }

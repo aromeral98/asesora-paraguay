@@ -10,7 +10,7 @@ export default function IndexCards() {
     return (
       <div className="max-w-7xl mx-auto grid gap-12 lg:grid-cols-2 py-16">
         {procedures.map(({ title, description }) => {
-            return <IndexCard title={title} description={description} />
+            return <IndexCard key={title} title={title} description={description} />
         })
 
         }
