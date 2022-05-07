@@ -2,12 +2,12 @@ import Countries from './helpers/Countries'
 
 export default function ContactForm() {
   return (
-    <div className="mt-5 md:mt-0 md:col-span-2 mx-auto bg-white">
+    <div className="md:col-span-2 mx-auto bg-white">
       <form
         // action="https://formspree.io/f/xbjwpkpo" 
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
-          <div className="px-4 py-5 sm:px-6 sm:pb-6 sm:pt-0">
+          <div className="px-4 py-5 sm:px-10 sm:pb-6 sm:pt-0">
             <p className="text-2xl leading-6 text-secondaryColor my-5">Formulario de contacto</p>
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">

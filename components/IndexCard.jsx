@@ -1,11 +1,11 @@
 import Link from "next/link";
-import card from '../public/img/card.jpg'
-export default function IndexCard({ title, description, href }) {
+
+export default function IndexCard({ title, description, href, src }) {
     return (
         <div className="p-5 rounded-xl shadow-lg bg-white">
             <div className="aspect-w-16 aspect-h-6">
                 <picture >
-                    <img loading="lazy" src={card.src} alt="Trámites en el consulado" className="w-full h-full object-cover rounded-xl" />
+                    <img loading="lazy" src={src} alt="Trámites en el consulado" className="rounded-xl" />
                 </picture>
             </div>
 
@@ -13,7 +13,7 @@ export default function IndexCard({ title, description, href }) {
                 <h3 className="text-dark text-2xl font-medium text-secondaryColor">
                     {title}
                 </h3>
-                <p className="lg:text-lg leading-relaxed">
+                <p className="lg:text-lg leading-relaxed flex-grow">
                     {description}
                 </p>
                 <Link href={href}>
