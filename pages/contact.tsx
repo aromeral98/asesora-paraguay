@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay</title>
+        <title>Invest on paraguay || Contacto</title>
         <meta name="description" content="Invest on paraguay" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
