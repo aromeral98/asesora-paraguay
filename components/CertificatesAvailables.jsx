@@ -1,9 +1,9 @@
 import ContactForm from '../components/ContactForm'
 export default function CertificatesAvailables() {
     return (
-        <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5">
+        <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5 bg-white">
             <div className="grid xl:grid-cols-3 gap-16">
-                <div className="xl:col-span-2 px-8 xl:px-0">
+                <div className="xl:col-span-2 px-8 xl:px-0 ">
                     <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
                         Que certificados italianos se pueden solicitar
                     </h2>

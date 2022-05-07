@@ -14,7 +14,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <>
             <Navbar />
             {router.route !== '/' && <CoverImage />}
-            <main className='flex flex-grow flex-col mx-auto'>
+            <main className='flex flex-grow flex-col mx-auto contactPattern'>
                 {children}
             </main>
             <Footer />
