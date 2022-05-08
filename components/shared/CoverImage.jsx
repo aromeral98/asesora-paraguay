@@ -25,7 +25,7 @@ export default function CoverImage() {
         <h1 className="text-3xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
         <div className="flex text-white text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
           <p>
-            <Link href='/'>
+            <Link passHref href='/'>
               <span className="cursor-pointer underline">Inicio</span>
             </Link>
             <meta content="1" />

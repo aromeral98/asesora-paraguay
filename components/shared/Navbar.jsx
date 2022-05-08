@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className='lg:hidden absolute left-0 h-full p-4 bg-white rounded-full'>
-              <Link href={'/'}>
+              <Link passHref href={'/'}>
               <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
               </Link>
               </div>
@@ -45,6 +45,7 @@ export default function Navbar() {
                 <div className="hidden lg:flex sm:space-x-8">
                   {routes.map(route => {
                     return <Link
+                    passHref
                     key={route.title}
                     href={route.path}
                     
@@ -71,6 +72,7 @@ export default function Navbar() {
             <div className="">
               {routes.map(route => {
                     return <Link
+                    passHref
                     key={route.title}
                     href={route.path}
                   >
