@@ -2,20 +2,21 @@
 export default function IndexContent() {
   return (
     <div className="relative py-16 bg-white overflow-hidden max-w-7xl mx-auto">
-      <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5">
-        <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center text-secondaryColor">
+      <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 appearLeftContent">
+        <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
           ¿Quiénes somos?
         </h2>
         <div className="space-y-4 lg:space-y-10">
           <p className="text-dark lg:text-lg leading-loose">
-            Trámite Paraguay es un despacho legal liderado por la abogada <b>Annunziata Clotilde Schiuma</b> con más de <b>30 años</b> de orgullosa trayectoria consolidando un equipo de profesionales dispuestos a brindar las mejores soluciones en materia de Derecho de Extranjería y Derecho Civil, específicamente en <b>trámites administrativos y legales en Paraguay</b>.
+            Somos una asesoria formada en su inicio por <strong>JOHN DOE</strong> español expatriado en Paraguay por la necesidad de emprender, sin ser ahogado por el sistema 
+            tributario Español y su acuciante control a cualquier tipo de negocio y persecución de cualquier ideología distinta a la oficial.
           </p>
           <p className="text-dark lg:text-lg leading-loose">
-            Nos caracteriza el <b>trato cercano</b>, nos involucramos profundamente en tu caso, te acompañamos en todo momento y si podemos, lo hacemos por ti. <b>Nuestra misión es hacerte la vida más fácil</b>.
-            Además, nuestras alianzas estratégicas nos permiten brindarte un <b>servicio de calidad y rápido</b>.
+            Desde <strong>Asesora Paraguay</strong> te informaremos de las mejores posibilidades para ti o tu negocio. Te mostraremos oportunidades de inversión en el pais.
+            Gestionaremos toda la burocracia que conlleva obtener la residencia, ciudadania, etc, en Paraguay
           </p>
           <p className="text-dark lg:text-lg leading-loose">
-            Todo esto nos ha posicionado como el mejor despacho de paraguayos para paraguayos.
+           Contamos con los <strong>mejores asesores fiscales del pais</strong> para ahorrarte la máxima cantidad de impuestos y todos los papeleos necesarios, sin que tu apenas tengas que hacer nada.
           </p>
         </div>
       </section>

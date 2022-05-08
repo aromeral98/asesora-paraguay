@@ -1,13 +1,16 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import {  MenuIcon, XIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import logo from '../../public/img/logo.png'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const routes = [
   {title: 'Inicio', path: '/'},
+  {title: 'Freelancers', path: '/freelance'},
   {title: 'Certificados', path: '/certificates'},
   {title: 'Ciudadania', path: '/citizenship'},
   {title: 'Residencia', path: '/residency'},
@@ -23,8 +26,8 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className='lg:hidden absolute left-0 h-full p-4 bg-white rounded-full'>
-              <Link href={'/'}>
-              <img alt='brand' className='h-full' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png'></img>
+              <Link passHref href={'/'}>
+              <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
               </Link>
               </div>
               <div className="absolute inset-y-0 right-0  flex items-center lg:hidden">
@@ -42,6 +45,7 @@ export default function Navbar() {
                 <div className="hidden lg:flex sm:space-x-8">
                   {routes.map(route => {
                     return <Link
+                    passHref
                     key={route.title}
                     href={route.path}
                     
@@ -68,6 +72,7 @@ export default function Navbar() {
             <div className="">
               {routes.map(route => {
                     return <Link
+                    passHref
                     key={route.title}
                     href={route.path}
                   >

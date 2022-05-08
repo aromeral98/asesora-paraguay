@@ -12,8 +12,8 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full relative contactPattern'>
-        <div className='lg:w-6/12 mx-auto relative z-10'>
-        <ContactForm />
+        <div className='lg:w-6/12 mx-auto relative z-10 pt-10 bg-white appearRightContent'>
+          <ContactForm bigTitle/>
         </div>
       </section>
     </Layout>

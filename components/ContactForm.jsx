@@ -1,14 +1,15 @@
 import Countries from './helpers/Countries'
 
-export default function ContactForm() {
+export default function ContactForm({ bigTitle = false }) {
   return (
-    <div className="mt-5 md:mt-0 md:col-span-2 mx-auto bg-white">
+    <div className="md:col-span-2 mx-auto bg-white">
       <form
+      id='form'
         // action="https://formspree.io/f/xbjwpkpo" 
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
-          <div className="px-4 py-5 sm:px-6 sm:pb-6 sm:pt-0">
-            <p className="text-2xl leading-6 text-secondaryColor my-5">Formulario de contacto</p>
+          <div className="px-4 py-5 sm:px-10 sm:pb-6 sm:pt-0">
+            <p className={((bigTitle) ? 'text-4xl' : 'text-2xl') +  " leading-6 text-secondaryColor my-5 text-center"}>Formulario de contacto</p>
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">
                 <label htmlFor="first-name" className="block font-medium text-gray-700">
@@ -38,14 +39,14 @@ export default function ContactForm() {
               </div>
 
               <div className="col-span-12 styled-select relative">
-              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+              <svg className='right-4 absolute top-10'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                 <label htmlFor="country" className="block font-medium text-gray-700">
                   Pais
                 </label>
                 <select
                   id="country"
                   name="country"
-                  defaultValue='Spain'
+                  defaultValue='España'
                   autoComplete="country-name"
                   className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
@@ -70,7 +71,7 @@ export default function ContactForm() {
                 />
               </div>
               <div className="col-span-12 styled-select relative">
-              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+              <svg className='right-4 absolute top-10'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                 <label htmlFor="response-method" className="block font-medium text-gray-700">
                   ¿Como quieres recibir tu respuesta?
                 </label>
@@ -86,7 +87,7 @@ export default function ContactForm() {
                 </select>
               </div>
               <div className="col-span-12 styled-select relative">
-              <svg className='right-4 absolute top-9'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+              <svg className='right-4 absolute top-10'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                 <label htmlFor="topic" className="block font-medium text-gray-700">
                   Asunto
                 </label>
