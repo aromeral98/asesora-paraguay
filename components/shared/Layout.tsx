@@ -25,8 +25,23 @@ const Layout: React.FC<Props> = ({ children }) => {
           }
         }
       }
+        
+      const verifyVisibility = (entry: any )=> {
+        const contactButton = document.getElementById('contactButton')
+        if (entry[0].isIntersecting) {
+          contactButton?.classList.add('hidden')
+        } else if(!entry[0].isIntersecting) {
+          contactButton?.classList.remove('hidden')
+        }
+      }
+
       if (typeof window !== "undefined") {
         window?.addEventListener('scroll', reveal)
+        const form: any = document.getElementById('form')
+        window?.addEventListener('scroll', ()=>{
+          const observer = new IntersectionObserver(verifyVisibility,{threshold: 0.4})
+          observer.observe(form)
+        })
       }
 
     return (

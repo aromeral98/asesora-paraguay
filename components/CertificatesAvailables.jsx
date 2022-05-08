@@ -3,7 +3,7 @@ export default function CertificatesAvailables() {
     return (
         <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5 bg-white">
             <div className="grid xl:grid-cols-3 sm:gap-16">
-                <div className="xl:col-span-2 px-8 appearLeftContent">
+                <div className="xl:col-span-2 lg:px-8 px-4 appearLeftContent">
                     <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
                         Que certificados paraguayos se pueden solicitar
                     </h2>

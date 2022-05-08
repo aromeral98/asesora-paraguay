@@ -4,13 +4,13 @@ export default function ResidencyContent() {
     return (
         <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5 bg-white">
             <div className="grid xl:grid-cols-3 sm:gap-16">
-                <div className="xl:col-span-2 px-8 appearLeftContent">
+                <div className="xl:col-span-2 lg:px-8 px-4 appearLeftContent">
                     <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
                         ¿Que tipos de residencia puedo solicitar?
                     </h2>
                     <div className="prose max-w-max mt-6">
                         <div className='my-6'>
-                            <details open><summary className='cursor-pointer'><strong>Residencia temporaria :</strong></summary><p className='pl-8'>La Radicación Temporaria es la autorización otorgada a los ciudadanos extranjeros que tienen ánimo de residir temporalmente en el país mientras duren las actividades que dieron origen a su intención de radicarse por un periodo determinado, de conformidad con lo establecido en la Ley N° 978/96 de Migraciones y su reglamentación.
+                            <details open><summary className='cursor-pointer'><strong>Residencia temporaria :</strong></summary><p className='pl-2 lg:pl-2 lg:pl-8'>La Radicación Temporaria es la autorización otorgada a los ciudadanos extranjeros que tienen ánimo de residir temporalmente en el país mientras duren las actividades que dieron origen a su intención de radicarse por un periodo determinado, de conformidad con lo establecido en la Ley N° 978/96 de Migraciones y su reglamentación.
 
                                 ¿Quiénes pueden aplicar a esta radicación?
                                 Los ciudadanos extranjeros de cualquier nacionalidad, que cumplan los requerimientos establecidos para el trámite.
@@ -28,8 +28,8 @@ export default function ResidencyContent() {
                                 ¿Puedo iniciar mi trámite estando fuera del Paraguay?
 
                                 Sí. Para los ciudadanos extranjeros que se encuentran fuera del territorio nacional y se ven afectados por el cierre de fronteras debido al Estado de Emergencia Sanitaria por la pandemia COVID-19, la DGM pone a disposición de los mismos la posibilidad de iniciar su trámite de radicación bajo la modalidad de representación legal, reglamentada mediante la Resolución DGM N° 311, de fecha 30/06/20, de conformidad con el artículo 41 de la ley 978/96 de Migraciones.</p>
-                                <details className='ml-8 mt-2'><summary className='cursor-pointer'><strong>Requisitos para obtener residencia temporaria :</strong></summary>
-                                <p className='pl-8'>
+                                <details className='ml-4 lg:ml-8 mt-2'><summary className='cursor-pointer'><strong>Requisitos para obtener residencia temporaria :</strong></summary>
+                                <p className='pl-2 lg:pl-8'>
                                     Requisitos/Observaciones	¿Qué debe presentar?
                                     Original	Fotocopia Simple	Fotocopia Autenticada
                                     Requisitos Generales
@@ -77,7 +77,7 @@ export default function ResidencyContent() {
                             </details>
                         </div>
                         <div className='my-6'>
-                            <details><summary className='cursor-pointer'><strong>Residencia permanente :</strong></summary><p className='pl-8'>La Radicación Permanente es la autorización de residencia otorgada a ciudadanos extranjeros que deseen establecerse en el territorio paraguayo en forma definitiva y con el propósito de realizar cualquier clase de actividad que las autoridades consideren útiles al desarrollo del país, de conformidad con lo establecido en la Ley N° 978/96 de Migraciones y su reglamentación.
+                            <details><summary className='cursor-pointer'><strong>Residencia permanente :</strong></summary><p className='pl-2 lg:pl-8'>La Radicación Permanente es la autorización de residencia otorgada a ciudadanos extranjeros que deseen establecerse en el territorio paraguayo en forma definitiva y con el propósito de realizar cualquier clase de actividad que las autoridades consideren útiles al desarrollo del país, de conformidad con lo establecido en la Ley N° 978/96 de Migraciones y su reglamentación.
 
                                 ¿Quiénes pueden aplicar a esta radicación?
                                 Los ciudadanos extranjeros de cualquier nacionalidad, que cumplan los requerimientos establecidos para el trámite.
