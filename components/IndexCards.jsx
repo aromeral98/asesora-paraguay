@@ -13,7 +13,7 @@ export default function IndexCards() {
         
     ]
     return (
-      <article className="pb-16 bg-white max-w-7xl mx-auto">
+      <article className="pb-16 bg-white max-w-7xl mx-auto reveal">
       <h2 className="text-secondaryColor  bg-white text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
         ¿En qué podemos ayudarte?
     </h2>

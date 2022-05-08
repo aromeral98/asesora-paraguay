@@ -15,9 +15,9 @@ export default function Home() {
         <meta id="idmetakeywords" name="keywords" content="paraguay, inmigracion, freelance, nomadas, digitales, inversion, offshore, impuestos, libertad, economia, tramite" />
       </Head>
       <div className='w-full'>
-      <IndexCover />
-      <IndexContent />
-      <IndexCards />
+        <IndexCover />
+        <IndexContent />
+        <IndexCards />
       </div>
     </Layout>
   )
