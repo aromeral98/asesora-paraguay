@@ -1,11 +1,13 @@
+import Image from 'next/image'
 import React from 'react'
 import passport from '../public/img/hero.png'
+
 export default function IndexCover() {
     return (
         <div className='relative appear' style={{ backgroundImage: `url(https://st.depositphotos.com/2735675/4370/i/600/depositphotos_43705929-stock-photo-paraguay-flag-waving-on-the.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' ,backgroundPosition: 'center'}}>
             <div className='absolute w-full h-full z-0' style={{ background: 'rgba(255,255,255,0.5)'}}></div>
             <div className='absolute w-80 right-32 -bottom-16 z-10 hidden lg:block' >
-                <img alt='passport' src={passport.src}></img>
+                <Image width={320} height={461} alt='passport' src={passport.src} />
             </div>
             <div className='max-w-7xl py-48 mx-auto z-10 relative lg:pl-16 xl:pl-0'>
                 <div className="w-full lg:w-6/12 space-y-10">

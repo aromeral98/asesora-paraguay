@@ -32,7 +32,7 @@ const Slider = () => {
       >
         {
           imagesSlider.map(image =>{
-            return <img key={image.src} className='lg:max-w-6xl mx-auto' src={image.src} />
+            return <Image layout='fill' key={image.src} className='lg:max-w-6xl mx-auto' src={image.src} />
           })
         }
       </Carousel>

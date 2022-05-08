@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function IndexCard({ title, description, href, src }) {
@@ -5,7 +6,7 @@ export default function IndexCard({ title, description, href, src }) {
         <div className="p-5 rounded-xl shadow-lg bg-white">
             <div className="aspect-w-16 aspect-h-6">
                 <picture >
-                    <img loading="lazy" src={src} alt="Trámites en el consulado" className="rounded-xl" />
+                    <Image width={576} height={432} src={src} alt="Trámites en el consulado" className="rounded-xl" />
                 </picture>
             </div>
 

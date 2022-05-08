@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 export default function FreelanceContent() {
     return (
         <div className="relative py-16 px-8 bg-white overflow-hidden max-w-7xl mx-auto">
-            <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 appearLeftContent">
+            <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 appearLeftContent" >
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
                     ¿Que ventajas tendré como freelance?
                 </h2>
