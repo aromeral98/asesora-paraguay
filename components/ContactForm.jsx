@@ -4,11 +4,12 @@ export default function ContactForm() {
   return (
     <div className="md:col-span-2 mx-auto bg-white">
       <form
+      id='form'
         // action="https://formspree.io/f/xbjwpkpo" 
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
           <div className="px-4 py-5 sm:px-10 sm:pb-6 sm:pt-0">
-            <p className="text-2xl leading-6 text-secondaryColor my-5">Formulario de contacto</p>
+            <p className="text-2xl leading-6 text-secondaryColor my-5 text-center">Formulario de contacto</p>
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">
                 <label htmlFor="first-name" className="block font-medium text-gray-700">
@@ -45,7 +46,7 @@ export default function ContactForm() {
                 <select
                   id="country"
                   name="country"
-                  defaultValue='Spain'
+                  defaultValue='España'
                   autoComplete="country-name"
                   className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >

@@ -6,6 +6,7 @@ import cover from '../../public/img/coverImage.jpg'
 export default function CoverImage() {
   const router = useRouter()
   const titles = [
+    {title: 'Freelancers', subtitle: 'Freelancers', path: '/freelance'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
     {title: 'Obtener Ciudadania', subtitle: 'Ciudadania', path: '/citizenship'},
     {title: 'Obtener Residencia', subtitle: 'Residencia', path: '/residency'},

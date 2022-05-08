@@ -8,6 +8,7 @@ function classNames(...classes) {
 }
 const routes = [
   {title: 'Inicio', path: '/'},
+  {title: 'Freelancers', path: '/freelance'},
   {title: 'Certificados', path: '/certificates'},
   {title: 'Ciudadania', path: '/citizenship'},
   {title: 'Residencia', path: '/residency'},

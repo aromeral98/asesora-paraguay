@@ -8,7 +8,7 @@ export default function IndexContent() {
         </h2>
         <div className="space-y-4 lg:space-y-10">
           <p className="text-dark lg:text-lg leading-loose">
-            Somos una asesoria formado en sus inicio por <strong>JOHN DOE</strong> español expatriado en Paraguay por la necesidad de emprender, sin ser ahogado por el sistema 
+            Somos una asesoria formada en su inicio por <strong>JOHN DOE</strong> español expatriado en Paraguay por la necesidad de emprender, sin ser ahogado por el sistema 
             tributario Español y su acuciante control a cualquier tipo de negocio y persecución de cualquier ideología distinta a la oficial.
           </p>
           <p className="text-dark lg:text-lg leading-loose">
