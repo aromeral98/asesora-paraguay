@@ -38,7 +38,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       if (typeof window !== "undefined") {
         window?.addEventListener('scroll', reveal)
         const form: any = document.getElementById('form')
-        window?.addEventListener('scroll', ()=>{
+        window?.addEventListener('touchend', ()=>{
           const observer = new IntersectionObserver(verifyVisibility,{threshold: 0.4})
           observer.observe(form)
         })
