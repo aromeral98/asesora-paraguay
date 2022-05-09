@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -35,14 +35,18 @@ const Layout: React.FC<Props> = ({ children }) => {
         }
       }
 
-      if (typeof window !== "undefined") {
-        window?.addEventListener('scroll', reveal)
-        const form: any = document.getElementById('form')
-        window?.addEventListener('touchend', ()=>{
-          const observer = new IntersectionObserver(verifyVisibility,{threshold: 0.4})
-          observer.observe(form)
-        })
-      }
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          window?.addEventListener('scroll', reveal)
+          const form: any = document.getElementById('form')
+          window?.addEventListener('touchend', ()=>{
+            const observer = new IntersectionObserver(verifyVisibility,{threshold: 0.4})
+            if(form !== null){
+              observer.observe(form)
+            }
+          })
+        }
+      }, [router.route])
 
     return (
         <>

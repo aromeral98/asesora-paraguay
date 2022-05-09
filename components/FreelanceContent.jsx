@@ -66,22 +66,22 @@ export default function FreelanceContent() {
                     </article>
                     <article>
                         <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. Certificado de matrimonio o divorcio</h5>
-                        <p className="text-dark lg:text-lg">
+                        <div className="text-dark lg:text-lg">
                             En caso de estar casado o divorciado, debes presentar el certificado respectivo para comprobar tu estado civil.
                             <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">Según sea tu país de origen, estos documentos deben estar o apostillados con la apostilla de La Haya, como es el caso de España; o en ciertos casos deben ser legalizados por el consulado de Paraguay correspondiente en tu país de origen o de residencia actual.</p>
-                        </p>
+                        </div>
                     </article>
                     <article>
                         <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Una cuenta en moneda local con un depósito de 32.500.000 de guaraníes (aprox. 4.600€) para demostrar solvencia económica.</h5>
-                        <p className="text-dark lg:text-lg">
+                        <div className="text-dark lg:text-lg">
                             Este dinero se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirado estos documentos, puede retirarse también el depósito.
-                            <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad.
+                            <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad.
                                 <p className="my-2">Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado.</p>
                                 <p className="my-2">
                                     Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito.
                                 </p>
-                            </p>
-                        </p>
+                            </div>
+                        </div>
                     </article>
                     <article>
                         <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. Certificado Sanitario</h5>

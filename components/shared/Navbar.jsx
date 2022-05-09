@@ -1,5 +1,5 @@
 import { Disclosure, Transition } from '@headlessui/react'
-import {  MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -9,13 +9,13 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const routes = [
-  {title: 'Inicio', path: '/'},
-  {title: 'Freelancers', path: '/freelance'},
-  {title: 'Certificados', path: '/certificates'},
-  {title: 'Ciudadania', path: '/citizenship'},
-  {title: 'Residencia', path: '/residency'},
-  {title: 'Tramites en Paraguay', path: '/procedures'},
-  {title: 'Contacto', path: '/contact'},
+  { title: 'Inicio', path: '/' },
+  { title: 'Freelancers', path: '/freelance' },
+  { title: 'Certificados', path: '/certificates' },
+  { title: 'Ciudadania', path: '/citizenship' },
+  { title: 'Residencia', path: '/residency' },
+  { title: 'Tramites en Paraguay', path: '/procedures' },
+  { title: 'Contacto', path: '/contact' },
 ]
 export default function Navbar() {
   const router = useRouter()
@@ -26,9 +26,11 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className='lg:hidden absolute left-0 h-full p-4 bg-white rounded-full'>
-              <Link passHref href={'/'}>
-              <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
-              </Link>
+                <Link passHref href={'/'}>
+                  <div>
+                    <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
+                  </div>
+                </Link>
               </div>
               <div className="absolute inset-y-0 right-0  flex items-center lg:hidden">
                 {/* Mobile menu button */}
@@ -45,15 +47,15 @@ export default function Navbar() {
                 <div className="hidden lg:flex sm:space-x-8">
                   {routes.map(route => {
                     return <Link
-                    passHref
-                    key={route.title}
-                    href={route.path}
-                    
-                  >
-                    <button className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-200 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
-                      {route.title}
-                    </button>
-                  </Link>
+                      passHref
+                      key={route.title}
+                      href={route.path}
+
+                    >
+                      <button className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-200 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
+                        {route.title}
+                      </button>
+                    </Link>
                   })
                   }
                 </div>
@@ -61,29 +63,29 @@ export default function Navbar() {
             </div>
           </div>
           <Transition
-        enter="transition duration-100 ease-out"
-        enterFrom="transform scale-95 opacity-0"
-        enterTo="transform scale-100 opacity-100"
-        leave="transition duration-75 ease-out"
-        leaveFrom="transform scale-100 opacity-100"
-        leaveTo="transform scale-95 opacity-0"
-      >
-          <Disclosure.Panel className="lg:hidden">
-            <div className="">
-              {routes.map(route => {
-                    return <Link
+            enter="transition duration-100 ease-out"
+            enterFrom="transform scale-95 opacity-0"
+            enterTo="transform scale-100 opacity-100"
+            leave="transition duration-75 ease-out"
+            leaveFrom="transform scale-100 opacity-100"
+            leaveTo="transform scale-95 opacity-0"
+          >
+            <Disclosure.Panel className="lg:hidden">
+              <div className="">
+                {routes.map(route => {
+                  return <Link
                     passHref
                     key={route.title}
                     href={route.path}
                   >
                     <button className={((router.route === route.path) ? 'bg-indigo-50 border-secondaryColor text-secondaryColor ' : 'border-transparent text-white hover:bg-gray-50 hover:border-secondaryColor hover:text-gray-700') + " block pl-3 pr-4 py-2.5 border-l-4 text-base font-medium w-full text-left"}>
-                    {route.title}
+                      {route.title}
                     </button>
                   </Link>
-                  })
-                  }
-            </div>
-          </Disclosure.Panel>
+                })
+                }
+              </div>
+            </Disclosure.Panel>
           </Transition>
         </>
       )}
