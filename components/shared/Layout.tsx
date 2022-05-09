@@ -51,7 +51,7 @@ const Layout: React.FC<Props> = ({ children }) => {
     return (
         <>
             <Navbar />
-            {router.route !== '/' && <ContactButton />}
+            {((router.route !== '/') && (router.route !== '/contact')) && <ContactButton />}
             {router.route !== '/' && <CoverImage />}
             <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden'>
                 {children}
