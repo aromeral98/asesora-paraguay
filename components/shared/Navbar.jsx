@@ -25,7 +25,7 @@ export default function Navbar() {
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
-              <div className='lg:hidden absolute left-0 h-full p-4 bg-white rounded-full'>
+              <div className='lg:hidden absolute left-0 h-full p-4 bg-white rounded-full cursor-pointer'>
                 <Link passHref href={'/'}>
                   <div>
                     <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
