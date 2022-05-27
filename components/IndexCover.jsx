@@ -9,7 +9,7 @@ export default function IndexCover() {
             <div className='absolute w-80 right-32 -bottom-16 z-10 hidden lg:block' >
                 <Image width={320} height={461} alt='passport' src={passport.src} />
             </div>
-            <div className='max-w-7xl py-48 mx-auto z-10 relative lg:pl-16 xl:pl-0'>
+            <div className='max-w-7xl py-48 mx-auto z-10 relative lg:pl-16 xl:pl-8'>
                 <div className="w-full lg:w-6/12 space-y-10">
                     <h1 className="text-dark text-center lg:text-left text-4xl lg:text-7xl !leading-tight font-semibold font-headers">
                         Asesora Paraguay
