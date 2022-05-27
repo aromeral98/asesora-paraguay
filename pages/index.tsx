@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay</title>
-        <meta name="description" content="Invest on paraguay" />
+        <title>Asesora Paraguay</title>
+        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
+        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
         <link rel="icon" href="/favicon.ico" />
-        <meta id="idmetakeywords" name="keywords" content="paraguay, inmigracion, freelance, nomadas, digitales, inversion, offshore, impuestos, libertad, economia, tramite" />
       </Head>
       <div className='w-full'>
         <IndexCover />

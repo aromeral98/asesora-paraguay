@@ -7,8 +7,8 @@ export default function Procedures() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay - Tramites</title>
-        <meta name="description" content="Invest on paraguay" />
+        <title>Asesora Paraguay - Tramites</title>
+        <meta name="description" content="Procedimientos necesarios para obtener tu residencia fiscal en Paraguay" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full'>
