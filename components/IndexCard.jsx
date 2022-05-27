@@ -10,7 +10,7 @@ export default function IndexCard({ title, description, href, src }) {
                 </picture>
             </div>
 
-            <div className="flex flex-col space-y-5 px-5 pt-5">
+            <div className="flex flex-col space-y-5 px-2 pt-5">
                 <h3 className="text-dark text-2xl font-medium text-secondaryColor">
                     {title}
                 </h3>
