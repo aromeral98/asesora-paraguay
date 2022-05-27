@@ -52,7 +52,7 @@ export default function Navbar() {
                       href={route.path}
 
                     >
-                      <button className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-200 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
+                      <button className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-300 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
                         {route.title}
                       </button>
                     </Link>
