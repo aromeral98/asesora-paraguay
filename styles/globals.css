@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./slider.css");
+@import url("./cards.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html,
 body {
