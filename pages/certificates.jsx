@@ -6,8 +6,8 @@ export default function Certificates() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay - Certificados</title>
-        <meta name="description" content="Invest on paraguay" />
+        <title>Asesora Paraguay - Certificados</title>
+        <meta name="description" content="Certificados necesarios para obtener tu residencia fiscal en Paraguay" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full'>

@@ -9,15 +9,17 @@ export default function IndexCover() {
             <div className='absolute w-80 right-32 -bottom-16 z-10 hidden lg:block' >
                 <Image width={320} height={461} alt='passport' src={passport.src} />
             </div>
-            <div className='max-w-7xl py-48 mx-auto z-10 relative lg:pl-16 xl:pl-0'>
+            <div className='max-w-7xl py-24 2xl:py-48 mx-auto z-10 relative lg:pl-16 xl:pl-8'>
                 <div className="w-full lg:w-6/12 space-y-10">
                     <h1 className="text-dark text-center lg:text-left text-4xl lg:text-7xl !leading-tight font-semibold font-headers">
                         Asesora Paraguay
                     </h1>
-                    <p className="hidden lg:block text-dark text-lg leading-relaxed">
-                        Asesoramiento de principio a fin del proceso, contacto 24 horas con tu asesor.
-                        Realizamos todos tus tramites en Paraguay sin necesidad de viajar al país.
-                    </p>
+                    <h2 className="hidden lg:block text-dark text-lg leading-relaxed">
+                    En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
+                    Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes.
+                        {/* Asesoramiento de principio a fin del proceso, contacto 24 horas con tu asesor.
+                        Realizamos todos tus tramites en Paraguay sin necesidad de viajar al país. */}
+                    </h2>
                 </div>
 
             </div>

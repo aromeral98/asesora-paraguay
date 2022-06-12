@@ -7,8 +7,8 @@ export default function Residency() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay - Residencia</title>
-        <meta name="description" content="Invest on paraguay" />
+        <title>Asesora Paraguay - Residencia</title>
+        <meta name="description" content="Agilizamos los tramites para tu residencia fiscal en Paraguay. Empiece a ahorrar impuestos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full'>

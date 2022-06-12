@@ -7,8 +7,8 @@ export default function Contact() {
   return (
     <Layout>
       <Head>
-        <title>Invest on paraguay - Contacto</title>
-        <meta name="description" content="Invest on paraguay" />
+        <title>Asesora Paraguay - Contacto</title>
+        <meta name="description" content="Contacta con nosotros para solicitar cualquier tipo de informacion, tramites, residencia, ventajas fiscales, tiempos de obtención..." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className='w-full relative contactPattern'>
