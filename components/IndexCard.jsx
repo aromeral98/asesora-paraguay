@@ -12,7 +12,6 @@ export default function IndexCard({ title, description, href, src }) {
                 <div className='card__data'>
                     <h2 className='card__title text-secondaryColor'>{title}</h2>
                     <p className='card__description'>{description}</p>
-                    <button className='card__btn absolute bottom-6 right-6'>Ver más ...</button>
                 </div>
             </Link>
         </article>

@@ -30,6 +30,8 @@
   }
   .card__title{
     font-size: 26px;
+    margin-top: 32px;
+
   }
   .card__description{
     padding: 10px;
