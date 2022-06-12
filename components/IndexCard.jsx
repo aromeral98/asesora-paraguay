@@ -10,7 +10,7 @@ export default function IndexCard({ title, description, href, src }) {
             </div>
             <Link passHref href={href}>
                 <div className='card__data'>
-                    <h2 className='card__title text-secondaryColor'>{title}</h2>
+                    <h2 className='card__title text-secondaryColor mt-4 md:mt-8'>{title}</h2>
                     <p className='card__description'>{description}</p>
                 </div>
             </Link>
