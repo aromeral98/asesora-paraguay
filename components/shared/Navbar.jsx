@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import logo from '../../public/img/logo.png'
+import { NavbarIcon } from './NavbarIcon'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -32,16 +33,13 @@ export default function Navbar() {
                   </div>
                 </Link>
               </div>
-              <div className="absolute inset-y-0 right-0  flex items-center lg:hidden">
+              <div className="absolute inset-y-0 -right-2 flex items-center lg:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center border-2 focus:border-2 border-white justify-center p-2 rounded-md text-white hover:text-gray-500 hover:bg-gray-100 transition-all duration-300">
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
-                  )}
-                </Disclosure.Button>
+                <div className='relative h-12 w-12 my-4'>
+                  <Disclosure.Button>
+                    <NavbarIcon />
+                  </Disclosure.Button>
+                </div>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch">
                 <div className="hidden lg:flex sm:space-x-8">
