@@ -14,9 +14,9 @@ export default function IndexCard({ title, description, href, src }) {
                         <h2 className='card__title text-secondaryColor mt-4 md:mt-8'>{title}</h2>
                         <p className='card__description'>{description}</p>
                     </div>
-                    <h5 className='title text-xl mr-4' style={{ '--duration': '.5s' }}>
+                    <p className='title text-xl mr-4' style={{ '--duration': '.5s' }}>
                         <span style={{ '--delay': '.5s' }}>Ver mas...</span>
-                    </h5>
+                    </p>
                 </div>
             </Link>
         </article>
