@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./slider.css");
+@import url("./navbarIcon.css");
 @import url("./cards.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html,
 body {
+  --main-primary-color: rgb(0 56 168);
+  --main-secondary-color: rgb(213 43 30);
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -24,7 +27,7 @@ input,button{
 
 }
 .buttonTransition:hover svg{
-  fill: rgb(213 43 30);
+  fill: var(--main-secondary-color);
 }
 .styled-select select {
   -moz-appearance:none; /* Firefox */

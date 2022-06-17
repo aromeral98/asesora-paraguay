@@ -1,0 +1,45 @@
+.side-bar{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(0 56 168);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid white;
+    top: 2px;
+  }
+  .side-bar span{
+    height: 5px;
+    width: 65%;
+    display: block;
+    background: #000;
+    position: absolute;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .side-bar:hover{
+    cursor: pointer;
+  }
+  .side-bar span:nth-child(1){
+    top: 9.6px;
+  }
+  .side-bar span:nth-child(2){
+    top: 22px;
+  }
+  .side-bar span:nth-child(3){
+    top: 34px;
+  }
+  .side-bar.open span:nth-child(1){
+    transform: rotate(45deg);
+    top: 22px;
+  }
+  .side-bar.open span:nth-child(2){
+    width: 0%;
+    opacity: 0;
+  }
+  .side-bar.open span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 22px;
+  }

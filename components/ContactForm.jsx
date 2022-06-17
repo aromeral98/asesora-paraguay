@@ -123,7 +123,7 @@ export default function ContactForm({ bigTitle = false }) {
             <button
               type="submit"
               className="inline-flex justify-center px-4 border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primaryColor hover:bg-white hover:text-secondaryColor
-              transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2 pl-3"
+              transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2"
             >
               <strong>Contacto</strong>
             </button>
