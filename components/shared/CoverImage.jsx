@@ -16,7 +16,7 @@ export default function CoverImage() {
   const caption = titles.find(routes => router.route === routes.path)
 
   return (
-    <div className="aspect-w-16 aspect-h-6 lg:aspect-h-3 relative appear">
+    <div className="aspect-w-16 aspect-h-6 lg:aspect-h-3 relative">
       <div className="absolute w-full h-full bg-black/70 z-10"></div>
       <picture className="absolute w-full h-full">
         <Image src={cover} layout='fill' alt="Trámite Paraguay" className="h-full w-full object-cover" />

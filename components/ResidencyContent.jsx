@@ -4,7 +4,7 @@ export default function ResidencyContent() {
     return (
         <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5 bg-white">
             <div className="grid xl:grid-cols-3 sm:gap-16">
-                <div className="xl:col-span-2 lg:px-8 px-4 appearLeftContent">
+                <div className="xl:col-span-2 lg:px-8 px-4 ">
                     <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
                         ¿Que tipos de residencia puedo solicitar?
                     </h2>
@@ -98,7 +98,7 @@ export default function ResidencyContent() {
                         </div>
                     </div>
                 </div>
-                <div className='relative block w-full appearRightContent'>
+                <div className='relative block w-full'>
                     <div className='flex flex-col sticky top-8'>
                         <div className='h-full w-full relative'>
                             <ContactForm />

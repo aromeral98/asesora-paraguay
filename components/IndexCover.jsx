@@ -4,7 +4,7 @@ import passport from '../public/img/hero.png'
 
 export default function IndexCover() {
     return (
-        <div className='relative appear' style={{ backgroundImage: `url(https://st.depositphotos.com/2735675/4370/i/600/depositphotos_43705929-stock-photo-paraguay-flag-waving-on-the.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' ,backgroundPosition: 'center'}}>
+        <div className='relative' style={{ backgroundImage: `url(https://st.depositphotos.com/2735675/4370/i/600/depositphotos_43705929-stock-photo-paraguay-flag-waving-on-the.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' ,backgroundPosition: 'center'}}>
             <div className='absolute w-full h-full z-0' style={{ background: 'rgba(255,255,255,0.5)'}}></div>
             <div className='absolute w-80 right-32 -bottom-16 z-10 hidden lg:block' >
                 <Image width={320} height={461} alt='passport' src={passport.src} />
