@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true'
+})
+module.exports = withBundleAnalyzer({
   i18n: {
-    locales: ["es"],
-    defaultLocale: "es",
-  }
-}
-module.exports = nextConfig
+    locales: ['es'],
+    defaultLocale: 'es'
+  },
+  reactStrictMode: true,
+})
