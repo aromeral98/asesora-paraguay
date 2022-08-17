@@ -35,7 +35,7 @@ export default function Navbar() {
               <div className="absolute right-0 top-1.5 flex items-center h-12 lg:hidden">
                 {/* Mobile menu button */}
                 <div className='relative h-12 w-12 my-4'>
-                  <Disclosure.Button>
+                  <Disclosure.Button aria-label='navbar-button'>
                     <NavbarIcon />
                   </Disclosure.Button>
                 </div>
