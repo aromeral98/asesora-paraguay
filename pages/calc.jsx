@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export const Calc = () => {
+export default function Calc()  {
     const [totalSalary, setTotalSalary] = useState(0)
     const [totalHours, setTotalHours] = useState(0)
 
