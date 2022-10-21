@@ -7,20 +7,20 @@ export default function Calc()  {
     const rateHour = '11,71'
 
     const sumar = () => {
-        setTotalSalary(prev => prev + rateHour)
+        setTotalSalary(prev => parseFloat(prev) + parseFloat(rateHour))
         setTimeout(() => {
         window.localStorage.setItem('total', totalSalary)
         }, 50);
     }
     const restar = () => {
-        setTotalSalary(prev => prev - rateHour)
+        setTotalSalary(prev => parseFloat(prev) - parseFloat(rateHour))
         setTimeout(() => {
         window.localStorage.setItem('total', totalSalary)
         }, 50);
     }
 
     useEffect(() => {
-        const total = window.localStorage.getItem('total')
+        const total = parseFloat(window.localStorage.getItem('total'))
       if(total){
         setTotalSalary(total)
       } else {
@@ -30,7 +30,7 @@ export default function Calc()  {
     }, [])
     
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center mt-10'>
         <span> {totalSalary}</span>
         <div className='mt-5 flex flex-row space-x-6'>
             <span>{totalHours}</span>
