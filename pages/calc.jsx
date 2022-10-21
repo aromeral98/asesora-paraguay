@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
-export const calc = () => {
+export const Calc = () => {
     const [totalSalary, setTotalSalary] = useState(0)
     const [totalHours, setTotalHours] = useState(0)
 
-    const rateHour = 11
+    const rateHour = '11,71'
 
     const sumar = () => {
         setTotalSalary(prev => prev + rateHour)
