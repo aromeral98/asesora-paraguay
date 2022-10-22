@@ -14,8 +14,19 @@ export default function Calc() {
   const salary = 1875
 
   function daysInMonth(iMonth, iYear) {
-
     return 32 - new Date(iYear, iMonth, 32).getDate();
+  }
+  function isWeekday(year, month, day) {
+    var day = new Date(year, month, day).getDay();
+    return day != 0 && day != 6;
+  }
+
+  function getWeekdaysInMonth(month, year) {
+    var weekdays = 0;
+    for (var i = 0; i < day; i++) {
+      if (isWeekday(year, month, i + 1)) weekdays++;
+    }
+    return weekdays;
   }
 
   const sumar = () => {
@@ -43,23 +54,12 @@ export default function Calc() {
   }, [autocalculatedSalary])
 
   useEffect(() => {
-    const total = parseFloat(window.localStorage.getItem('total'))
-    if (total) {
-      setTotalSalary(total)
-      setTotalHours(total / parseFloat(hourWorkedSalary))
-    } else {
-      setTotalSalary(0)
-      window.localStorage.setItem('total', 0)
-    }
+    const total = getWeekdaysInMonth(month, year) * hourWorkedSalary
+    setTotalSalary(total)
+    setTotalHours(getWeekdaysInMonth(month, year) * 8)
   }, [])
   useEffect(() => {
-    if (totalHours && totalHours !== '') {
-      setTotalSalary(totalHours * parseFloat('11.714'))
-    }
-    else {
-      setTotalSalary(0)
-    }
-    window.localStorage.setItem('total', totalSalary)
+      setTotalSalary(totalHours * parseFloat(hourWorkedSalary))
   }, [totalHours])
 
   return (
