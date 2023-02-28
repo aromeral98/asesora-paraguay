@@ -8,16 +8,21 @@ export default function IndexContent() {
         </h2>
         <div className="space-y-4 lg:space-y-10">
           <p className="text-dark lg:text-lg leading-loose">
-            Somos una asesoria formada en su inicio por <strong>JOHN DOE</strong> español expatriado en Paraguay por la necesidad de emprender, sin ser ahogado por el sistema 
-            tributario Español y su acuciante control a cualquier tipo de negocio y persecución de cualquier ideología distinta a la oficial.
+            ¡Bienvenido a nuestra web de tramitación de residencias en Paraguay! Si eres una persona que trabaja de forma remota o eres un nómada digital, has llegado al lugar indicado.
           </p>
+
           <p className="text-dark lg:text-lg leading-loose">
-            Desde <strong>Asesora Paraguay</strong> te informaremos de las mejores posibilidades para ti o tu negocio. Te mostraremos oportunidades de inversión en el pais.
-            Gestionaremos toda la burocracia que conlleva obtener la residencia, ciudadania, etc, en Paraguay
+            Paraguay es un país con un clima excepcional y con una economía en crecimiento que ofrece una gran cantidad de beneficios fiscales, como bajos impuestos del 10% que pueden llegar a ser del 0%.
           </p>
+
           <p className="text-dark lg:text-lg leading-loose">
-           Contamos con los <strong>mejores asesores fiscales del pais</strong> para ahorrarte la máxima cantidad de impuestos y todos los papeleos necesarios, sin que tu apenas tengas que hacer nada.
+            Además, en Paraguay puedes obtener una residencia sin tener que residir físicamente en el país, lo que lo convierte en una excelente opción para aquellos que buscan establecer una base en América Latina.
           </p>
+
+          <p className="text-dark lg:text-lg leading-loose">
+            En nuestra web, te ayudaremos a tramitar tu residencia de forma rápida y fácil, para que puedas disfrutar de todo lo que Paraguay tiene para ofrecer. ¡Empecemos hoy mismo!
+          </p>
+
         </div>
       </section>
     </div>
