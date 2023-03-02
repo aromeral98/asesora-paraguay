@@ -1,0 +1,82 @@
+{
+    "brand": "Asesora Paraguay",
+    "home": "Inicio",
+    "residence": "Residencia",
+    "certificate": "Certificado",
+    "citizenship": "Ciudadania",
+    "freelance": "Freelance",
+    "procedures": "Tramites",
+    "homelayout": {
+        "firstcontainer": "En Asesora Paraguay nos enfocamos en ayudar a freelancers y empresarios a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion. Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes.",
+        "secondcontainer": {
+            "firsttitle": "¿Quiénes somos?",
+            "firstparagraph": "¡Bienvenido a nuestra web de tramitación de residencias en Paraguay! Si eres una persona que trabaja de forma remota o eres un nómada digital, has llegado al lugar indicado.",
+            "secondparagraph": "Paraguay es un país con un clima excepcional y con una economía en crecimiento que ofrece una gran cantidad de beneficios fiscales, como bajos impuestos del 10% que pueden llegar a ser del 0%.",
+            "thirdparagraph": "Además, en Paraguay puedes obtener una residencia sin tener que residir físicamente en el país, lo que lo convierte en una excelente opción para aquellos que buscan establecer una base en América Latina.",
+            "fourthparagraph": "En nuestra web, te ayudaremos a tramitar tu residencia de forma rápida y fácil, para que puedas disfrutar de todo lo que Paraguay tiene para ofrecer. ¡Empecemos hoy mismo!",
+            "cardstitle": "¿En qué podemos ayudarte?",
+            "firstcardtitle": "REGISTRO CIVIL PARAGUAYO",
+            "firstcarddescription": "Tramitamos actas de registro civil, matrimonio, defunción, partidas de nacimiento, certificados de antecedentes penales y legalizaciones en Paraguay, con rapidez y eficiencia. Confía en nosotros para gestionar tus trámites de manera efectiva.",
+            "secondcardtitle": "CIUDADANÍA PARAGUAYA",
+            "secondcarddescription": "Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Agilizamos todos tus tramites para conseguir tu ciudadania en tiempo record",
+            "thirdcardtitle": "RESIDENCIA PARAGUAYA",
+            "thirdcarddescription": "Tramitaremos tu residencia con la mayor celeridad posible para empezar a pagar impuestos y a invertir en Paraguay con sus jugosas políticas economicas cuanto antes.",
+            "fourthcardtitle": "TRAMITES EN PARAGUAY",
+            "fourthcarddescription": "En Asesora Paraguay te informamos de todos los tramites necesarios, para que tengas que hacer el minimo esfuerzo, nosotros haremos todo lo posible."
+        }
+    },
+    "freelancelayout": {
+        "advantages": {
+            "title": "¿Que ventajas tendré como freelance?",
+            "firstadvantagetitle": "Tributación territorial",
+            "firstadvantagedescription": "El sistema tributario del Paraguay, solo grava las rentas obtenidas dentro del territorio nacional. Por lo cual si eres nomada digital y todos tus ingresos provienen de fuera del Paraguay, estarás totalmente exento de tributar por ellos. El pago de dividendos provenientes de una empresa extranjera tambien estarían totalmente libres de impuestos, por lo cual seria ideal para combinar tu residencia, una empresa offshore o LLC para librarte del 100% de los impuestos.",
+            "secondadvantagetitle": "Visita el pais un mínimo de 1 vez cada 3 años",
+            "secondadvantagedescription": "Paraguay no te obliga a pasar medio año en el país para tributar en el, a diferencia de la casi totalidad de paises. Por lo que según la regulacion actual del país debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en el. De igual forma no hay forma de comprobar esa estadia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay.",
+            "thirdadvantagetitle": "Buen clima para emprendimiento",
+            "thirdadvantagedescription": "Paraguay es un país en el cual las infraestructuras todavia estan por desarrollar y mejorar en gran parte.Por lo tanto se vuelve una buena opción a la hora de inversion, gracias a los bajos impuestos y la ayuda de los gobiernos para incentivar la inversión extranjera en el país en cualquiera de sus formas.",
+            "fourthadvantagetitle": "Residencia permanente vitalicia",
+            "fourthadvantagedescription": "A fecha de hoy la residencia permanente en Paraguay no tiene fecha de caducidad por lo tanto no tendrá que preocuparse por renovarla.",
+            "fifthadvantagetitle": "Derechos con tu residencia",
+            "fifthadvantagedescription": "Otra de las ventajas del paraguay es que una vez obtengas tu residencia, podrás acceder a los mismos derechos que cualquier ciudadano excepto a la participacion en la politica. Podras montar empresas, negocios, sacarte el carnet de conducir, invertir e incluso podra comprar propiedades si su objetivo es quedarse a vivir o incluso entrar en el negocio inmobiliario."
+        },
+        "requirements": {
+            "title": "¿Que requisitos debo cumplir?",
+            "firstrequiretitle": "Certificado de nacimiento",
+            "firstrequiredescription": "Una copia actual del original emitida por el registro civil correspondiente es suficiente.",
+            "secondrequiretitle": "Carta de buena conducta o antecedentes penales",
+            "secondrequiredescription": "Este documento es sólo necesario para mayores de 14 años y no debe tener más de 2,5 meses de antigüedad.",
+            "thirdrequiretitle": "Certificado de matrimonio o divorcio",
+            "thirdrequiredescription": "En caso de estar casado o divorciado, debes presentar el certificado respectivo para comprobar tu estado civil.",
+            "thirdrequireddescription2": "Según sea tu país de origen, estos documentos deben estar o apostillados con la apostilla de La Haya, como es el caso de España; o en ciertos casos deben ser legalizados por el consulado de Paraguay correspondiente en tu país de origen o de residencia actual.",
+            "fourthrequiretitle": "Una cuenta en moneda local con un depósito de 32.500.000 de guaraníes (aprox. 4.600€) para demostrar solvencia económica.",
+            "fourthrequiredescription": "Este dinero se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirado estos documentos, puede retirarse también el depósito.",
+            "fourthrequiredescription2": "En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad.<br/> Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado. <br/> Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito.",
+            "fifthrequiretitle": "Certificado Sanitario",
+            "fifthrequiredescription": "Este documento lo obtienes directamente en Paraguay durante tu visita para realizar la solicitud de residencia.",
+            "sixthrequiretitle": "En caso de ser pensionado",
+            "sixthrequiredescription": "Deberás presentar la notificación de la pensión el documento que indique el importe que actualmente percibes, expedido por la entidad competente, caja de pensiones, etc., a fin de probar solvencia económica."
+        }
+    },
+    "contact": {
+        "form": {
+            "name": "Nombre",
+            "email": "Email",
+            "country": "Pais",
+            "phone": "Teléfono",
+            "howtoreceiveresponse": "¿Como quieres recibir tu respuesta?",
+            "affair": "Asunto",
+            "message": "Consulta",
+            "call": "Llamada",
+            "whatsapp": "Whatsapp",
+            "affairs": {
+                "residence": "Residencia",
+                "certificate": "Certificado",
+                "citizenship": "Ciudadania",
+                "others": "Otros",
+                "procedures": "Tramites",
+                "consultation": "Consulta"
+            },
+            "contact": "Contacto"
+        }
+    }
+}
