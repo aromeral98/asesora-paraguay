@@ -28,12 +28,12 @@ export default function Home() {
   }
   const jsonLd2 = {
       "@context": "https://schema.org",
-      "@type": "offers",
+      "@type": "Ventajas",
       "name": "Ventajas de solicitar residencia en Paraguay",
       "description": "Tramitamos residencias en Paraguay para extranjeros, principalmente enfocado a nómadas digitales o freelancers que quieran pagar menos impuestos",
       "url": "https://asesoraparaguay.com",
       "mainEntity": {
-        "@type": "Product",
+        "@type": "offers",
         "name": "Residencia para Freelancers",
         "description": "Obtén tu residencia en Paraguay como freelancer y paga solo el 10% de impuestos",
         "brand": {
