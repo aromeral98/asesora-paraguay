@@ -62,7 +62,7 @@ button {
 
 .index-cover-container {
   position: relative;
-  background-image: url(https://st.depositphotos.com/2735675/4370/i/600/depositphotos_43705929-stock-photo-paraguay-flag-waving-on-the.jpg);
+  background-image: url('../public/img/wavingflag.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

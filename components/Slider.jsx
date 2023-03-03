@@ -1,8 +1,8 @@
 import React from 'react'
-import image1 from '../public/img/slider1.jpg'
-import image2 from '../public/img/slider1.jpg'
-import image3 from '../public/img/slider1.jpg'
-import image4 from '../public/img/slider1.jpg'
+import image1 from '../public/img/slider1.webp'
+import image2 from '../public/img/slider1.webp'
+import image3 from '../public/img/slider1.webp'
+import image4 from '../public/img/slider1.webp'
 
 
 const Slider = () => {

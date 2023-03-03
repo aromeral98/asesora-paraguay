@@ -4,7 +4,7 @@ export const jsonLDTypes = {
             "@type": "Organization",
             "name": "Asesora Paraguay",
             "url": "https://asesoraparaguay.com/",
-            "logo": "https://asesoraparaguay.com/logo.png",
+            "logo": "https://asesoraparaguay.com/logo.webp",
             "description": "Ofrecemos servicios de asesoría para la tramitación de residencias en Paraguay a extranjeros, especialmente para nómadas digitales y freelancers que desean pagar menos impuestos.",
             "sameAs": [
                 "https://www.facebook.com/AsesoraParaguay/",

@@ -77,7 +77,7 @@ export default function Calc() {
   }, [totalHours])
 
   return (
-    <div className='absolute h-auto w-full' style={{ backgroundImage: "url('https://cdn.andro4all.com/andro4all/2022/04/maxim-berg-lnvpji4fC3c-unsplash.jpg?height=600')", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+    <div className='absolute h-auto w-full' style={{ backgroundImage: "url('https://cdn.andro4all.com/andro4all/2022/04/maxim-berg-lnvpji4fC3c-unsplash.webp?height=600')", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
       <div className='flex flex-col justify-center items-center m-10 py-10' style={{ background: 'rgba(255,255,255,0.7)' }}>
         <h2 className='font-bold text-xl my-5'>CURRENTLY WON SALARY</h2>
         <div className='flex flex-col items-center justify-center text-center'><span className='font-bold text-base lg:text-2xl'>Gross salary: <br /><span className='text-red-500'>{parseFloat(totalGrossCurrentSalary).toFixed(2)} € </span></span></div>
