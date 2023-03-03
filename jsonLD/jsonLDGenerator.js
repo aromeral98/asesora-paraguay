@@ -1,4 +1,4 @@
-import { jsonLDTypes } from './types/jsonLdTypes'
+import { jsonLDTypes } from '../jsonLD/types/jsonLDTypes'
 
 export const jsonLDGenerator = (path = '') => {
   const transformedPath = path?.split('/')?.[1] || ''
