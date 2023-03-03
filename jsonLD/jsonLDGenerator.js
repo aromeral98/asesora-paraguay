@@ -1,13 +1,13 @@
 import { jsonLDTypes } from './types/jsonLdTypes'
 
-export const jsonLDGenerator = (path = 'freelance') => {
+export const jsonLDGenerator = (path = '') => {
+  const transformedPath = path?.split('/')?.[1] || ''
   // Add necessary fragments on each page
-    const JSONLDFragments = jsonLDTypes?.[0]?.['organization']
-    if(JSONLDFragments?.length < 2){
-      jsonLDTypes?.[0]?.[path]?.forEach(fragment => {
+    const JSONLDFragments = jsonLDTypes?.['organization']
+    if (JSONLDFragments?.length < 2) {
+      jsonLDTypes?.[transformedPath]?.forEach(fragment => {
         JSONLDFragments.push(fragment)
       })
     }
-   
     return JSONLDFragments
 }

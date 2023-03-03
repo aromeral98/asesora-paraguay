@@ -1,16 +1,29 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { Helmet } from 'react-helmet'
 import ResidencyContent from '../components/ResidencyContent'
 import Layout from '../components/shared/Layout'
+import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
 
 
 export default function Residency() {
+  const router = useRouter()
+  const { pathname } = router
   return (
     <Layout>
-      <Head>
-        <title>Asesora Paraguay - Residencia</title>
-        <meta name="description" content="Agilizamos los tramites para tu residencia fiscal en Paraguay. Empiece a ahorrar impuestos" />
+      <Helmet>
+        {
+          jsonLDGenerator(pathname)?.map((fragment) => {
+             return <script key={fragment[0]} type="application/ld+json">
+             {JSON.stringify(fragment)}
+           </script>
+          })
+        }
+        <title>Asesora Paraguay</title>
+        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
+        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Helmet>
       <section className='w-full'>
         <ResidencyContent />
       </section>

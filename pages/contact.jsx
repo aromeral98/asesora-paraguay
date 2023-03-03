@@ -1,11 +1,11 @@
+import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import { Helmet } from 'react-helmet'
-import CertificatesAvailables from '../components/CertificatesAvailables'
+import ContactForm from '../components/ContactForm'
 import Layout from '../components/shared/Layout'
 import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
 
-export default function Certificates() {
+export default function Contact() {
   const router = useRouter()
   const { pathname } = router
   return (
@@ -23,8 +23,10 @@ export default function Certificates() {
         Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
-      <section className='w-full'>
-        <CertificatesAvailables />
+      <section className='w-full relative contactPattern'>
+        <div className='lg:w-6/12 mx-auto relative z-10 pt-10 bg-white'>
+          <ContactForm bigTitle/>
+        </div>
       </section>
     </Layout>
   )

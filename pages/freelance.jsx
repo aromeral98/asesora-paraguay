@@ -1,16 +1,29 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { Helmet } from 'react-helmet'
 import FreelanceContent from '../components/FreelanceContent'
 import Layout from '../components/shared/Layout'
+import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
 
 
 export default function Freelance() {
+  const router = useRouter()
+  const { pathname } = router
   return (
     <Layout>
-      <Head>
-        <title>Asesora Paraguay - Freelance</title>
-        <meta name="description" content="Aprovechate de un régimen fiscal optimo para freelancers y nómadas digitales. Te daremos el mejor asesoramiento" />
+      <Helmet>
+        {
+          jsonLDGenerator(pathname)?.map((fragment) => {
+             return <script key={fragment[0]} type="application/ld+json">
+             {JSON.stringify(fragment)}
+           </script>
+          })
+        }
+        <title>Asesora Paraguay</title>
+        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
+        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Helmet>
       <section className='w-full'>
           <FreelanceContent />
       </section>
