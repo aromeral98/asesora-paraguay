@@ -28,7 +28,7 @@ export default function Home() {
   }
   const jsonLd2 = {
       "@context": "https://schema.org",
-      "@type": "Ventajas",
+      "@type": "offers",
       "name": "Ventajas de solicitar residencia en Paraguay",
       "description": "Tramitamos residencias en Paraguay para extranjeros, principalmente enfocado a nómadas digitales o freelancers que quieran pagar menos impuestos",
       "url": "https://asesoraparaguay.com",
