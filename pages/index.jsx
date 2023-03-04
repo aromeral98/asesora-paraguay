@@ -13,8 +13,11 @@ export default function Home() {
 
   return (
     <Layout>
-      <Head>
         <Helmet>
+        <title>Asesora Paraguay</title>
+          <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
+        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
+          <link rel="icon" href="/favicon.ico" />
           {
             jsonLDGenerator(pathname)?.map((fragment, index) => {
               return <script key={index} type="application/ld+json">
@@ -22,12 +25,7 @@ export default function Home() {
               </script>
             })
           }
-          <title>Asesora Paraguay</title>
-          <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
-          <link rel="icon" href="/favicon.ico" />
         </Helmet>
-      </Head>
       <div className='w-full'>
         <IndexCover />
         <IndexContent />
