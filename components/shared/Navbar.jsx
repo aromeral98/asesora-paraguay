@@ -2,7 +2,7 @@ import { Disclosure, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import logo from '../../public/img/logo.png'
+import logo from '../../public/img/logo.webp'
 import { NavbarIcon } from './NavbarIcon'
 
 function classNames(...classes) {

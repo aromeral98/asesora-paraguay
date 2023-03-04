@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import cover from '../../public/img/coverImage.webp'
+import cover from '../../public/img/coverimage.webp'
 
 export default function CoverImage() {
   const router = useRouter()

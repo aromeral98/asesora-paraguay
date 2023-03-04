@@ -2,7 +2,7 @@ import IndexCard from "./IndexCard"
 import card from '../public/img/card.webp'
 import residency from '../public/img/residency.webp'
 import passport from '../public/img/passport.webp'
-import civilRegister from '../public/img/civilRegister.webp'
+import civilRegister from '../public/img/civilregister.webp'
 
 export default function IndexCards() {
     const procedures =[
