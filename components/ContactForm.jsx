@@ -5,7 +5,7 @@ export default function ContactForm({ bigTitle = false }) {
     <div className="md:col-span-2 mx-auto bg-white">
       <form
       id='form'
-        // action="https://formspree.io/f/xbjwpkpo" 
+        action="https://formspree.io/f/xbjwpkpo" 
         method="POST" className="w-full lg:w-full mx-auto">
         <div className="shadow overflow-hidden sm:rounded-md">
           <div className="px-4 py-5 sm:px-10 sm:pb-6 sm:pt-0">

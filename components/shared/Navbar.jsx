@@ -28,7 +28,7 @@ export default function Navbar() {
               <div className='lg:hidden absolute left-0 h-full cursor-pointer'>
                 <Link passHref href={'/'}>
                   <div>
-                    <Image width={128} height={72} alt='brand' className='h-full' src={logo} />
+                    <Image width={114} height={64} alt='brand' className='h-full' src={logo} />
                   </div>
                 </Link>
               </div>
