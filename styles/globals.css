@@ -106,10 +106,7 @@ button {
   line-height: 1.75rem;
 }
 @media (min-width: 1024px) {
-  .index-cover-passport {
-    display: block;
-  }
-  .index-cover-caption-container {
+   .index-cover-caption-container {
     padding-left: 64px;
   }
   .index-cover-caption-title h1{
@@ -129,6 +126,9 @@ button {
   }
   .index-cover-caption-title{
     width: 50%;
+  }
+  .index-cover-passport {
+    display: block;
   }
 }
 

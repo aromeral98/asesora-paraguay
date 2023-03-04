@@ -12,8 +12,8 @@ export default function Contact() {
     <Layout>
       <Helmet>
         {
-          jsonLDGenerator(pathname)?.map((fragment) => {
-             return <script key={fragment[0]} type="application/ld+json">
+          jsonLDGenerator(pathname)?.map((fragment, index) => {
+             return <script key={index} type="application/ld+json">
              {JSON.stringify(fragment)}
            </script>
           })
