@@ -13,10 +13,10 @@ export default function Residency() {
     <Layout>
       <Helmet>
         {
-          jsonLDGenerator(pathname)?.map((fragment) => {
-             return <script key={fragment[0]} type="application/ld+json">
-             {JSON.stringify(fragment)}
-           </script>
+          jsonLDGenerator(pathname)?.map((fragment, index) => {
+            return <script key={index} type="application/ld+json">
+              {JSON.stringify(fragment)}
+            </script>
           })
         }
         <title>Asesora Paraguay</title>

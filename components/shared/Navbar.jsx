@@ -11,10 +11,10 @@ function classNames(...classes) {
 const routes = [
   { title: 'Inicio', path: '/' },
   { title: 'Freelancers', path: '/freelance' },
-  { title: 'Certificados', path: '/certificates' },
-  { title: 'Ciudadania', path: '/citizenship' },
+  // { title: 'Certificados', path: '/certificates' },
+  // { title: 'Ciudadania', path: '/citizenship' },
   { title: 'Residencia', path: '/residency' },
-  { title: 'Tramites en Paraguay', path: '/procedures' },
+  // { title: 'Tramites en Paraguay', path: '/procedures' },
   { title: 'Contacto', path: '/contact' },
 ]
 export default function Navbar() {
