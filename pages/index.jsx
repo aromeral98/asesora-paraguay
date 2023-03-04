@@ -7,7 +7,7 @@ import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
 import { Helmet } from 'react-helmet';
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 
 export default function Home() {
   const router = useRouter()
