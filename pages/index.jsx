@@ -6,11 +6,16 @@ import IndexCards from '../components/IndexCards'
 import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
 import { Helmet } from 'react-helmet';
 import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import ReactGA from 'react-ga'
 
 export default function Home() {
   const router = useRouter()
   const { pathname } = router
-
+  useEffect(() => {
+    ReactGA.initialize('G-M6PYSY246X');
+    ReactGA.pageview('/homepage');
+  }, []);
   return (
     <Layout>
         <Helmet>
