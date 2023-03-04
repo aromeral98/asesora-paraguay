@@ -13,9 +13,15 @@ export default function Home() {
   const router = useRouter()
   const { pathname } = router
   useEffect(() => {
-    ReactGA.initialize('G-M6PYSY246X');
-    ReactGA.pageview('/homepage');
+    ReactGA.initialize([
+      {
+        trackingId: "G-M6PYSY246X",
+      },
+    ]);
+    
+    ReactGA.send({ hitType: "homepage", page: "/home" });
   }, []);
+  
   return (
     <Layout>
         <Helmet>
