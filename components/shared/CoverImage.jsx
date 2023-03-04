@@ -21,7 +21,7 @@ export default function CoverImage() {
       <picture className="absolute w-full h-full">
         <Image src={cover} layout='fill' alt="Trámite Paraguay" className="h-full w-full object-cover" />
       </picture>
-      <section className="container text-center h-full w-full flex items-center justify-center flex-col z-20 py-28">
+      <section className="text-center h-full w-full flex items-center justify-center flex-col z-20 py-28">
         <h1 className="text-3xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
         <div className="flex text-white text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
           <p>
