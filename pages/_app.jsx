@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }) {
 
   return <Helmet>
     <meta property="og:title" content="Asesora Paraguay - Tramitación de residencias, nacionalidad y migración" />
-    {/* <meta property="og:description" content="Somos un despacho que se dedica a la tramitación de residencias, nacionalidad y todo lo relacionado con el proceso de migración en Paraguay, enfocado principalmente a empresarios, inversores y nómadas digitales." /> */}
-    <meta property="og:image" content={logo} />
+    <meta property="og:description" content="Somos un despacho que se dedica a la tramitación de residencias, nacionalidad y todo lo relacionado con el proceso de migración en Paraguay, enfocado principalmente a empresarios, inversores y nómadas digitales." />
+    {/* <meta property="og:image" content={logo} /> */}
     <meta property="og:url" content="URL de la página a compartir" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
