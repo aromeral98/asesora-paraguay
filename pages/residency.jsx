@@ -19,9 +19,9 @@ export default function Residency() {
             </script>
           })
         }
-        <title>Asesora Paraguay</title>
-        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
+        <title>Tipos de residencias en Paraguay - Requisitos para residencia temporal y permanente | Asesora Paraguay</title>
+        <meta name="description" content="En Asesora Paraguay te explicamos los requisitos para obtener una residencia temporal o permanente en Paraguay. Conoce los tipos de residencias disponibles y sus características." />
+        <meta name="keywords" content="Residencia temporal, Residencia permanente, Requisitos de residencia, Paraguay, Inmigración, Asesoría migratoria" />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
       <section className='w-full'>

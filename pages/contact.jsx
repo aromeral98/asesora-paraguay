@@ -12,19 +12,19 @@ export default function Contact() {
       <Helmet>
         {
           jsonLDGenerator(pathname)?.map((fragment, index) => {
-             return <script key={index} type="application/ld+json">
-             {JSON.stringify(fragment)}
-           </script>
+            return <script key={index} type="application/ld+json">
+              {JSON.stringify(fragment)}
+            </script>
           })
         }
-        <title>Asesora Paraguay</title>
-        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
+        <title>Contacto | Asesora Paraguay - Tu asesor migratorio</title>
+        <meta name="description" content="Contáctanos para cualquier duda o pregunta relacionada con nuestros servicios de asesoramiento migratorio. Rellena el formulario de contacto y te responderemos lo antes posible." />
+        <meta name="keywords" content="Contacto, Asesora Paraguay, Asesoramiento migratorio, Preguntas frecuentes, Formulario de contacto" />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
       <section className='w-full relative contactPattern'>
         <div className='lg:w-6/12 mx-auto relative z-10 pt-10 bg-white'>
-          <ContactForm bigTitle/>
+          <ContactForm bigTitle />
         </div>
       </section>
     </Layout>

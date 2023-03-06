@@ -19,10 +19,9 @@ export default function Freelance() {
             </script>
           })
         }
-        <title>Asesora Paraguay</title>
-        <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay</title>
+        <meta name="description" content="Descubre las ventajas e inconvenientes de mudarte a Paraguay como freelance. Te contamos sobre el sistema de tributación territorial, la regulación de visitas al país, el clima para emprendimiento y mucho más." />
+        <meta name="keywords" content="Mudarse a Paraguay, Freelance, Ventajas de mudarse a Paraguay, Sistema tributario, Residencia permanente, Derechos de residencia, Paraguay, Inmigración, Asesoría migratoria" />
       </Helmet>
       <section className='w-full'>
         <FreelanceContent />

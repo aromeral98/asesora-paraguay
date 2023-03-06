@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <Layout>
         <Helmet>
-        <title>Asesora Paraguay</title>
-          <meta name="description" content="En Asesora Paraguay nos enfocamos en ayudar a freelancers a mover su residencia fiscal a Paraguay, tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-        Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes." />
+        <title>Asesora Paraguay - Despacho especializado en migración y tramitación de residencias y nacionalidad</title>
+        <meta name="description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
+  <meta name="keywords" content="Migración, tramitación de residencias, nacionalidad, Paraguay, empresarios, inversores, nómadas digitales, asesoría" />
           <link rel="icon" href="/favicon.ico" />
           {
             jsonLDGenerator(pathname)?.map((fragment, index) => {
