@@ -3,11 +3,12 @@ import { Helmet } from 'react-helmet'
 import FreelanceContent from '../components/FreelanceContent'
 import Layout from '../components/shared/Layout'
 import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
-import ReactGA from 'react-ga4'
-import { useEffect } from 'react'
 
 
 export default function Freelance() {
+  const router = useRouter()
+  const { pathname } = router
+
   return (
     <Layout>
       <Helmet>
