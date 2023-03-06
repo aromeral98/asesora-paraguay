@@ -1,5 +1,4 @@
 import { useRouter } from 'next/dist/client/router'
-import Head from 'next/head'
 import { Helmet } from 'react-helmet'
 import ContactForm from '../components/ContactForm'
 import Layout from '../components/shared/Layout'

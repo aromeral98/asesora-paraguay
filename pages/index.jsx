@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Layout from '../components/shared/Layout'
 import IndexContent from '../components/IndexContent'
 import IndexCover from '../components/IndexCover'
@@ -12,15 +11,6 @@ import ReactGA from 'react-ga4'
 export default function Home() {
   const router = useRouter()
   const { pathname } = router
-  useEffect(() => {
-    ReactGA.initialize([
-      {
-        trackingId: "G-M6PYSY246X",
-      },
-    ]);
-    
-    ReactGA.send({ hitType: "homepage", page: "/home" });
-  }, []);
   
   return (
     <Layout>
