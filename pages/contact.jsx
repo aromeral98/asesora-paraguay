@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <Layout>
       <Helmet>
-        <script key={index} type="application/ld+json">
+        <script type="application/ld+json">
           {JSON.stringify(jsonLDTypes.organization)}
         </script>
         <title>Contacto | Asesora Paraguay - Tu asesor migratorio</title>

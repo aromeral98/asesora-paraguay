@@ -9,10 +9,10 @@ export default function Freelance() {
   return (
     <Layout>
       <Helmet>
-        <script key={index} type="application/ld+json">
+        <script type="application/ld+json">
           {JSON.stringify(jsonLDTypes.organization)}
         </script>
-        <script key={index} type="application/ld+json">
+        <script type="application/ld+json">
           {JSON.stringify(jsonLDTypes.freelance)}
         </script>
         <title>Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay</title>
