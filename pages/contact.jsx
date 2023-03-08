@@ -1,22 +1,15 @@
-import { useRouter } from 'next/dist/client/router'
 import { Helmet } from 'react-helmet'
 import ContactForm from '../components/ContactForm'
 import Layout from '../components/shared/Layout'
-import { jsonLDGenerator } from '../jsonLD/jsonLDGenerator'
+import { jsonLDTypes } from '../jsonLD/types/jsonLDTypes'
 
 export default function Contact() {
-  const router = useRouter()
-  const { pathname } = router
   return (
     <Layout>
       <Helmet>
-        {
-          jsonLDGenerator(pathname)?.map((fragment, index) => {
-            return <script key={index} type="application/ld+json">
-              {JSON.stringify(fragment)}
-            </script>
-          })
-        }
+        <script key={index} type="application/ld+json">
+          {JSON.stringify(jsonLDTypes.organization)}
+        </script>
         <title>Contacto | Asesora Paraguay - Tu asesor migratorio</title>
         <meta name="description" content="Contáctanos para cualquier duda o pregunta relacionada con nuestros servicios de asesoramiento migratorio. Rellena el formulario de contacto y te responderemos lo antes posible." />
         <meta name="keywords" content="Contacto, Asesora Paraguay, Asesoramiento migratorio, Preguntas frecuentes, Formulario de contacto" />
