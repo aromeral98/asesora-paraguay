@@ -44,13 +44,13 @@ const Layout: React.FC<Props> = ({ children }) => {
             }
           })
         }
-      }, [window.location.pathname])
+      }, [])
 
     return (
         <>
             <Navbar />
-            {(((window.location.pathname || '/') !== '/') && ((window.location.pathname || '/') !== '/contact')) && <ContactButton />}
-            {(window.location.pathname || '/') !== '/' && <CoverImage />}
+            {(((window?.location?.pathname || '/') !== '/') && ((window?.location?.pathname || '/') !== '/contact')) && <ContactButton />}
+            {(window?.location?.pathname || '/') !== '/' && <CoverImage />}
             <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden'>
                 {children}
             </main>
