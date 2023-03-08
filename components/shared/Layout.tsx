@@ -1,5 +1,4 @@
 import React, { ReactNode, useEffect } from 'react'
-import { useRouter } from 'next/router'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import CoverImage from './CoverImage'
