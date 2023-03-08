@@ -94,11 +94,12 @@ button {
   z-index: 10;
 }
 .index-cover-caption-title h1{
+  display: none;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.75rem;
   width: 100%;
-  font-weight: 600;
+  font-weight: 500;
 }
 .index-cover-caption-title h2{
   display: none;
@@ -110,9 +111,7 @@ button {
     padding-left: 64px;
   }
   .index-cover-caption-title h1{
-    text-align: left;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    display: block;
   }
   .index-cover-caption-title h2{
     display: block;
