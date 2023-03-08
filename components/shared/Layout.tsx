@@ -10,7 +10,6 @@ type Props = {
     children: ReactNode
 }
 const Layout: React.FC<Props> = ({ children }) => {
-    const router = useRouter()
     function reveal () {
         const reveals = document.querySelectorAll('.reveal')
     
@@ -46,13 +45,13 @@ const Layout: React.FC<Props> = ({ children }) => {
             }
           })
         }
-      }, [router.route])
+      }, [window.location.pathname])
 
     return (
         <>
             <Navbar />
-            {((router.route !== '/') && (router.route !== '/contact')) && <ContactButton />}
-            {router.route !== '/' && <CoverImage />}
+            {(((window.location.pathname || '/') !== '/') && ((window.location.pathname || '/') !== '/contact')) && <ContactButton />}
+            {(window.location.pathname || '/') !== '/' && <CoverImage />}
             <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden'>
                 {children}
             </main>

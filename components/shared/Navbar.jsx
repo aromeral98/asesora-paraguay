@@ -1,7 +1,6 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import logo from '../../public/img/logo.webp'
 import { NavbarIcon } from './NavbarIcon'
 
@@ -18,7 +17,6 @@ const routes = [
   { title: 'Contacto', path: '/contact' },
 ]
 export default function Navbar() {
-  const router = useRouter()
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">
       {({ open }) => (
@@ -49,7 +47,7 @@ export default function Navbar() {
                       href={route.path}
 
                     >
-                      <button className={((router.route === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-300 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
+                      <button className={((window?.location?.pathname === route.path) ? 'border-white text-white' : 'border-transparent text-white hover:text-gray-300 hover:border-white') + "   inline-flex items-center px-1 pt-1 border-b-2 font-medium transition-all duration-300"}>
                         {route.title}
                       </button>
                     </Link>
@@ -75,7 +73,7 @@ export default function Navbar() {
                     key={route.title}
                     href={route.path}
                   >
-                    <button className={((router.route === route.path) ? 'bg-indigo-50 border-secondaryColor text-secondaryColor ' : 'border-transparent text-white hover:bg-gray-50 hover:border-secondaryColor hover:text-gray-700') + " block pl-3 pr-4 py-2.5 border-l-4 text-base font-medium w-full text-left"}>
+                    <button className={((window?.location?.pathname === route.path) ? 'bg-indigo-50 border-secondaryColor text-secondaryColor ' : 'border-transparent text-white hover:bg-gray-50 hover:border-secondaryColor hover:text-gray-700') + " block pl-3 pr-4 py-2.5 border-l-4 text-base font-medium w-full text-left"}>
                       {route.title}
                     </button>
                   </Link>
