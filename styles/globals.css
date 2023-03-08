@@ -95,8 +95,6 @@ button {
 }
 .index-cover-caption-title h1{
   text-align: center;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
   width: 100%;
   font-weight: 600;
 }
@@ -111,9 +109,6 @@ button {
   }
   .index-cover-caption-title h1{
     text-align: left;
-    font-size: 4.5rem;
-    line-height: 1;
-    line-height: 1.25 !important;
   }
   .index-cover-caption-title h2{
     display: block;
