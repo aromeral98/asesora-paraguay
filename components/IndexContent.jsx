@@ -3,9 +3,9 @@ export default function IndexContent() {
   return (
     <div className="relative py-16 bg-white overflow-hidden max-w-7xl mx-auto">
       <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 ">
-        <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+        <h3 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
           ¿Quiénes somos?
-        </h2>
+        </h3>
         <div className="space-y-4 lg:space-y-10">
           <p className="text-dark lg:text-lg leading-loose">
             ¡Bienvenido a nuestra web de tramitación de residencias en Paraguay! Si eres una persona que trabaja de forma remota o eres un nómada digital, has llegado al lugar indicado.
