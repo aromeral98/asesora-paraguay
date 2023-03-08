@@ -15,9 +15,7 @@ export default function IndexCover() {
                         Asesora Paraguay
                     </h1>
                     <h2>
-                    En Asesora Paraguay nos enfocamos en ayudar a freelancers y empresarios a mover su residencia fiscal a Paraguay, 
-                    tenemos a los mejores asesores fiscales y abogados de inmigracion para recomendarte la mejor opcion para tu situacion.
-                    Agilizamos todos tus tramites en tiempo record para que puedas empezar a ahorrar impuestos cuanto antes.
+                        En Asesoría Paraguay, nos especializamos en brindar asesoramiento a freelancers y empresarios que desean trasladar su residencia fiscal a Paraguay. Contamos con un equipo de expertos en asesoría fiscal y abogados de inmigración, quienes te guiarán para encontrar la mejor opción según tus necesidades. Además, nos encargamos de agilizar todos los trámites necesarios en tiempo récord, para que puedas comenzar a ahorrar en impuestos cuanto antes. ¡Contáctanos y comienza a disfrutar de los beneficios fiscales que ofrece Paraguay!
                     </h2>
                 </div>
             </div>
