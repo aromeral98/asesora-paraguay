@@ -10,7 +10,7 @@ export default function Home() {
     <Layout>
       <Helmet>
         <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization)}
+          {JSON.stringify(jsonLDTypes.organization[0])}
         </script>
         <title>Asesora Paraguay - Despacho especializado en migración y tramitación de residencias y nacionalidad</title>
         <meta name="description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />

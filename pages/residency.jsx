@@ -9,7 +9,7 @@ export default function Residency() {
     <Layout>
       <Helmet>
       <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization)}
+          {JSON.stringify(jsonLDTypes.organization[0])}
         </script>
         <title>Tipos de residencias en Paraguay - Requisitos para residencia temporal y permanente | Asesora Paraguay</title>
         <meta name="description" content="En Asesora Paraguay te explicamos los requisitos para obtener una residencia temporal o permanente en Paraguay. Conoce los tipos de residencias disponibles y sus características." />
