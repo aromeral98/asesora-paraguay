@@ -1,7 +1,7 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../public/img/logo.png'
+import logo from '../../public/img/logo.PNG'
 import { NavbarIcon } from './NavbarIcon'
 
 function classNames(...classes) {
