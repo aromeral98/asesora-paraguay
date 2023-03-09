@@ -21,18 +21,20 @@ export default function ResidencyContent() {
                     </section>
                     <div className="prose max-w-max mt-6">
                         <div className='my-6'>
-                            <details open><summary className='cursor-pointer'><strong>Residencia temporaria :</strong></summary>
-                                <a href='../public/assets/temporaryresidency.pdf' download target='_blank' className='pl-2 lg:pl-2 lg:pl-8'>
-                                    <strong>Acceder a requisitos para la residencia temporaria</strong>
-                                </a>
-                            </details>
+                            <h4 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
+                                Residencia temporaria
+                            </h4>
+                            <a href='../public/assets/temporaryresidency.pdf' download target='_blank'>
+                                <strong>Acceder a requisitos para la residencia temporaria</strong>
+                            </a>
                         </div>
                         <div className='my-6'>
-                            <details open><summary className='cursor-pointer'><strong>Residencia permanente :</strong></summary>
-                                <a href='../public/assets/temporaryresidency.pdf' download target='_blank' className='pl-2 lg:pl-2 lg:pl-8'>
-                                    <strong>Acceder a requisitos para la residencia permanente</strong>
-                                </a>
-                            </details>
+                            <h4 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
+                                Residencia permanente
+                            </h4>
+                            <a href='../public/assets/permanentresidency.pdf' download target='_blank'>
+                                <strong>Acceder a requisitos para la residencia permanente</strong>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -44,6 +46,6 @@ export default function ResidencyContent() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
