@@ -49,7 +49,7 @@ const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Navbar />
-      {typeof window !== "undefined" && window.location.pathname !== '/'
+      {typeof window !== "undefined" && window.location.pathname !== '/' && window.location.pathname !== '/contact'
         ? <ContactButton />
         : null}
       {typeof window !== "undefined" && window.location.pathname !== '/'
