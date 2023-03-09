@@ -87,7 +87,7 @@ export const jsonLDTypes = {
                     {
                         "@type": "EducationalOccupationalCredential",
                         "name": "Cuenta bancaria en moneda local",
-                        "description": "Debes demostrar solvencia económica con un depósito de 32.500.000 de guaraníes (aprox. 4.600€) que se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirados estos documentos, puede retirarse también el depósito. En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad. Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado. Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito."
+                        "description": "Debes demostrar solvencia económica con un depósito de 34.331.150 de guaraníes (aprox. 4.600€) que se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirados estos documentos, puede retirarse también el depósito. En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad. Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado. Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito."
                     },
                     {
                         "@type": "EducationalOccupationalCredential",

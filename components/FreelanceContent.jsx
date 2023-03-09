@@ -72,7 +72,7 @@ export default function FreelanceContent() {
                         </div>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Una cuenta en moneda local con un depósito de 32.500.000 de guaraníes (aprox. 4.600€) para demostrar solvencia económica.</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Una cuenta en moneda local con un depósito de 34.331.150 de guaraníes (aprox. 4.600€) para demostrar solvencia económica.</h5>
                         <div className="text-dark lg:text-lg">
                             Este dinero se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirado estos documentos, puede retirarse también el depósito.
                             <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad.
