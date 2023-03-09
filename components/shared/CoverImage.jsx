@@ -6,12 +6,12 @@ import cover from '../../public/img/coverimage.webp'
 export default function CoverImage() {
   const router = useRouter()
   const titles = [
-    {title: 'Freelancers', subtitle: 'Freelancers', path: '/freelance'},
+    {title: 'Ventajas Freelancers', subtitle: 'Freelancers', path: '/freelance'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
-    {title: 'Obtener Ciudadania', subtitle: 'Ciudadania', path: '/citizenship'},
-    {title: 'Obtener Residencia', subtitle: 'Residencia', path: '/residency'},
+    {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
+    {title: 'Obtener Residencia en Paraguay', subtitle: 'Residencia', path: '/residency'},
     {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
-    {title: 'contacto', subtitle: 'Contacto', path: '/contact'}
+    {title: 'Contacto', subtitle: 'Contacto', path: '/contact'}
   ]
   const caption = titles.find(routes => router.route === routes.path)
 
@@ -32,7 +32,7 @@ export default function CoverImage() {
           </p>
           <span>/</span>
           <p>
-            <span className="underline cursor-default">{caption?.subtitle}</span>
+            <h1 className="underline cursor-default">{caption?.subtitle}</h1>
             <meta content="2" />
           </p>
         </div>
