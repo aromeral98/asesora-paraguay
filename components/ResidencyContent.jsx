@@ -22,34 +22,16 @@ export default function ResidencyContent() {
                     <div className="prose max-w-max mt-6">
                         <div className='my-6'>
                             <details open><summary className='cursor-pointer'><strong>Residencia temporaria :</strong></summary>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                    Promesa de Empleo mencionando el salario a percibir con Certificación de Firma ante Escribano Publico,
-                                    Patente comercial RUC y Cedula de Identidad del Empleador y Título Profesional a nivel Técnico(legalizado)
-                                    o Certificado de Estudio(legalizado) y constancia de mantención (p/mayores de edad)
-                                </p>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                    Se concede por un periodo de 2 años y se iría prorrogando 
-                                </p>
+                                <a href='../public/assets/temporaryresidency.pdf' download target='_blank' className='pl-2 lg:pl-2 lg:pl-8'>
+                                    <strong>Acceder a requisitos para la residencia temporaria</strong>
+                                </a>
                             </details>
                         </div>
                         <div className='my-6'>
                             <details open><summary className='cursor-pointer'><strong>Residencia permanente :</strong></summary>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                Constancia de Solvencia económica: (5.000 dólares o equivalente) en depósito bancario, financiero o Cooperativa, o 
-                                Título Profesional a nivel Universitario con promesa de trabajo, mencionando el salario a percibir con Certificación de 
-                                Firma ante Escribano Público, Patente comercial y RUC del empleador o título de propiedad destinado a la 
-                                producción con un mínimo de 10 hectáreas o escritura de Constitución de Sociedad, 
-                                mencionando el aporte del cual debe ser como mínimo 5.000 dólares o su equivalente.
-                                </p>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                Declaración jurada de acatar las Leyes (Art. 23, de la Ley 978/96), ante Escribano Público.
-                                </p>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                Observación: Todos los documentos se presentan con originales vigentes y dos fotocopias autenticadas por Escribano Público en hojas enteras cada una. Los documentos que estén en idioma extranjero, incluyendo el pasaporte (excepto el portugués), deberán ser traducidos al idioma español, por Traductor Público matriculado por la Corte Suprema de Justicia. Los documentos del país de origen o de residencia deberán estar visados por el Consulado Paraguayo en el extranjero y legalizados por el Ministerio de Relaciones Exteriores del Paraguay (14 de Mayo y Palma - Asunción).Los presentes requisitos podrán sufrir modificaciones dentro del marco legal. Declaración Jurada del Cumplimiento de la Constitución Nacional y las Leyes Nacionales mencionada en el artículo 23 de la Ley 978/96 De Migraciones.
-                                </p>
-                                <p className='pl-2 lg:pl-2 lg:pl-8'>
-                                Se solicita una inversion de 70.000 dolares o superior para acceder a esta.
-                                </p>
+                                <a href='../public/assets/temporaryresidency.pdf' download target='_blank' className='pl-2 lg:pl-2 lg:pl-8'>
+                                    <strong>Acceder a requisitos para la residencia permanente</strong>
+                                </a>
                             </details>
                         </div>
                     </div>
