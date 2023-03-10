@@ -7,7 +7,7 @@ export default function FreelanceContent() {
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
                     ¿Que ventajas tendré como freelance?
                 </h2>
-                <div className="space-y-4 lg:space-y-10">
+                <div className="space-y-4 lg:space-y-8">
                     <article>
                         <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. Tributación territorial</h5>
                         <p className="text-dark lg:text-lg">
@@ -49,11 +49,11 @@ export default function FreelanceContent() {
                     </article>
                 </div>
             </section>
-            <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-16 text-center mx-auto px-5 reveal">
+            <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-16 text-center mx-auto px-5 active">
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
                     ¿Que requisitos debo cumplir?
                 </h2>
-                <div className="space-y-4 lg:space-y-10">
+                <div className="space-y-4 lg:space-y-8">
                     <article>
                         <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. Certificado de nacimiento</h5>
                         <p className="text-dark lg:text-lg">

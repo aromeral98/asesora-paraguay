@@ -8,12 +8,12 @@ export default function IndexCards() {
     const procedures =[
       // {title: 'Registro civil paraguayo', description: 'Tramitamos actas de registro civil, matrimonio, defunción, partidas de nacimiento, certificados de antecedentes penales y legalizaciones en Paraguay, con rapidez y eficiencia. Confía en nosotros para gestionar tus trámites de manera efectiva.', href: '/certificates', src: civilRegister.src},
         // {title: 'Ciudadanía Paraguaya', description: 'Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Agilizamos todos tus tramites para conseguir tu ciudadania en tiempo record', href: '/citizenship', src: passport.src},
-        {title: 'Residencia Paraguaya', description: 'Obtén tu residencia en Paraguay de manera rápida y sencilla con Asesora Paraguay. Disfruta de las jugosas políticas económicas del país y comienza a invertir y pagar impuestos cuanto antes. ¡Asegura tu futuro financiero hoy mismo con nuestro servicio eficiente!', href: '/residency', src: residency.src},
+        {title: 'Residencia en Paraguay', description: 'Obtén tu residencia en Paraguay de manera rápida y sencilla con Asesora Paraguay. Disfruta de las jugosas políticas económicas del país y comienza a invertir y pagar impuestos cuanto antes. ¡Asegura tu futuro financiero hoy mismo con nuestro servicio eficiente!', href: '/residency', src: residency.src},
         // {title: 'Tramites en Paraguay', description: 'En Asesora Paraguay te informamos de todos los tramites necesarios, para que tengas que hacer el minimo esfuerzo, nosotros haremos todo lo posible.', href: '/procedures', src: card.src}
         
     ]
     return (
-      <article className="pb-16 px-2 sm:px-8 bg-white max-w-7xl mx-auto reveal">
+      <article className="pb-16 px-2 sm:px-8 bg-white max-w-7xl mx-auto active">
       <h3 className="text-secondaryColor  bg-white text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
         ¿En qué podemos ayudarte?
     </h3>

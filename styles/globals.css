@@ -116,17 +116,17 @@ button {
   .index-cover-caption-title h2{
     display: block;
   }
+  .index-cover-passport {
+    display: block;
+  }
+  .index-cover-caption-title{
+    width: 50%;
+  }
 }
 
 @media (min-width: 1280px) {
   .index-cover-caption-container {
     padding-left: 32px;
-  }
-  .index-cover-caption-title{
-    width: 50%;
-  }
-  .index-cover-passport {
-    display: block;
   }
 }
 
