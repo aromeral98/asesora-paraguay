@@ -10,8 +10,8 @@ export default function IndexCard({ title, description, href, src }) {
              <Image width={576} height={432} src={src} alt="Trámites en el consulado" className="card__img" />
         <Link passHref href={href}>
             <div className='content-details fadeIn-bottom text-white w-9/12 z-20'>
-              <h3 className='uppercase text-2xl mb-5'>{title}</h3>
-              <p className='content-text text-md font-thin'>{description}</p>
+              <h3 className='uppercase text-lg md:text-2xl mb-5'>{title}</h3>
+              <p className='content-text text-md font-thin hidden md:block'>{description}</p>
             </div>
         </Link> 
         </article>
