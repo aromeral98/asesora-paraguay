@@ -50,7 +50,9 @@
             "thirdrequireddescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain; or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
             "fourthrequiretitle": "A local currency account with a deposit of 34,331,150 guaraníes (approx. €4,600) to demonstrate economic solvency.",
             "fourthrequiredescription": "This money will remain blocked until obtaining the residency card and the ID card. Once these documents are obtained, the deposit can also be withdrawn.",
-            "fourthrequiredescription2": "If you are married, only one account is required for the couple and/or the family with minor children. <br/> If you have a university-level professional degree, you can use it as collateral to demonstrate economic solvency and thus avoid having to make the deposit mentioned above. <br/> If you are a pensioner, the notification of the pension also serves as collateral for economic solvency and the deposit will not be necessary.",
+            "fourthrequiredescription2": "In case of being married, only a single account is required for the couple and/or the family with underage children.",
+            "fourthrequiredescription3": "If you have a University-level Professional Degree, you can use it as collateral to demonstrate economic solvency and avoid having to make the aforementioned deposit.",
+            "fourthrequiredescription4": "If you are a pensioner, the notification of the pension also serves as proof of economic solvency and the deposit will not be required."
             "fifthrequiretitle": "Health Certificate",
             "fifthrequiredescription": "This document is obtained directly in Paraguay during your visit to apply for residency.",
             "sixthrequiretitle": "If you are a pensioner",
