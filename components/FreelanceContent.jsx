@@ -3,7 +3,6 @@ import ContactForm from "./ContactForm";
 
 export default function FreelanceContent() {
     const { t } = useTranslation('global')
-
     return (
         <div className="relative py-16 lg:px-8 px-4 bg-white overflow-hidden max-w-7xl mx-auto">
             <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 " >

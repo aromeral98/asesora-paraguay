@@ -1,17 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
 import cover from '../../public/img/coverimage.webp'
 
 export default function CoverImage() {
+    const { t } = useTranslation('global')
   const router = useRouter()
   const titles = [
-    {title: 'Ventajas Freelancers', subtitle: 'Freelancers', path: '/freelance'},
+    {title: t('freelanceadvantages'), subtitle: t('freelance'), path: '/freelance'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
     {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
-    {title: 'Obtener Residencia en Paraguay', subtitle: 'Residencia', path: '/residency'},
+    {title: t('residence'), subtitle: t('residence'), path: '/residency'},
     {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
-    {title: 'Contacto', subtitle: 'Contacto', path: '/contact'}
+    {title: t('contact'), subtitle: t('contact'), path: '/contact'}
   ]
   const caption = titles.find(routes => router.route === routes.path)
 
@@ -26,7 +28,7 @@ export default function CoverImage() {
         <div className="flex text-white text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
           <p>
             <Link passHref href='/'>
-              <span className="cursor-pointer underline">Inicio</span>
+              <span className="cursor-pointer underline">{t('home')}</span>
             </Link>
             <meta content="1" />
           </p>
