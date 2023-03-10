@@ -10,12 +10,7 @@ function MyApp({ Component, pageProps }) {
         trackingId: "G-M6PYSY246X",
       },
     ]);
-
   }, []);
-
-  // useEffect(() => {
-  //   ReactGA.send({ hitType: "click", page: pathname });
-  // }, [pathname]);
 
   return <Component {...pageProps} />
 }
