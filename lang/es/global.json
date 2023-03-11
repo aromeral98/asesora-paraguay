@@ -63,6 +63,7 @@
     },
     "contact": {
         "form": {
+            "title": "Formulario de contacto",
             "name": "Nombre",
             "email": "Email",
             "country": "Pais",

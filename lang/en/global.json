@@ -64,6 +64,7 @@
             "name": "Name",
             "email": "Email",
             "country": "Country",
+            "title": "Contact form",
             "phone": "Phone",
             "howtoreceiveresponse": "How do you want to receive your response?",
             "affair": "Subject",
