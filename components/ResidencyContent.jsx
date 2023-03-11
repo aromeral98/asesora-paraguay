@@ -1,47 +1,63 @@
+import { useTranslation } from 'react-i18next'
 import ContactForm from '../components/ContactForm'
 import ShareBar from './shared/ShareBar'
 
 export default function ResidencyContent() {
+    const { t } = useTranslation('global')
     return (
-        <section className="py-8 xl:py-16 max-w-7xl mx-auto px-5 bg-white">
-            <div className="grid xl:grid-cols-3 sm:gap-16">
-                <div className="xl:col-span-2 lg:px-8 px-4 ">
-                    <h1 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
-                        ¿Requisitos para la residencia en Paraguay?
-                    </h1>
-                    <section>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Documento de Identidad, Pasaporte o Cedula de Identidad</strong> de su país de origen vigente. Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Certificado de Nacimiento, Matrimonio o Sentencia de divorcio</strong> para justificar el estado civil. Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Certificado de Antecedentes Penales o Policiales(desde los 14 años de edad)</strong> de su país de origen o de residencia de los últimos 5 años vigente.Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Certificado de Antecedentes</strong>, para extranjeros expedido por el Departamento de Informática de la Policía Nacional (Boggiani y RI2 Ytororo) desde los 14 años de edad.Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Certificado Sanitario</strong>, expedidos por médicos habilitados y visado por el Ministerio de Salud, haciendo mención a la salud psicofísica y sobre no poseer enfermedades infectocontagiosas.Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Certificado de vida y Residencia</strong> expedido por la Comisaria Policial jurisdiccional o Juzgado de Paz, (vigente).Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong> Constancia de su ingreso y permanencia en el país.</strong> Visa Consular, para los países que requieren de la misma (verificado por el Ministerio de Relaciones Exteriores; 14 de mayo y palma).Apostillado por la haya</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Dos Fotos tipo carnet</strong> (2.5 X 2.5) a color.</h3>
-                        <h3 className='pl-2 lg:pl-2 lg:pl-8 py-1'>- <strong>Necesario viajar al pais al menos una vez</strong></h3>
-                    </section>
-                    <div className="prose max-w-max mt-6">
-                        <div className='my-6'>
-                            <h4 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
-                                Residencia temporaria
-                            </h4>
-                            <a href='../public/assets/temporaryresidency.pdf' download target='_blank'>
-                                <strong>Acceder a requisitos para la residencia temporaria</strong>
-                            </a>
+        <div className="max-w-7xl mx-auto px-5 bg-white">
+            <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-12 text-center mx-auto px-5 active">
+                <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+                    {t('freelancelayout.requirements.title')}
+                </h2>
+                <div className="space-y-4 lg:space-y-8">
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.requirements.firstrequiretitle')}</h5>
+                        <p className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.firstrequiredescription')}
+                        </p>
+                    </article>
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.requirements.secondrequiretitle')}</h5>
+                        <p className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.secondrequiredescription')}
+                        </p>
+                    </article>
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.requirements.thirdrequiretitle')}</h5>
+                        <div className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.thirdrequiredescription')}
+                            <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">
+                                {t('freelancelayout.requirements.thirdrequiredescription2')}
+                            </p>
                         </div>
-                        <div className='my-6'>
-                            <h4 className="text-secondaryColor text-xl lg:text-4xl font-medium lg:leading-snug">
-                                Residencia permanente
-                            </h4>
-                            <a href='../public/assets/permanentresidency.pdf' download target='_blank'>
-                                <strong>Acceder a requisitos para la residencia permanente</strong>
-                            </a>
+                    </article>
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.requirements.fourthrequiretitle')}</h5>
+                        <div className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.fourthrequiredescription')}
+                            <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">{t('freelancelayout.requirements.fourthrequiredescription2')}
+                                <p className="my-2">{t('freelancelayout.requirements.fourthrequiredescription3')}</p>
+                                <p className="my-2">
+                                    {t('freelancelayout.requirements.fourthrequiredescription4')}
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </article>
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.requirements.fifthrequiretitle')}</h5>
+                        <p className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.fifthrequiredescription')}
+                        </p>
+                    </article>
+                    <article>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">6. {t('freelancelayout.requirements.sixthrequiretitle')} </h5>
+                        <p className="text-dark lg:text-lg">
+                            {t('freelancelayout.requirements.sixthrequiredescription')}
+                        </p>
+                    </article>
                 </div>
-
-
-            </div>
+            </section>
             <div className="flex justify-end my-8">
                 <ShareBar />
             </div>
@@ -52,6 +68,6 @@ export default function ResidencyContent() {
                     </div>
                 </div>
             </div>
-        </section >
+        </div >
     )
 }

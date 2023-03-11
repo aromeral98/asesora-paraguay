@@ -24,7 +24,9 @@
             "thirdcardtitle": "Residencia en Paraguay",
             "thirdcarddescription": "Obtén tu residencia en Paraguay de manera rápida y sencilla con Asesora Paraguay. Disfruta de las jugosas políticas económicas del país y comienza a invertir y pagar impuestos cuanto antes. ¡Asegura tu futuro financiero hoy mismo con nuestro servicio eficiente!",
             "fourthcardtitle": "TRAMITES EN PARAGUAY",
-            "fourthcarddescription": "En Asesora Paraguay te informamos de todos los tramites necesarios, para que tengas que hacer el minimo esfuerzo, nosotros haremos todo lo posible."
+            "fourthcarddescription": "En Asesora Paraguay te informamos de todos los tramites necesarios, para que tengas que hacer el minimo esfuerzo, nosotros haremos todo lo posible.",
+            "fifthcardtitle": "FREELANCE",
+            "fifthcarddescription": "Te informaremos de todas las ventajas que tendrás como nómada digital a la hora de establecerte en el país"
         }
     },
     "freelancelayout": {
@@ -38,8 +40,8 @@
             "secondadvantagetitle": "Visita el pais un mínimo de 1 vez cada 3 años",
             "secondadvantagedescription": "Paraguay",
             "secondadvantagedescription2": "no te obliga a pasar medio año en el país para tributar en el, ",
-            "secondadvantagedescription3":  ", a diferencia de la casi totalidad de paises.",
-            "secondadvantagedescription4":  "Por lo que según la regulacion actual del país debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en el. De igual forma no hay forma de comprobar esa estadia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay.",
+            "secondadvantagedescription3": ", a diferencia de la casi totalidad de paises.",
+            "secondadvantagedescription4": "Por lo que según la regulacion actual del país debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en el. De igual forma no hay forma de comprobar esa estadia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay.",
             "thirdadvantagetitle": "Buen clima para emprendimiento",
             "thirdadvantagedescription": "Paraguay es un país en el cual las infraestructuras todavia estan por desarrollar y mejorar en gran parte.Por lo tanto se vuelve una buena opción a la hora de inversion, gracias a los",
             "thirdadvantagedescription2": " bajos impuestos 10% de IVA y 10% de IRPF ",
@@ -69,6 +71,12 @@
             "fifthrequiredescription": "Este documento lo obtienes directamente en Paraguay durante tu visita para realizar la solicitud de residencia.",
             "sixthrequiretitle": "En caso de ser pensionado",
             "sixthrequiredescription": "Deberás presentar la notificación de la pensión el documento que indique el importe que actualmente percibes, expedido por la entidad competente, caja de pensiones, etc., a fin de probar solvencia económica."
+        }
+    },
+    "residencelayout": {
+        "requirements": {
+            "title": "¿Requisitos para la residencia en Paraguay?",
+            "firstrequiretitle": "Documento de Identidad, Pasaporte o Cedula de Identidad"
         }
     },
     "contact": {
@@ -141,5 +149,5 @@
         "ukraine": "Ucrania",
         "united_kingdom": "Reino Unido",
         "vatican_city": "Ciudad del Vaticano"
-      }
+    }
 }

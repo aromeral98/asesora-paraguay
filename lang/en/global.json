@@ -23,7 +23,9 @@
             "thirdcardtitle": "Residence in Paraguay",
             "thirdcarddescription": "Obtain your residence in Paraguay quickly and easily with Paraguay Advisor. Enjoy the country's juicy economic policies and start investing and paying taxes as soon as possible. Secure your financial future today with our efficient service!",
             "fourthcardtitle": "PROCEDURES IN PARAGUAY",
-            "fourthcarddescription": "At Paraguay Advisor, we inform you of all the necessary procedures, so that you have to make the minimum effort. We will do everything possible."
+            "fourthcarddescription": "At Paraguay Advisor, we inform you of all the necessary procedures, so that you have to make the minimum effort. We will do everything possible.",
+            "fifthcardtitle": "FREELANCE",
+            "fifthcarddescription": "We will inform you about the advantages of being freelancer on our country."
         }
     },
     "freelancelayout": {
@@ -48,7 +50,7 @@
             "secondrequiredescription": "This document is only necessary for people over 14 years old and must not be more than 2.5 months old.",
             "thirdrequiretitle": "Marriage or divorce certificate",
             "thirdrequiredescription": "If you are married or divorced, you must present the respective certificate to prove your marital status.",
-            "thirdrequireddescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain; or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
+            "thirdrequiredescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain; or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
             "fourthrequiretitle": "A local currency account with a deposit of 34,331,150 guaraníes (approx. €4,600) to demonstrate economic solvency.",
             "fourthrequiredescription": "This money will remain blocked until obtaining the residency card and the ID card. Once these documents are obtained, the deposit can also be withdrawn.",
             "fourthrequiredescription2": "In case of being married, only a single account is required for the couple and/or the family with underage children.",
