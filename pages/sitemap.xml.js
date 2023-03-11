@@ -29,10 +29,6 @@ function generateSiteMap() {
  `;
 }
 
-function SiteMap() {
-  // getServerSideProps will do the heavy lifting
-}
-
 export async function getServerSideProps({ res }) {
   const sitemap = generateSiteMap();
   res.setHeader('Content-Type', 'text/xml');
