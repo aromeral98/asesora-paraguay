@@ -100,12 +100,12 @@ export default function ContactForm({ bigTitle = false }) {
                   autoComplete="topic"
                   className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primaryColor pl-3 focus:border-primaryColor  sm:text-sm cursor-pointer"
                 >
-                  <option value='Certificados'>{t('contact.form.certificate')}</option>
-                  <option value='Ciudadania'>{t('contact.form.citizenship')}</option>
-                  <option value='Residencia'>{t('contact.form.residence')}</option>
-                  <option value='Tramites'>{t('contact.form.procedures')}</option>
-                  <option value='Consulta'>{t('contact.form.consultation')}</option>
-                  <option value='Otros'>{t('contact.form.others')}</option>
+                  <option value='Certificados'>{t('contact.form.affairs.certificate')}</option>
+                  <option value='Ciudadania'>{t('contact.form.affairs.citizenship')}</option>
+                  <option value='Residencia'>{t('contact.form.affairs.residence')}</option>
+                  <option value='Tramites'>{t('contact.form.affairs.procedures')}</option>
+                  <option value='Consulta'>{t('contact.form.affairs.consultation')}</option>
+                  <option value='Otros'>{t('contact.form.affairs.others')}</option>
                 </select>
               </div>
               <div className="col-span-12 gap-6">

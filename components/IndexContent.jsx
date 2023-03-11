@@ -4,7 +4,7 @@ export default function IndexContent() {
   const { t } = useTranslation('global')
 
   return (
-    <div className="relative py-16 bg-white overflow-hidden max-w-7xl mx-auto">
+    <div className="relative py-12 lg:py-16 bg-white overflow-hidden max-w-7xl mx-auto">
       <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 ">
         <h3 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
           {t('homelayout.secondcontainer.firsttitle')}

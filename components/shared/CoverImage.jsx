@@ -13,7 +13,7 @@ export default function CoverImage() {
     {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
     {title: t('residence'), subtitle: t('residence'), path: '/residency'},
     {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
-    {title: t('contact'), subtitle: t('contact'), path: '/contact'}
+    {title: t('contact.form.contact'), subtitle: t('contact.form.contact'), path: '/contact'}
   ]
   const caption = titles.find(routes => router.route === routes.path)
 
