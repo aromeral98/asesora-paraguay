@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
+import ShareBar from "./shared/ShareBar";
 
 export default function FreelanceContent() {
     const { t } = useTranslation('global')
@@ -103,6 +104,9 @@ export default function FreelanceContent() {
                     </article>
                 </div>
             </section>
+            <div className="flex justify-end my-8">
+                <ShareBar />
+            </div>
             <div className='relative block w-full mt-8'>
                 <div className='h-full w-full relative'>
                     <ContactForm bigTitle />

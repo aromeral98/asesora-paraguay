@@ -1,4 +1,5 @@
 import ContactForm from '../components/ContactForm'
+import ShareBar from './shared/ShareBar'
 
 export default function ResidencyContent() {
     return (
@@ -38,11 +39,16 @@ export default function ResidencyContent() {
                         </div>
                     </div>
                 </div>
-                <div className='relative block w-full'>
-                    <div className='flex flex-col sticky top-8'>
-                        <div className='h-full w-full relative'>
-                            <ContactForm />
-                        </div>
+
+
+            </div>
+            <div className="flex justify-end my-8">
+                <ShareBar />
+            </div>
+            <div className='relative block w-full'>
+                <div className='flex flex-col sticky top-8'>
+                    <div className='h-full w-full relative'>
+                        <ContactForm />
                     </div>
                 </div>
             </div>
