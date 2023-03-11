@@ -1,5 +1,5 @@
 
-function generateSiteMap() {
+function SiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
   <url>
          <loc>https://www.asesoraparaguay.com/</loc>
@@ -29,16 +29,5 @@ function generateSiteMap() {
  `;
 }
 
-export async function getServerSideProps({ res }) {
-  const sitemap = generateSiteMap();
-  res.setHeader('Content-Type', 'text/xml');
-  // we send the XML to the browser
-  res.write(sitemap);
-  res.end();
-
-  return {
-    props: {},
-  };
-}
 
 export default SiteMap;
