@@ -32,28 +32,35 @@
         "advantages": {
             "title": "What advantages will I have as a freelancer?",
             "firstadvantagetitle": "Territorial taxation",
-            "firstadvantagedescription": "The Paraguay tax system only taxes income earned within the national territory. Therefore, if you are a digital nomad and all your income comes from outside Paraguay, you will be totally exempt from paying taxes on it. The payment of dividends from a foreign company would also be completely tax-free, making it ideal to combine your residence with an offshore company or LLC to get rid of 100% of taxes.",
+            "firstadvantagedescription": "The Paraguayan tax system only taxes income earned within the national territory.",
+            "firstadvantagedescription2": "Therefore, if you're a digital nomad and all your income comes from outside Paraguay, you'll be completely exempt from paying taxes on it. Dividend payments from foreign companies are also completely tax-free,",
+            "firstadvantagedescription3": "making it ideal to combine your residence with an offshore company or LLC to avoid 100% of taxes.",
             "secondadvantagetitle": "Visit the country at least once every 3 years",
-            "secondadvantagedescription": "Paraguay does not require you to spend half a year in the country to pay taxes, unlike the vast majority of countries. Therefore, according to the country's current regulations, you must visit the country at least once every 3 years to demonstrate that you actually reside there. Similarly, there is no way to verify that stay, so there are people who spend longer periods without entering Paraguay.",
+            "secondadvantagedescription": "Paraguay does not require you to spend half a year in the country to be taxed there,",
+            "secondadvantagedescription2": "unlike most countries.",
+            "secondadvantagedescription3": "According to current regulations, you must visit the country at least once every 3 years to prove that you actually reside there. There's no way to verify your stay, so some people spend longer periods without entering Paraguay.",
             "thirdadvantagetitle": "Good climate for entrepreneurship",
-            "thirdadvantagedescription": "Paraguay is a country where infrastructure is still largely underdeveloped and in need of improvement. Therefore, it becomes a good option for investment, thanks to low taxes and government assistance to encourage foreign investment in the country in any of its forms.",
+            "thirdadvantagedescription": "Paraguay is a country where infrastructure is still largely underdeveloped and needs improvement, making it a good option for investment due to the low taxes, 10% VAT and 10% IRPF,",
+            "thirdadvantagedescription2": "as well as government support to encourage foreign investment in the country in any form.",
             "fourthadvantagetitle": "Lifelong permanent residency",
-            "fourthadvantagedescription": "As of today, permanent residency in Paraguay has no expiration date, so you will not have to worry about renewing it.",
+            "fourthadvantagedescription": "As of today, permanent residency in Paraguay has no expiration date, so you won't have to worry about renewing it.",
             "fifthadvantagetitle": "Rights with your residency",
-            "fifthadvantagedescription": "Another advantage of Paraguay is that once you obtain your residency, you can access the same rights as any citizen except for participation in politics. You can start businesses, get a driver's license, invest, and even buy properties if your goal is to live or even enter the real estate business."
+            "fifthadvantagedescription": "Another advantage of Paraguay is that once you obtain your residency,",
+            "fifthadvantagedescription2": "you'll have access to the same rights as any citizen,",
+            "fifthadvantagedescription3": "except for participation in politics. You can set up companies, businesses, get a driver's license, invest, and even buy properties if your goal is to stay or get into the real estate business."
         },
         "requirements": {
             "title": "What requirements must I meet?",
             "firstrequiretitle": "Birth certificate",
             "firstrequiredescription": "A current copy of the original issued by the corresponding civil registry is sufficient.",
-            "secondrequiretitle": "Good conduct or criminal record letter",
+            "secondrequiretitle": "Certificate of good conduct or criminal record",
             "secondrequiredescription": "This document is only necessary for people over 14 years old and must not be more than 2.5 months old.",
             "thirdrequiretitle": "Marriage or divorce certificate",
-            "thirdrequiredescription": "If you are married or divorced, you must present the respective certificate to prove your marital status.",
-            "thirdrequiredescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain; or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
-            "fourthrequiretitle": "A local currency account with a deposit of 34,331,150 guaraníes (approx. €4,600) to demonstrate economic solvency.",
+            "thirdrequiredescription": "If you're married or divorced, you must present the respective certificate to prove your marital status.",
+            "thirdrequireddescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain, or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
+            "fourthrequiretitle": "A local currency account with a deposit of 34,331,150 Guaraníes (approximately €4,600) to demonstrate economic solvency.",
             "fourthrequiredescription": "This money will remain blocked until obtaining the residency card and the ID card. Once these documents are obtained, the deposit can also be withdrawn.",
-            "fourthrequiredescription2": "In case of being married, only a single account is required for the couple and/or the family with underage children.",
+            "fourthrequiredescription2": "In case of being married, only a single account is required for the couple and/or the family with underage children. If you have a University-level Professional Degree, you can use it as collateral to demonstrate economic solvency and avoid having to make the aforementioned deposit. If you are a pensioner, the notification of the pension also serves as proof of economic solvency and the deposit will not be required.",
             "fourthrequiredescription3": "If you have a University-level Professional Degree, you can use it as collateral to demonstrate economic solvency and avoid having to make the aforementioned deposit.",
             "fourthrequiredescription4": "If you are a pensioner, the notification of the pension also serves as proof of economic solvency and the deposit will not be required.",
             "fifthrequiretitle": "Health Certificate",
@@ -132,5 +139,5 @@
         "ukraine": "Ukraine",
         "united_kingdom": "United Kingdom",
         "vatican_city": "Vatican City"
-        }
+    }
 }
