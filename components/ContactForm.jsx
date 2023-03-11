@@ -55,7 +55,7 @@ export default function ContactForm({ bigTitle = false }) {
                 >
                   {
                     Countries().map(country => {
-                      return <option key={country.name} value={country.name}>{country.name}</option>
+                      return <option key={country.name} value={country.name}>{t(`countries.${country.name}`)}</option>
                     })
                   }
                 </select>

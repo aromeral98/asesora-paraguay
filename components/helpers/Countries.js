@@ -1,142 +1,142 @@
 export default function Countries() {
   return [
     {
-      name: "Andorra",
+      name: "andorra",
     },
     {
-      name: "Albania",
+      name: "albania",
     },
     {
-      name: "Austria",
+      name: "austria",
     },
     {
-      name: "Bosnia y Herzegovina",
+      name: "belarus",
     },
     {
-      name: "Belgica",
+      name: "belgium",
     },
     {
-      name: "Bulgaria",
+      name: "bosnia_and_herzegovina",
     },
     {
-      name: "Croacia",
+      name: "bulgaria",
     },
     {
-      name: "Chipre",
+      name: "croatia",
     },
     {
-      name: "República Checa",
+      name: "cyprus",
     },
     {
-      name: "Dinamarca",
+      name: "czech_republic",
     },
     {
-      name: "Estonia",
+      name: "denmark",
     },
     {
-      name: "Finlandia",
+      name: "estonia",
     },
     {
-      name: "Francia",
+      name: "finland",
     },
     {
-      name: "Alemania",
+      name: "france",
     },
     {
-      name: "Grecia",
+      name: "germany",
     },
     {
-      name: "Hungría",
+      name: "greece",
     },
     {
-      name: "Islandia",
+      name: "hungary",
     },
     {
-      name: "Irlanda",
+      name: "iceland",
     },
     {
-      name: "Italia",
+      name: "ireland",
     },
     {
-      name: "Kosovo",
+      name: "italy",
     },
     {
-      name: "Letonia",
+      name: "kosovo",
     },
     {
-      name: "Liechtenstein",
+      name: "latvia",
     },
     {
-      name: "Lituania",
+      name: "liechtenstein",
     },
     {
-      name: "Luxemburgo",
+      name: "lithuania",
     },
     {
-      name: "Malta",
+      name: "luxembourg",
     },
     {
-      name: "Moldavia",
+      name: "malta",
     },
     {
-      name: "Mónaco",
+      name: "moldova",
     },
     {
-      name: "Montenegro",
+      name: "monaco",
     },
     {
-      name: "Países Bajos",
+      name: "montenegro",
     },
     {
-      name: "Macedonia del Norte",
+      name: "netherlands",
     },
     {
-      name: "Noruega",
+      name: "north_macedonia",
     },
     {
-      name: "Polonia",
+      name: "norway",
     },
     {
-      name: "Portugal",
+      name: "poland",
     },
     {
-      name: "Rumania",
+      name: "portugal",
     },
     {
-      name: "Rusia",
+      name: "romania",
     },
     {
-      name: "San Marino",
+      name: "russia",
     },
     {
-      name: "Serbia",
+      name: "san_marino",
     },
     {
-      name: "Eslovaquia",
+      name: "serbia",
     },
     {
-      name: "Eslovenia",
+      name: "slovakia",
     },
     {
-      name: "España",
+      name: "slovenia",
     },
     {
-      name: "Suecia",
+      name: "spain",
     },
     {
-      name: "Suiza",
+      name: "sweden",
     },
     {
-      name: "Ucrania",
+      name: "switzerland",
     },
     {
-      name: "Reino Unido",
+      name: "ukraine",
     },
     {
-      name: "Ciudad del Vaticano",
+      name: "united_kingdom",
     },
     {
-      name: 'Otro'
+      name: "vatican_city",
     }
-  ];
+  ]
 }
