@@ -1,104 +1,114 @@
+import { useTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
+import ShareBar from "./shared/ShareBar";
 
 export default function FreelanceContent() {
+    const { t } = useTranslation('global')
     return (
-        <div className="relative py-16 lg:px-8 px-4 bg-white overflow-hidden max-w-7xl mx-auto">
+        <div className="relative py-12 lg:py-16 lg:px-8 px-4 bg-white overflow-hidden max-w-7xl mx-auto">
             <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 " >
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
-                    ¿Que ventajas tendré como freelance?
+                    {t('freelancelayout.advantages.title')}
                 </h2>
                 <div className="space-y-4 lg:space-y-8">
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. Tributación territorial</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.advantages.firstadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            El sistema tributario del Paraguay, solo <strong>grava las rentas obtenidas dentro del territorio nacional</strong>. Por lo cual si eres nomada digital y todos tus ingresos provienen de fuera del Paraguay, estarás totalmente exento de tributar por ellos.
-
-                            El pago de dividendos provenientes de una empresa extranjera tambien estarían totalmente libres de impuestos, por lo cual <strong>
-                                 seria ideal para combinar tu residencia, una empresa offshore o LLC para librarte del 100% de los impuestos.
-                            </strong>
+                            {t('freelancelayout.advantages.firstadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.firstadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.firstadvantagedescription3')}
+                            <strong>{t('freelancelayout.advantages.firstadvantagedescription4')}</strong>
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. Visita el pais un mínimo de 1 vez cada 3 años</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.advantages.secondadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Paraguay <strong>no te obliga a pasar medio año en el país para tributar en el</strong>, a diferencia de la casi totalidad de paises.
+                            {t('freelancelayout.advantages.secondadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.secondadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.secondadvantagedescription3')}
                             <br />
-                            Por lo que según la regulacion actual del país debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en el.
-                            De igual forma no hay forma de comprobar esa estadia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay.
+                            {t('freelancelayout.advantages.secondadvantagedescription4')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. Buen clima para emprendimiento</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.advantages.thirdadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Paraguay es un país en el cual las infraestructuras todavia estan por desarrollar y mejorar en gran parte.Por lo tanto se vuelve una buena opción a la hora
-                            de inversion, gracias a los <strong>bajos impuestos 10% de IVA y 10% de IRPF</strong> y la ayuda de los gobiernos para incentivar la inversión extranjera en el país en cualquiera de sus formas.
+                            {t('freelancelayout.advantages.thirdadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.thirdadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.thirdadvantagedescription3')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Residencia permanente vitalicia</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.advantages.fourthadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            A fecha de hoy la residencia permanente en Paraguay no tiene fecha de caducidad por lo tanto no tendrá que preocuparse por renovarla.
+                            {t('freelancelayout.advantages.fourthadvantagedescription')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. Derechos con tu residencia</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.advantages.fifthadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Otra de las ventajas del paraguay es que una vez obtengas tu residencia, <strong>podrás acceder a los mismos derechos que cualquier ciudadano</strong> excepto a la participacion en la politica.
-                            Podras montar empresas, negocios, sacarte el carnet de conducir, invertir e incluso podra comprar propiedades si su objetivo es quedarse a vivir o incluso entrar en el negocio inmobiliario.
+                            {t('freelancelayout.advantages.fifthadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.fifthadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.fifthadvantagedescription3')}
                         </p>
                     </article>
                 </div>
             </section>
             <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-16 text-center mx-auto px-5 active">
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
-                    ¿Que requisitos debo cumplir?
+                    {t('freelancelayout.requirements.title')}
                 </h2>
                 <div className="space-y-4 lg:space-y-8">
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. Certificado de nacimiento</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.requirements.firstrequiretitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Una copia actual del original emitida por el registro civil correspondiente es suficiente.
+                            {t('freelancelayout.requirements.firstrequiredescription')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. Carta de buena conducta o antecedentes penales</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.requirements.secondrequiretitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Este documento es sólo necesario para mayores de 14 años y no debe tener más de 2,5 meses de antigüedad.
+                            {t('freelancelayout.requirements.secondrequiredescription')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. Certificado de matrimonio o divorcio</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.requirements.thirdrequiretitle')}</h5>
                         <div className="text-dark lg:text-lg">
-                            En caso de estar casado o divorciado, debes presentar el certificado respectivo para comprobar tu estado civil.
-                            <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">Según sea tu país de origen, estos documentos deben estar o apostillados con la apostilla de La Haya, como es el caso de España; o en ciertos casos deben ser legalizados por el consulado de Paraguay correspondiente en tu país de origen o de residencia actual.</p>
+                            {t('freelancelayout.requirements.thirdrequiredescription')}
+                            <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">
+                                {t('freelancelayout.requirements.thirdrequiredescription2')}
+                            </p>
                         </div>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Una cuenta en moneda local con un depósito de 34.331.150 de guaraníes (aprox. 4.600€) para demostrar solvencia económica.</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.requirements.fourthrequiretitle')}</h5>
                         <div className="text-dark lg:text-lg">
-                            Este dinero se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirado estos documentos, puede retirarse también el depósito.
-                            <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad.
-                                <p className="my-2">Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado.</p>
+                            {t('freelancelayout.requirements.fourthrequiredescription')}
+                            <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">{t('freelancelayout.requirements.fourthrequiredescription2')}
+                                <p className="my-2">{t('freelancelayout.requirements.fourthrequiredescription3')}</p>
                                 <p className="my-2">
-                                    Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito.
+                                    {t('freelancelayout.requirements.fourthrequiredescription4')}
                                 </p>
                             </div>
                         </div>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. Certificado Sanitario</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.requirements.fifthrequiretitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Este documento lo obtienes directamente en Paraguay durante tu visita para realizar la solicitud de residencia.
+                            {t('freelancelayout.requirements.fifthrequiredescription')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">6. En caso de ser pensionado </h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">6. {t('freelancelayout.requirements.sixthrequiretitle')} </h5>
                         <p className="text-dark lg:text-lg">
-                            Deberás presentar la notificación de la pensión el documento que indique el importe que actualmente percibes, expedido por la entidad competente, caja de pensiones, etc., a fin de probar solvencia económica.
+                            {t('freelancelayout.requirements.sixthrequiredescription')}
                         </p>
                     </article>
                 </div>
             </section>
+            <div className="flex justify-end my-8">
+                <ShareBar />
+            </div>
             <div className='relative block w-full mt-8'>
                 <div className='h-full w-full relative'>
                     <ContactForm bigTitle />

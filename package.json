@@ -27,6 +27,7 @@
     "react-ga4": "^2.0.0",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.15.3",
+    "react-share": "^4.4.1",
     "webpack-bundle-analyzer": "^4.5.0"
   },
   "devDependencies": {

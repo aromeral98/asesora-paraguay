@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import passport from '../public/img/hero.png'
 
 export default function IndexCover() {
+    const { t } = useTranslation('global')
     return (
         <section className='index-cover-container'>
             <div className='index-cover-background'></div>
@@ -12,7 +14,7 @@ export default function IndexCover() {
             <div className='index-cover-caption-container'>
                 <div className="index-cover-caption-title">
                     <h1>
-                        En Asesora Paraguay, nos especializamos en brindar asesoramiento a freelancers y empresarios que desean trasladar su residencia fiscal a Paraguay. Contamos con un equipo de expertos en asesoría fiscal y abogados de inmigración, quienes te guiarán para encontrar la mejor opción según tus necesidades. Además, nos encargamos de agilizar todos los trámites necesarios en tiempo récord, para que puedas comenzar a ahorrar en impuestos cuanto antes. ¡Contáctanos y comienza a disfrutar de los beneficios fiscales que ofrece Paraguay!
+                        {t('homelayout.firstcontainer')}
                     </h1>
                 </div>
             </div>

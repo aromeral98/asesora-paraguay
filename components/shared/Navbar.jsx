@@ -1,29 +1,33 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 import logo from '../../public/img/logo.PNG'
 import { NavbarIcon } from './NavbarIcon'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-const routes = [
-  { title: 'Inicio', path: '/' },
-  { title: 'Freelancers', path: '/freelance' },
-  // { title: 'Certificados', path: '/certificates' },
-  // { title: 'Ciudadania', path: '/citizenship' },
-  { title: 'Residencia', path: '/residency' },
-  // { title: 'Tramites en Paraguay', path: '/procedures' },
-  { title: 'Contacto', path: '/contact' },
-]
+
+
 export default function Navbar() {
+  const { t } = useTranslation('global')
+  const routes = [
+    { title: t('home'), path: '/' },
+    { title: t('freelance'), path: '/freelance' },
+    // { title: 'Certificados', path: '/certificates' },
+    // { title: 'Ciudadania', path: '/citizenship' },
+    { title: t('residence'), path: '/residency' },
+    // { title: 'Tramites en Paraguay', path: '/procedures' },
+    { title: t('contact.form.contact'), path: '/contact' },
+  ]
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
-            <div className='absolute left-0 h-full p-4 bg-white rounded-full cursor-pointer'>
+              <div className='absolute left-0 h-full p-4 bg-white rounded-full cursor-pointer'>
                 <Link passHref href={'/'}>
                   <div>
                     <Image width={58} height={32} alt='brand' className='h-full' src={logo} />

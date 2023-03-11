@@ -136,3 +136,9 @@ button {
     padding-bottom: 192px;
   }
 }
+.icon {
+  transition: 400ms ease;
+}
+.icon:hover{
+  opacity: 0.8;
+}
