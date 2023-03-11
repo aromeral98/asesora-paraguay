@@ -12,42 +12,44 @@ export default function FreelanceContent() {
                 </h2>
                 <div className="space-y-4 lg:space-y-8">
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. Tributación territorial</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.advantages.firstadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            El sistema tributario del Paraguay, solo <strong>grava las rentas obtenidas dentro del territorio nacional</strong>. Por lo cual si eres nomada digital y todos tus ingresos provienen de fuera del Paraguay, estarás totalmente exento de tributar por ellos.
-
-                            El pago de dividendos provenientes de una empresa extranjera tambien estarían totalmente libres de impuestos, por lo cual <strong>
-                                seria ideal para combinar tu residencia, una empresa offshore o LLC para librarte del 100% de los impuestos.
-                            </strong>
+                            {t('freelancelayout.advantages.firstadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.firstadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.firstadvantagedescription3')}
+                            <strong>{t('freelancelayout.advantages.firstadvantagedescription4')}</strong>
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. Visita el pais un mínimo de 1 vez cada 3 años</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.advantages.secondadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Paraguay <strong>no te obliga a pasar medio año en el país para tributar en el</strong>, a diferencia de la casi totalidad de paises.
+                            {t('freelancelayout.advantages.secondadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.secondadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.secondadvantagedescription3')}
                             <br />
-                            Por lo que según la regulacion actual del país debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en el.
-                            De igual forma no hay forma de comprobar esa estadia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay.
+                            {t('freelancelayout.advantages.secondadvantagedescription4')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. Buen clima para emprendimiento</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.advantages.thirdadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Paraguay es un país en el cual las infraestructuras todavia estan por desarrollar y mejorar en gran parte.Por lo tanto se vuelve una buena opción a la hora
-                            de inversion, gracias a los <strong>bajos impuestos 10% de IVA y 10% de IRPF</strong> y la ayuda de los gobiernos para incentivar la inversión extranjera en el país en cualquiera de sus formas.
+                            {t('freelancelayout.advantages.thirdadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.thirdadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.thirdadvantagedescription3')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. Residencia permanente vitalicia</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.advantages.fourthadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            A fecha de hoy la residencia permanente en Paraguay no tiene fecha de caducidad por lo tanto no tendrá que preocuparse por renovarla.
+                            {t('freelancelayout.advantages.fourthadvantagedescription')}
                         </p>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. Derechos con tu residencia</h5>
+                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.advantages.fifthadvantagetitle')}</h5>
                         <p className="text-dark lg:text-lg">
-                            Otra de las ventajas del paraguay es que una vez obtengas tu residencia, <strong>podrás acceder a los mismos derechos que cualquier ciudadano</strong> excepto a la participacion en la politica.
-                            Podras montar empresas, negocios, sacarte el carnet de conducir, invertir e incluso podra comprar propiedades si su objetivo es quedarse a vivir o incluso entrar en el negocio inmobiliario.
+                            {t('freelancelayout.advantages.fifthadvantagedescription')}
+                            <strong>{t('freelancelayout.advantages.fifthadvantagedescription2')}</strong>
+                            {t('freelancelayout.advantages.fifthadvantagedescription3')}
                         </p>
                     </article>
                 </div>
