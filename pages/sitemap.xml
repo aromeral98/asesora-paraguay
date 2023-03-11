@@ -1,6 +1,5 @@
 
-function SiteMap() {
-  return `<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
   <url>
          <loc>https://www.asesoraparaguay.com/</loc>
          <lastmod>2023-03-11</lastmod>
@@ -26,8 +25,3 @@ function SiteMap() {
          <priority>0.4</priority>
      </url>
  </urlset>
- `;
-}
-
-
-export default SiteMap;
