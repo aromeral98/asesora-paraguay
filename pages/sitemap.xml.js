@@ -25,7 +25,13 @@ function generateSiteMap() {
        <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
            <lastmod>2023-03-11</lastmod>
-           <changefreq>yearly</changefreq>
+           <changefreq>monthly</changefreq>
+           <priority>0.4</priority>
+       </url>
+       <url>
+           <loc>https://www.asesoraparaguay.com/advantages/</loc>
+           <lastmod>2023-03-12</lastmod>
+           <changefreq>daily</changefreq>
            <priority>0.4</priority>
        </url>
    </urlset>
