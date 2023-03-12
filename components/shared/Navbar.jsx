@@ -20,6 +20,7 @@ export default function Navbar() {
     { title: t('residence'), path: '/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
     { title: t('contact.form.contact'), path: '/contact' },
+    { title: t('articles'), path: '/article/advantages' },
   ]
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">
