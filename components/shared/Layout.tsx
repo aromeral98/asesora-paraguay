@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect } from 'react'
+import React, { ReactNode } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import CoverImage from './CoverImage'
@@ -14,13 +14,13 @@ const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Navbar />
-      {typeof window !== "undefined" && window.location.pathname !== '/' && window.location.pathname !== '/contact'
+      {typeof window !== "undefined" && window.location.pathname !== '/' && window.location.pathname !== '/contact' && !window.location.pathname.includes('article')
         ? <ContactButton />
         : null}
-      {typeof window !== "undefined" && window.location.pathname !== '/'
+      {typeof window !== "undefined" && window.location.pathname !== '/' && !window.location.pathname.includes('article')
         ? <CoverImage />
         : null}
-      <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden'>
+      <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden min-h-screen'>
         {children}
       </main>
       <Footer />
