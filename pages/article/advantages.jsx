@@ -45,9 +45,8 @@ export default function Article({ title = 'Ventajas fiscales para freelancers en
           </h2>
           <div className="space-y-4 lg:space-y-8">
             {/* <h5 className="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">Ventajas fiscales para freelancers y emprendedores en Paraguay</h5> */}
-            
             <p className="text-dark lg:text-lg">
-              
+            Paraguay es uno de los países más atractivos para los negocios en América Latina, gracias a su política de <strong>bajos impuestos</strong> y su facilidad para hacer negocios. Esto lo hace especialmente interesante para aquellos <strong>freelancers</strong> y <strong>autónomos</strong> que buscan establecer su negocio en un entorno económico favorable.
             </p>
             <h5 className="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">Impuestos bajos y exenciones para freelancers</h5>
             <p className="text-dark lg:text-lg">
