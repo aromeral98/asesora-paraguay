@@ -6,7 +6,7 @@ export default function ResidencyContent() {
     const { t } = useTranslation('global')
     return (
         <div className="max-w-7xl mx-auto px-5 bg-white">
-            <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-12 text-center mx-auto px-5 active">
+            <section className="container space-y-4 lg:space-y-8 py-8 text-center mx-auto px-5 active">
                 <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
                     {t('freelancelayout.requirements.title')}
                 </h2>
