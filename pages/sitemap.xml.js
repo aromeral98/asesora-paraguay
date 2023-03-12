@@ -4,6 +4,7 @@
 function generateSiteMap() {
   return `
   <?xml version="1.0" encoding="UTF-8"?>
+  <urlset>
     <url>
            <loc>https://www.asesoraparaguay.com/</loc>
            <lastmod>2023-03-11</lastmod>
