@@ -78,7 +78,7 @@ export default function Article({
           <h2 className="text-secondaryColor text-3xl font-medium capitalize">
             {article?.seo?.title}
           </h2>
-          <div className="space-y-4 lg:space-y-8" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
+          <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
           </div>
         </section>
         <div className="flex justify-end my-8">
