@@ -2,9 +2,8 @@
  //pages/sitemap.xml.js
 
 function generateSiteMap() {
-  return `
-  <?xml version="1.0" encoding="UTF-8"?>
-  <urlset>
+  return `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
            <loc>https://www.asesoraparaguay.com/</loc>
            <lastmod>2023-03-11</lastmod>
