@@ -93,7 +93,7 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { id: 'advantages' } },
-      { params: { id: '22442' } }],
+      { params: { id: 'weather' } }],
     fallback: false, // can also be true or 'blocking'
   }
 }

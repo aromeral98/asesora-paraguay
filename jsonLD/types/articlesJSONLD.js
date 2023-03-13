@@ -20,5 +20,28 @@ export const articlesJSONLD = {
             "datePublished": "2023-03-12",
             "dateModified": "2023-03-12",
         }
+    ],
+    weather: [
+      {
+        "@context": "https://schema.org/",
+        "@type": "Article",
+        "name": "Clima de Paraguay: temperaturas y condiciones meteorológicas",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://asesoraparaguay.com/weather"
+        },
+        "headline": "Clima de Paraguay: temperaturas y condiciones meteorológicas",
+        "description": "Descubre todo sobre el clima de Paraguay: temperaturas, estaciones del año y condiciones meteorológicas. ¿Cuál es la mejor época para visitar el país? Encuentra la respuesta aquí. #Paraguay #Clima",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ip.gov.py/ip/wp-content/uploads/2021/04/clima-lluvia-nublado-Asunci%C3%B3n-.jpg",
+          "width": 1680,
+          "height": 1050,
+          "description": "Paraguay landscape with Parana River on front"
+        },
+        "datePublished": "2023-03-13",
+        "dateModified": "2023-03-13"
+      }
+      
     ]
 }
