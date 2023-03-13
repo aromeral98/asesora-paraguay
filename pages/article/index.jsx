@@ -21,10 +21,11 @@ export default function ArticleList() {
                 <h2 className="text-secondaryColor text-3xl font-medium capitalize">
                     Ultimos artículos
                 </h2>
+                <div className="w-full flex flex-col items-center justify-center space-y-8">
                 {Object.entries(data).map(([key, value]) => (
-                    <Link href={value.href} className="container space-y-4 text-left mx-auto cursor-pointer" key={key}>
+                    <Link href={value.href} className="container space-y-5 text-left mx-auto cursor-pointer w-full" key={key}>
                         <div className="max-w-sm w-full lg:max-w-full lg:flex">
-                            <div className="border-r border-t border-l border-gray-400 lg:border-l-1 lg:border-t lg:border-gray-400 bg-white rounded-t lg:rounded-b-none lg:rounded-l p-4 flex flex-col justify-between leading-normal">
+                            <div className="border-r border-t border-l border-gray-400 lg:border-l-1 lg:border-t lg:border-b lg:border-gray-400 bg-white rounded-t lg:rounded-b-none lg:rounded-l p-4 flex flex-col justify-between leading-normal">
                                 <div className="mb-8">
                                     <div className="text-gray-900 font-bold text-xl mb-2">{value.title}</div>
                                     <p className="text-gray-700 text-base">{value.description}</p>
@@ -35,6 +36,7 @@ export default function ArticleList() {
                         </div>
                     </Link>
                 ))}
+                </div>
             </section>
         </Layout>
     )
