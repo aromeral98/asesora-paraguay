@@ -6,7 +6,7 @@
     },
     "article": {
         "image": {
-            "src": "https://www.ip.gov.py/ip/wp-content/uploads/2021/04/clima-lluvia-nublado-Asunci%C3%B3n-.jpg",
+            "src": "../../img/articles/weather/0.jpg",
             "width": 1680,
             "height": 1050,
             "alt": "Paraguay landscape with Parana River on front"
