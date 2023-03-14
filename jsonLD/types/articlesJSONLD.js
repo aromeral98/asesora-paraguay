@@ -43,7 +43,7 @@ export const articlesJSONLD = {
       "dateModified": "2023-03-13"
     }
   ],
-  "tourism": [
+  tourism: [
       {
         "@context": "https://schema.org/",
         "@type": "Article",
