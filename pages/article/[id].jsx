@@ -58,7 +58,7 @@ export default function Article({ id, data = {} }) {
       </Helmet>
       <article className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow'>
         <section className="container space-y-4 text-left mx-auto px-5" >
-          <h2 className="text-secondaryColor text-3xl font-medium capitalize">
+          <h2 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
             {article?.seo?.title}
           </h2>
           <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
