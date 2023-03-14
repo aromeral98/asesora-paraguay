@@ -7,7 +7,7 @@ export default function FreelanceContent() {
     return (
         <div className="relative py-8 lg:px-8 px-4 bg-white overflow-hidden max-w-7xl mx-auto">
             <section className="container space-y-4 lg:space-y-8 text-center mx-auto px-5 " >
-                <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+                <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium leading-tight lg:leading-relaxed text-center">
                     {t('freelancelayout.advantages.title')}
                 </h2>
                 <div className="space-y-4 lg:space-y-8">
@@ -55,7 +55,7 @@ export default function FreelanceContent() {
                 </div>
             </section>
             <section className="container space-y-4 lg:space-y-8 pt-8 lg:pt-16 text-center mx-auto px-5 active">
-                <h2 className="text-secondaryColor text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+                <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium leading-tight lg:leading-relaxed text-center">
                     {t('freelancelayout.requirements.title')}
                 </h2>
                 <div className="space-y-4 lg:space-y-8">
