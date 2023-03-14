@@ -17,7 +17,7 @@ export default function IndexCards() {
   ]
   return (
     <article className="pb-16 px-2 sm:px-8 bg-white max-w-7xl mx-auto active">
-      <h3 className="text-secondaryColor  bg-white text-4xl lg:text-5xl font-medium leading-tight lg:leading-relaxed text-center">
+      <h3 className="text-secondaryColor  bg-white text-xl lg:text-4xl font-medium leading-tight lg:leading-relaxed text-center">
         {t('homelayout.secondcontainer.cardstitle')}
       </h3>
       <div className="max-w-7xl mx-auto grid gap-12 lg:grid-cols-2 mt-8">
