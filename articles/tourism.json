@@ -1,65 +1,58 @@
 {
-    "seo": {
-        "title": "Turismo en Paraguay: descubre los lugares más hermosos del país",
-        "description": "Descubre los mejores lugares para visitar en Paraguay, desde la vibrante ciudad de Asunción hasta el impresionante Parque Nacional Ybycuí y el hermoso Lago Ypacaraí. ¡No te los pierdas! #Paraguay #Turismo",
-        "keywords": "Paraguay, turismo, Asunción, Parque Nacional Ybycuí, Lago Ypacaraí"
+  "seo": {
+    "title": "Turismo en Paraguay: descubre los lugares más hermosos del país",
+    "description": "Descubre los mejores lugares para visitar en Paraguay, desde la vibrante ciudad de Asunción hasta el impresionante Parque Nacional Ybycuí y el hermoso Lago Ypacaraí. ¡No te los pierdas! #Paraguay #Turismo",
+    "keywords": "Paraguay, turismo, Asunción, Parque Nacional Ybycuí, Lago Ypacaraí"
+  },
+  "article": {
+    "paragraph": "Paraguay es un país que tiene mucho que ofrecer a los turistas que buscan descubrir nuevos destinos. Desde su cultura hasta su gastronomía, pasando por su rica historia y sus impresionantes paisajes naturales, hay algo para todos. En este artículo, te presentamos algunos de los mejores destinos y lugares para visitar en Paraguay.",
+    "title1": "Asunción",
+    "image1": {
+      "src": "https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Asuncion-4.jpg/",
+      "width": 3450,
+      "height": 2300,
+      "alt": "Vista panorámica de la ciudad de Asunción, Paraguay"
     },
-    "article": {
-        "image": {
-          "src": "https://media-cdn.tripadvisor.com/media/photo-s/16/7f/5f/09/cerro-akati.jpg",
-          "width": 550,
-          "height": 413,
-          "alt": "Landscape Akatí hill with 2 people on a bench watching the nature"
-        },
-        "paragraph": "Paraguay es un país que tiene mucho que ofrecer a los turistas que buscan descubrir nuevos destinos. Desde su cultura hasta su gastronomía, pasando por su rica historia y sus impresionantes paisajes naturales, hay algo para todos. En este artículo, te presentamos algunos de los mejores destinos y lugares para visitar en Paraguay.",
-        "title1": "Asunción",
-        "image1": {
-          "src": "https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Asuncion-4.jpg/",
-          "width": 3450,
-          "height": 2300,
-          "alt": "Vista panorámica de la ciudad de Asunción, Paraguay"
-        },
-        "paragraph1": "La capital de Paraguay es una ciudad llena de historia y cultura. Hay muchas cosas que hacer y ver aquí, desde visitar el impresionante Palacio de los López hasta explorar el animado barrio de Carmelitas. Además, Asunción es famosa por su deliciosa comida, así que asegúrate de probar algunos de los platos típicos de la región mientras estás aquí.",
-        "title2": "Cataratas del Iguazú",
-        "image2": {
-          "src": "https://www.civitatis.com/f/argentina/buenos-aires/guia/cataratas-iguazu-m.jpg",
-          "width": 640,
-          "height": 356,
-          "alt": "Cataratas del Iguazú, Paraguay"
-        },
-        "paragraph2": "Las Cataratas del Iguazú son una de las maravillas naturales del mundo y una visita obligada si estás en Paraguay. Este impresionante conjunto de cascadas es compartido por Argentina, Brasil y Paraguay, y ofrece una experiencia única en la vida. Hay muchas actividades que puedes hacer aquí, desde caminar por los senderos hasta hacer un emocionante paseo en lancha debajo de las cascadas.",
-        "title3": "Encarnación",
-        "image3": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Puente_San_Roque_y_Costanera.jpg",
-          "width": 3000,
-          "height": 2250,
-          "alt": "Vista panorámica de la ciudad de Encarnación, Paraguay"
-        },
-        "paragraph3": "Encarnación es una ciudad situada en el sureste de Paraguay, cerca de la frontera con Argentina. Es conocida por sus playas de arena blanca y por su animada vida nocturna. Durante el carnaval de Encarnación, que se celebra cada año en febrero, la ciudad se convierte en un verdadero espectáculo de música, baile y colorido.",
-        
-        "title4": "La Santísima Trinidad de Paraná",
-        "image4": {
-          "src": "https://i0.wp.com/viajealpatrimonio.com/wp-content/uploads/2020/08/0821-misiones-jesuiticas-de-la-santisima-trinidad-de-parana-y-jesus-de-tavarangue.jpg?ssl=1",
-          "width": 1024,
-          "height": 684,
-          "alt": "Ruinas de la misión jesuítica de La Santísima Trinidad de Paraná"
-        },
-        "paragraph4": "La Santísima Trinidad de Paraná es un sitio declarado Patrimonio de la Humanidad por la UNESCO. Se trata de las ruinas de una misión jesuítica fundada en el siglo XVIII, que sirvió como modelo para otras misiones en la región. Hoy en día, los visitantes pueden explorar las ruinas y aprender sobre la historia de la misión y su impacto en la región.",
-        "title5": "Parque Nacional Ybycuí",
-        "image5": {
-          "src": "https://img.oastatic.com/img2/15837865/600x300r/salto-mina.jpg",
-          "width": 600,
-          "height": 300,
-          "alt": "Waterfall in Parque Nacional Ybycuí"
-        },
-        "paragraph5": "El Parque Nacional Ybycuí es un lugar ideal para los amantes de la naturaleza y el ecoturismo. Aquí puedes encontrar cascadas, ríos, senderos para caminatas, y una gran variedad de flora y fauna. Además, puedes disfrutar de actividades como la pesca deportiva y el avistamiento de aves.",
-        "title6": "San Bernardino",
-        "image6": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Lago_Ypacara%C3%AD.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Lake view in San Bernardino, Paraguay"
-        },
-        "paragraph6": "San Bernardino es un hermoso pueblo ubicado a orillas del lago Ypacaraí, que ofrece una gran cantidad de actividades al aire libre, como la pesca, el kayak y la natación. También es famoso por sus festivales culturales, que atraen a turistas de todo el país."
-    }
+    "paragraph1": "La capital de Paraguay es una ciudad llena de historia y cultura. Hay muchas cosas que hacer y ver aquí, desde visitar el impresionante Palacio de los López hasta explorar el animado barrio de Carmelitas. Además, Asunción es famosa por su deliciosa comida, así que asegúrate de probar algunos de los platos típicos de la región mientras estás aquí.",
+    "title2": "Cataratas del Iguazú",
+    "image2": {
+      "src": "https://www.civitatis.com/f/argentina/buenos-aires/guia/cataratas-iguazu-m.jpg",
+      "width": 640,
+      "height": 356,
+      "alt": "Cataratas del Iguazú, Paraguay"
+    },
+    "paragraph2": "Las Cataratas del Iguazú son una de las maravillas naturales del mundo y una visita obligada si estás en Paraguay. Este impresionante conjunto de cascadas es compartido por Argentina, Brasil y Paraguay, y ofrece una experiencia única en la vida. Hay muchas actividades que puedes hacer aquí, desde caminar por los senderos hasta hacer un emocionante paseo en lancha debajo de las cascadas.",
+    "title3": "Encarnación",
+    "image3": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Puente_San_Roque_y_Costanera.jpg",
+      "width": 3000,
+      "height": 2250,
+      "alt": "Vista panorámica de la ciudad de Encarnación, Paraguay"
+    },
+    "paragraph3": "Encarnación es una ciudad situada en el sureste de Paraguay, cerca de la frontera con Argentina. Es conocida por sus playas de arena blanca y por su animada vida nocturna. Durante el carnaval de Encarnación, que se celebra cada año en febrero, la ciudad se convierte en un verdadero espectáculo de música, baile y colorido.",
+    "title4": "La Santísima Trinidad de Paraná",
+    "image4": {
+      "src": "https://i0.wp.com/viajealpatrimonio.com/wp-content/uploads/2020/08/0821-misiones-jesuiticas-de-la-santisima-trinidad-de-parana-y-jesus-de-tavarangue.jpg?ssl=1",
+      "width": 1024,
+      "height": 684,
+      "alt": "Ruinas de la misión jesuítica de La Santísima Trinidad de Paraná"
+    },
+    "paragraph4": "La Santísima Trinidad de Paraná es un sitio declarado Patrimonio de la Humanidad por la UNESCO. Se trata de las ruinas de una misión jesuítica fundada en el siglo XVIII, que sirvió como modelo para otras misiones en la región. Hoy en día, los visitantes pueden explorar las ruinas y aprender sobre la historia de la misión y su impacto en la región.",
+    "title5": "Parque Nacional Ybycuí",
+    "image5": {
+      "src": "https://img.oastatic.com/img2/15837865/600x300r/salto-mina.jpg",
+      "width": 600,
+      "height": 300,
+      "alt": "Waterfall in Parque Nacional Ybycuí"
+    },
+    "paragraph5": "El Parque Nacional Ybycuí es un lugar ideal para los amantes de la naturaleza y el ecoturismo. Aquí puedes encontrar cascadas, ríos, senderos para caminatas, y una gran variedad de flora y fauna. Además, puedes disfrutar de actividades como la pesca deportiva y el avistamiento de aves.",
+    "title6": "San Bernardino",
+    "image6": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Lago_Ypacara%C3%AD.jpg",
+      "width": 2048,
+      "height": 1536,
+      "alt": "Lake view in San Bernardino, Paraguay"
+    },
+    "paragraph6": "San Bernardino es un hermoso pueblo ubicado a orillas del lago Ypacaraí, que ofrece una gran cantidad de actividades al aire libre, como la pesca, el kayak y la natación. También es famoso por sus festivales culturales, que atraen a turistas de todo el país."
+  }
 }
