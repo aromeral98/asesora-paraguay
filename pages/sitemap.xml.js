@@ -14,31 +14,37 @@ function generateSiteMap() {
            <loc>https://www.asesoraparaguay.com/freelance/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>monthly</changefreq>
-           <priority>0.8</priority>
+           <priority>0.99</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/residency/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>weekly</changefreq>
-           <priority>0.6</priority>
+           <priority>0.98</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/article/advantages/</loc>
            <lastmod>2023-03-12</lastmod>
            <changefreq>monthly</changefreq>
-           <priority>0.5</priority>
+           <priority>0.97</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/article/weather/</loc>
            <lastmod>2023-03-12</lastmod>
            <changefreq>monthly</changefreq>
-           <priority>0.4</priority>
+           <priority>0.96</priority>
+       </url>
+       <url>
+           <loc>https://www.asesoraparaguay.com/article/tourism/</loc>
+           <lastmod>2023-03-11</lastmod>
+           <changefreq>monthly</changefreq>
+           <priority>0.95</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>monthly</changefreq>
-           <priority>0.1</priority>
+           <priority>0.94</priority>
        </url>
    </urlset>
  `;
