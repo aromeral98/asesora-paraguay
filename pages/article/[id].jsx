@@ -3,20 +3,18 @@ import Layout from '../../components/shared/Layout'
 import ShareBar from '../../components/shared/ShareBar'
 import { jsonLDTypes } from '../../jsonLD/types/jsonLDTypes'
 import { articlesJSONLD } from '../../jsonLD/types/articlesJSONLD'
-import advantages from '../../articles/advantages.json'
-import weather from '../../articles/weather.json'
 import { useEffect, useState } from 'react'
 
 export default function Article({ id, data = {} }) {
   let path = id.split('/')[1]
   const [article, setArticle] = useState()
   useEffect(() => {
-    if (id === 'weather') {
-      setArticle(weather)
-    } else if (id === 'advantages') {
-      setArticle(advantages)
+    if(data && data.data){
+      setArticle(JSON.parse(data?.data)?.default)
     }
+      
   }, [])
+
   function renderArticle() {
     let html = '';
     if(article){
@@ -79,17 +77,21 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { id: 'advantages' } },
-      { params: { id: 'weather' } }],
+      { params: { id: 'weather' } },
+      { params: { id: 'tourism' } }
+    ],
     fallback: false, // can also be true or 'blocking'
   }
 }
 
 export async function getStaticProps({ params }) {
   const { id } = params;
-
+  const rawData = await import(`../../articles/${id}.json`)
+  const serializableObject = { /* your serializable data */ };
   return {
     props: {
-      id
+      id,
+      data : Object.assign({}, serializableObject, { data: JSON.stringify(rawData) })
     }
   };
 }
