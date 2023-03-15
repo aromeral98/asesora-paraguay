@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { Helmet } from 'react-helmet'
 import FreelanceContent from '../components/FreelanceContent'
 import Layout from '../components/shared/Layout'
@@ -8,7 +9,7 @@ export default function Freelance() {
 
   return (
     <Layout>
-      <Helmet>
+      <Head>
         <script type="application/ld+json">
           {JSON.stringify(jsonLDTypes.organization[0])}
         </script>
@@ -31,7 +32,7 @@ export default function Freelance() {
         <meta name="twitter:description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
         <meta name="twitter:url" content="https://asesoraparaguay.com" />
-      </Helmet>
+      </Head>
       <section className='w-full'>
         <FreelanceContent />
       </section>

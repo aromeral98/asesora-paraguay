@@ -3,12 +3,13 @@ import Layout from "../../components/shared/Layout"
 import { jsonLDTypes } from "../../jsonLD/types/jsonLDTypes"
 import articles from '../../articles/index.json'
 import Link from "next/link"
+import Head from "next/head"
 
 export default function ArticleList() {
     const data = articles
     return (
         <Layout>
-            <Helmet>
+            <Head>
                 <script type="application/ld+json">
                     {JSON.stringify(jsonLDTypes.organization[0])}
                 </script>
@@ -26,7 +27,7 @@ export default function ArticleList() {
                 <meta name="twitter:description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
                 <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
                 <meta name="twitter:url" content="https://asesoraparaguay.com" />
-            </Helmet>
+            </Head>
             <section className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow space-y-5'>
                 <h2 className="text-secondaryColor text-3xl font-medium capitalize">
                     Ultimos artículos
