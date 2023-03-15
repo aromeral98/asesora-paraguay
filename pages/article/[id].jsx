@@ -65,9 +65,9 @@ export default function Article({ id, data = {} }) {
             <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
             </div>
           </section>
-          <div className="flex justify-end my-8">
+          {/* <div className="flex justify-end my-8">
             <ShareBar title={article?.seo?.title} description={article?.seo?.description} />
-          </div>
+          </div> */}
         </article>
       </Layout>
     </>
