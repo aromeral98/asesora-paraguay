@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
   
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: lang,
+    lng: lang || 'en-EN',
     resources: {
       es: {
         global: globalEs

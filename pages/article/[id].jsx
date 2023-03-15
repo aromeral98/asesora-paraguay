@@ -9,38 +9,32 @@ export default function Article({ id, data = {} }) {
   let path = id.split('/')[1]
   const [article, setArticle] = useState()
   useEffect(() => {
-    if(data && data.data){
+    if (data && data.data) {
       setArticle(JSON.parse(data?.data)?.default)
     }
-      
+
   }, [])
 
   function renderArticle() {
     let html = '';
-    if(article){
+    if (article) {
       for (const [key, value] of Object.entries(article['article'])) {
         if (key.startsWith('title')) {
           html += `<h5 class="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">${value}</h5>`;
         } else if (key.startsWith('paragraph')) {
           html += `<p class="text-dark lg:text-lg">${value}</p>`;
         } else if (key.startsWith('image')) {
-          html += `<img src=${value.src} alt=${value.alt} style={{height: ${value.height}, width: ${value.width}}}/>`;
+          html += `<img src=${value.src} alt=${value.alt} />`;
         }
       }
     }
-    
+
 
     return html;
   }
   return (
-    <Layout>
+    <>
       <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(articlesJSONLD?.[id]?.[0])}
-        </script>
         <title>{article?.seo?.title}</title>
         <meta name="description" content={article?.seo.description} />
         <meta name="keywords" content="Paraguay, freelancers, autónomos, bajos impuestos, facilidades para emprendedores, mano de obra barata" />
@@ -55,20 +49,28 @@ export default function Article({ id, data = {} }) {
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
         <meta name="twitter:url" content="https://asesoraparaguay.com" />
         <link rel="icon" href="/favicon.ico" />
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLDTypes.organization[0])}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(articlesJSONLD?.[id]?.[0])}
+        </script>
       </Helmet>
-      <article className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow'>
-        <section className="container space-y-4 text-left mx-auto px-5" >
-          <h2 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
-            {article?.seo?.title}
-          </h2>
-          <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
-          </div>
-        </section>
-        <div className="flex justify-end my-8">
-          <ShareBar title={article?.seo?.title} description={article?.seo?.description} />
-        </div>
-      </article>
-    </Layout>
+      <Layout>
+        <article className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow'>
+          <section className="container space-y-4 text-left mx-auto px-5" >
+            <h2 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
+              {article?.seo?.title}
+            </h2>
+            <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
+            </div>
+          </section>
+          {/* <div className="flex justify-end my-8">
+            <ShareBar title={article?.seo?.title} description={article?.seo?.description} />
+          </div> */}
+        </article>
+      </Layout>
+    </>
   )
 }
 
@@ -92,7 +94,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       id,
-      data : Object.assign({}, serializableObject, { data: JSON.stringify(rawData) })
+      data: Object.assign({}, serializableObject, { data: JSON.stringify(rawData) })
     }
   };
 }

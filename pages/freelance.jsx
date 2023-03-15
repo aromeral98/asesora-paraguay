@@ -8,17 +8,8 @@ import { jsonLDTypes } from '../jsonLD/types/jsonLDTypes'
 export default function Freelance() {
 
   return (
-    <Layout>
+    <>
       <Head>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.freelance[0])}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.freelance[1])}
-        </script>
         <title>Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay</title>
         <meta name="description" content="Descubre las ventajas e inconvenientes de mudarte a Paraguay como freelance. Te contamos sobre el sistema de tributación territorial, la regulación de visitas al país, el clima para emprendimiento y mucho más." />
         <meta name="keywords" content="Mudarse a Paraguay, Freelance, Ventajas de mudarse a Paraguay, Sistema tributario, Residencia permanente, Derechos de residencia, Paraguay, Inmigración, Asesoría migratoria" />
@@ -32,10 +23,21 @@ export default function Freelance() {
         <meta name="twitter:description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
         <meta name="twitter:url" content="https://asesoraparaguay.com" />
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLDTypes.organization[0])}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLDTypes.freelance[0])}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLDTypes.freelance[1])}
+        </script>
       </Head>
-      <section className='w-full'>
-        <FreelanceContent />
-      </section>
-    </Layout>
+      <Layout>
+        <section className='w-full'>
+          <FreelanceContent />
+        </section>
+      </Layout>
+    </>
   )
 }
