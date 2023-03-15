@@ -44,16 +44,16 @@ export default function Article({ id, data = {} }) {
         <title>{article?.seo?.title}</title>
         <meta name="description" content={article?.seo.description} />
         <meta name="keywords" content="Paraguay, freelancers, autónomos, bajos impuestos, facilidades para emprendedores, mano de obra barata" />
-        <meta property="og:title" content={article?.seo.title} />
-        <meta property="og:description" content={article?.seo.description} />
-        <meta property="og:image" content="URL de la imagen que quieras mostrar en la publicación" />
-        <meta property="og:url" content="URL del artículo en tu sitio web" />
-        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Asesora Paraguay - Despacho especializado en migración y tramitación de residencias y nacionalidad" />
+        <meta property="og:description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
+        <meta property="og:image" content="https://asesoraparaguay.com/img/card.webp" />
+        <meta property="og:url" content="https://asesoraparaguay.com" />
+        <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={article?.seo.title} />
-        <meta name="twitter:description" content={article?.seo.description} />
-        <meta name="twitter:image" content="URL de la imagen que quieras mostrar en la publicación" />
-        <meta name="twitter:url" content="URL del artículo en tu sitio web" />
+        <meta name="twitter:title" content="Asesora Paraguay - Despacho especializado en migración y tramitación de residencias y nacionalidad" />
+        <meta name="twitter:description" content="Somos un despacho especializado en migración y tramitación de residencias y nacionalidad en Paraguay. Brindamos asesoría a empresarios, inversores y nómadas digitales en todo momento del proceso." />
+        <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
+        <meta name="twitter:url" content="https://asesoraparaguay.com" />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
       <article className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow'>
