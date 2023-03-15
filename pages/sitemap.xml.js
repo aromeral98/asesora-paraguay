@@ -41,10 +41,16 @@ function generateSiteMap() {
            <priority>0.95</priority>
        </url>
        <url>
+           <loc>https://www.asesoraparaguay.com/article/lowesttaxedcountries/</loc>
+           <lastmod>2023-03-15</lastmod>
+           <changefreq>monthly</changefreq>
+           <priority>0.94</priority>
+       </url>
+       <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>monthly</changefreq>
-           <priority>0.94</priority>
+           <priority>0.5</priority>
        </url>
    </urlset>
  `;
