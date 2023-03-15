@@ -31,7 +31,7 @@ export default function ArticleList() {
                                         <p className="text-gray-700 text-base">{value.description}</p>
                                     </div>
                                 </div>
-                                <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-b lg:rounded-t-none lg:rounded-r text-center overflow-hidden" style={{ backgroundImage: `url(${value.image.src})` }} title={value.image.alt}>
+                                <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-b lg:rounded-t-none lg:rounded-r text-center overflow-hidden" style={{ backgroundImage: `url(${value?.image?.src})`, backgroundPosition: 'center' }} title={value?.image?.alt}>
                                 </div>
                             </div>
                         </Link>

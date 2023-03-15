@@ -78,7 +78,8 @@ export async function getStaticPaths() {
     paths: [
       { params: { id: 'advantages' } },
       { params: { id: 'weather' } },
-      { params: { id: 'tourism' } }
+      { params: { id: 'tourism' } },
+      { params: { id: 'lowesttaxedcountries' } }
     ],
     fallback: false, // can also be true or 'blocking'
   }
