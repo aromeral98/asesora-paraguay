@@ -24,7 +24,7 @@ export default function Article({ id, data = {} }) {
         } else if (key.startsWith('paragraph')) {
           html += `<p class="text-dark lg:text-lg">${value}</p>`;
         } else if (key.startsWith('image')) {
-          html += `<img src=${value.src} alt=${value.alt} style={{height: ${value.height}, width: ${value.width}}}/>`;
+          html += `<img src=${value.src} alt=${value.alt} />`;
         }
       }
     }
