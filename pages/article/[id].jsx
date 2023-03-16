@@ -11,8 +11,7 @@ export default function Article({ id, data = {} }) {
     if (data && data.data) {
       setArticle(JSON.parse(data?.data)?.default)
     }
-
-  }, [])
+  }, [data])
 
   function renderArticle() {
     let html = '';
