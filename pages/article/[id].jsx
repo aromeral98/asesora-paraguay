@@ -2,6 +2,7 @@ import Layout from '../../components/shared/Layout'
 import { jsonLDTypes } from '../../jsonLD/types/jsonLDTypes'
 import { articlesJSONLD } from '../../jsonLD/types/articlesJSONLD'
 import { useEffect, useState } from 'react'
+import Head from 'next/head'
 
 export default function Article({ id, data = {} }) {
   let path = id.split('/')[1]
