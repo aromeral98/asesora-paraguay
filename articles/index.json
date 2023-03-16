@@ -25,7 +25,7 @@
         "title": "Turismo en Paraguay: lugares para visitar",
         "description": "Descubre algunos de los mejores destinos y lugares para visitar en Paraguay. Desde su cultura hasta su gastronomía, pasando por su rica historia y sus impresionantes paisajes naturales, hay algo para todos.",
         "image": {
-            "src": "https://media-cdn.tripadvisor.com/media/photo-s/16/7f/5f/09/cerro-akati.jpg",
+            "src": "../../img/articles/tourism/index.jpg",
             "width": 550,
             "height": 413,
             "alt": "Landscape Akatí hill with 2 people on a bench watching the nature"

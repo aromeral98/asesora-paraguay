@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet"
 import Layout from "../../components/shared/Layout"
 import { jsonLDTypes } from "../../jsonLD/types/jsonLDTypes"
 import articles from '../../articles/index.json'
