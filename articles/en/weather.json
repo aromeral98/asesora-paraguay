@@ -1,0 +1,24 @@
+{
+    "seo": {
+        "title": "Paraguay's Climate: Temperatures and Weather Conditions",
+        "description": "Discover everything about Paraguay's climate: temperatures, seasons and weather conditions. What's the best time to visit the country? Find out here. #Paraguay #Climate",
+        "keywords": "Paraguay, climate, temperatures, seasons, weather conditions"
+    },
+    "article": {
+        "image": {
+            "src": "../../img/articles/weather/0.png",
+            "width": 1680,
+            "height": 1050,
+            "alt": "Paraguay landscape with Parana River on front"
+        },
+        "paragraph": "Paraguay's climate is tropical in most of its territory, although there are some regions with a subtropical climate. Temperatures are warm and humid throughout the year, with an average annual temperature of around 25°C.",
+        "title1": "Seasons in Paraguay",
+        "paragraph1": "The country has two main seasons: the wet season and the dry season. The wet season starts in October and lasts until April, while the dry season goes from May to September. During the wet season, rains are frequent and sometimes can be very intense, while in the dry season, rains are less common.",
+        "paragraph1.1": "In the north of the country, the climate is more tropical, while in the south it is more subtropical. In the north, temperatures can exceed 40°C during the summer, while in the south, temperatures are cooler and pleasant.",
+        "title2": "Best Time to Visit Paraguay",
+        "paragraph2": "The best time to visit Paraguay is during the dry season, from May to September. During this period, temperatures are cooler and rains are less common, making it easier to move around the country and enjoy all the attractions it has to offer.",
+        "title3": "Weather Conditions",
+        "paragraph3": "In addition to the seasons, Paraguay is also subject to meteorological phenomena such as thunderstorms, which can be very intense during the wet season. There are also occasions when the country is affected by tropical cyclones and strong winds, especially in the north of the country.",
+        "paragraph3.1": "In conclusion, Paraguay's climate is mostly tropical, with warm and humid temperatures throughout the year. The seasons are the wet season and the dry season, and the best time to visit the country is during the dry season. Keep in mind that the country can be affected by meteorological phenomena such as thunderstorms and tropical cyclones, especially in the north of the country. However, with proper planning, Paraguay is an exciting destination to visit throughout the year."
+    }
+}
