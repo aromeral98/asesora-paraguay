@@ -14,7 +14,7 @@ export default function Navbar() {
   const { t } = useTranslation('global')
   const routes = [
     { title: t('home'), path: '/' },
-    { title: t('freelance'), path: '/freelance' },
+    { title: t('freelance'), path: '/move-to-paraguay-as-a-freelancer' },
     // { title: 'Certificados', path: '/certificates' },
     // { title: 'Ciudadania', path: '/citizenship' },
     { title: t('residence'), path: '/residency' },

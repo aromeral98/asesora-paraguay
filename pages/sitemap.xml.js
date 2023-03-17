@@ -11,7 +11,7 @@ function generateSiteMap() {
            <priority>1.0</priority>
        </url>
        <url>
-           <loc>https://www.asesoraparaguay.com/freelance/</loc>
+           <loc>https://www.asesoraparaguay.com/move-to-paraguay-as-a-freelancer/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.99</priority>
