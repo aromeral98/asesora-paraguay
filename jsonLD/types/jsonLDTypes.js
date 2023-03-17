@@ -1,105 +1,105 @@
 export const jsonLDTypes = {
-        organization: [{
-            "@context": "https://schema.org/",
-            "@type": "Organization",
-            "name": "Asesora Paraguay",
-            "url": "https://asesoraparaguay.com/",
-            "logo": "https://asesoraparaguay.com/logo.webp",
-            "description": "Ofrecemos servicios de asesoría para la tramitación de residencias en Paraguay a extranjeros, especialmente para nómadas digitales y freelancers que desean pagar menos impuestos.",
-            "sameAs": [
-                "https://www.facebook.com/AsesoraParaguay/",
-                "https://twitter.com/AsesoraParaguay/",
-                "https://www.instagram.com/AsesoraParaguay/"
-            ],
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Calle Principal 1234",
-                "addressLocality": "Asunción",
-                "postalCode": "12345",
-                "addressCountry": "Paraguay"
-            },
-        }],
-        freelance: [
-            {
-                "@context": "https://schema.org",
-                "@type": "Advantages",
-                "name": "Ventajas de solicitar residencia en Paraguay",
-                "description": "Tramitamos residencias en Paraguay para extranjeros, principalmente enfocado a nómadas digitales o freelancers que quieran pagar menos impuestos",
-                "url": "https://asesoraparaguay.com",
-                "mainEntity": {
-                    "@type": "offers",
-                    "name": "Residencia para Freelancers",
-                    "description": "Obtén tu residencia en Paraguay como freelancer y paga solo el 10% de impuestos",
-                    "brand": {
-                        "@type": "OrganizationName",
-                        "name": "Asesora Paraguay"
-                    },
-                    "additionalProperty": [
-                        {
-                            "@type": "Advantage",
-                            "name": "Tributación territorial",
-                            "value": "Si eres nómada digital y tus ingresos provienen de fuera del Paraguay, estarás totalmente exento de tributar por ellos. El pago de dividendos provenientes de una empresa extranjera también estaría totalmente libre de impuestos."
-                        },
-                        {
-                            "@type": "Advantage",
-                            "name": "Visita el país un mínimo de 1 vez cada 3 años",
-                            "value": "Según la regulación actual del país, debes pasar al menos 1 vez cada 3 años por el país para demostrar que efectivamente resides en él. De igual forma, no hay forma de comprobar esa estancia por lo tanto hay gente que pasa periodos más largos sin entrar al Paraguay."
-                        },
-                        {
-                            "@type": "Advantage",
-                            "name": "Buen clima para emprendimiento",
-                            "value": "Paraguay es un país en el cual las infraestructuras todavía están por desarrollar y mejorar en gran parte. Por lo tanto, se vuelve una buena opción a la hora de inversión, gracias a los bajos impuestos y la ayuda de los gobiernos para incentivar la inversión extranjera en el país en cualquiera de sus formas."
-                        },
-                        {
-                            "@type": "Advantage",
-                            "name": "Residencia permanente vitalicia",
-                            "value": "La residencia permanente en Paraguay no tiene fecha de caducidad, por lo tanto, no tendrás que preocuparte por renovarla."
-                        },
-                        {
-                            "@type": "Advantage",
-                            "name": "Derechos con tu residencia",
-                            "value": "Una vez que obtengas tu residencia, podrás acceder a los mismos derechos que cualquier ciudadano, excepto a la participación en la política. Podrás montar empresas, negocios, sacarte el carnet de conducir, invertir e incluso podrás comprar propiedades si tu objetivo es quedarte a vivir o incluso entrar en el negocio inmobiliario."
-                        }
-                    ]
-                }
-            },
-            {
-                "@context": "https://schema.org/",
-                "@type": "Requisitos",
-                "name": "Requisitos para solicitud de residencia en Paraguay",
-                "description": "Conoce los requisitos necesarios para solicitar la residencia en Paraguay.",
-                "requirements": [
+    organization: [{
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Asesora Paraguay",
+        "url": "https://asesoraparaguay.com/",
+        "logo": "https://asesoraparaguay.com/logo.webp",
+        "description": "We offer advisory services for residency processing in Paraguay to foreigners, especially for digital nomads and freelancers who want to pay less taxes.",
+        "sameAs": [
+            "https://www.facebook.com/AsesoraParaguay/",
+            "https://twitter.com/AsesoraParaguay/",
+            "https://www.instagram.com/AsesoraParaguay/"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Main Street 1234",
+            "addressLocality": "Asunción",
+            "postalCode": "12345",
+            "addressCountry": "Paraguay"
+        },
+    }],
+    freelance: [
+        {
+            "@context": "https://schema.org",
+            "@type": "Advantages",
+            "name": "Advantages of Applying for Residency in Paraguay",
+            "description": "We process residency in Paraguay for foreigners, mainly focused on digital nomads or freelancers who want to pay less taxes.",
+            "url": "https://asesoraparaguay.com",
+            "mainEntity": {
+                "@type": "offers",
+                "name": "Residency for Freelancers",
+                "description": "Get your residency in Paraguay as a freelancer and pay only 10% in taxes.",
+                "brand": {
+                    "@type": "OrganizationName",
+                    "name": "Asesora Paraguay"
+                },
+                "additionalProperty": [
                     {
-                        "@type": "Requirement",
-                        "name": "Certificado de nacimiento",
-                        "description": "Una copia actual del original emitida por el registro civil correspondiente es suficiente."
+                        "@type": "Advantage",
+                        "name": "Territorial taxation",
+                        "value": "If you are a digital nomad and your income comes from outside of Paraguay, you will be totally exempt from paying taxes on it. Dividends from a foreign company would also be completely tax-free."
                     },
                     {
-                        "@type": "Requirement",
-                        "name": "Carta de buena conducta o antecedentes penales",
-                        "description": "Este documento es sólo necesario para mayores de 14 años y no debe tener más de 2,5 meses de antigüedad."
+                        "@type": "Advantage",
+                        "name": "Visit the country at least once every 3 years",
+                        "value": "According to the current regulation of the country, you must visit the country at least once every 3 years to demonstrate that you actually reside there. Similarly, there is no way to prove that stay, so some people spend longer periods without entering Paraguay."
                     },
                     {
-                        "@type": "Requirement",
-                        "name": "Certificado de matrimonio o divorcio",
-                        "description": "En caso de estar casado o divorciado, debes presentar el certificado respectivo para comprobar tu estado civil. Según sea tu país de origen, estos documentos deben estar o apostillados con la apostilla de La Haya, como es el caso de España; o en ciertos casos deben ser legalizados por el consulado de Paraguay correspondiente en tu país de origen o de residencia actual."
+                        "@type": "Advantage",
+                        "name": "Good climate for entrepreneurship",
+                        "value": "Paraguay is a country where infrastructure is still largely underdeveloped and in need of improvement. Therefore, it becomes a good investment option thanks to low taxes and government support to encourage foreign investment in the country in any of its forms."
                     },
                     {
-                        "@type": "Requirement",
-                        "name": "Cuenta bancaria en moneda local",
-                        "description": "Debes demostrar solvencia económica con un depósito de 34.331.150 de guaraníes (aprox. 4.600€) que se mantendrá bloqueado hasta obtener el carné de radicación y la cédula de identidad. Una vez retirados estos documentos, puede retirarse también el depósito. En caso de estar casado, sólo se requiere una única cuenta para la pareja y/o la familia con hijos menores de edad. Si posees un Título Profesional a nivel Universitario, puedes utilizarlo como aval para demostrar solvencia económica y así evitar tener que realizar el depósito arriba mencionado. Si eres pensionado, la notificación de la pensión también sirve como aval de solvencia económica y no se necesitará el depósito."
+                        "@type": "Advantage",
+                        "name": "Lifelong permanent residency",
+                        "value": "Permanent residency in Paraguay has no expiration date, so you won't have to worry about renewing it."
                     },
                     {
-                        "@type": "Requirement",
-                        "name": "Certificado Sanitario",
-                        "description": "Este documento lo obtienes directamente en Paraguay durante tu visita para realizar la solicitud de residencia."
-                    },
-                    {
-                        "@type": "Requirement",
-                        "name": "Notificación de la pensión",
-                        "description": "En caso de ser pensionado, deberás presentar el documento que indique el importe que actualmente percibes, expedido por la entidad competente, caja de pensiones, etc., a fin de probar solvencia económica."
+                        "@type": "Advantage",
+                        "name": "Rights with your residency",
+                        "value": "Once you obtain your residency, you will have access to the same rights as any citizen, except for participation in politics. You can set up companies, businesses, get a driver's license, invest, and even buy properties if your goal is to stay and live in the country or even enter the real estate business."
                     }
                 ]
             }
-        ]
-    }
+        },
+        {
+            "@context": "https://schema.org/",
+            "@type": "Requirements",
+            "name": "Requirements for residency application in Paraguay",
+            "description": "Learn about the necessary requirements for applying for residency in Paraguay.",
+            "requirements": [
+                {
+                    "@type": "Requirement",
+                    "name": "Birth certificate",
+                    "description": "An up-to-date copy of the original issued by the corresponding civil registry is sufficient."
+                },
+                {
+                    "@type": "Requirement",
+                    "name": "Good conduct certificate or criminal record",
+                    "description": "This document is only necessary for persons over 14 years of age and should not be more than 2.5 months old."
+                },
+                {
+                    "@type": "Requirement",
+                    "name": "Marriage or divorce certificate",
+                    "description": "If you are married or divorced, you must present the respective certificate to prove your marital status. Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain, or in certain cases they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence."
+                },
+                {
+                    "@type": "Requirement",
+                    "name": "Local currency bank account",
+                    "description": "You must demonstrate financial solvency with a deposit of 34,331,150 Paraguayan guaraníes (approx. 4,600€) that will be held in escrow until you obtain your residency card and identity card. Once these documents have been obtained, the deposit can be withdrawn. If you are married, only one account is required for the couple and/or the family with minor children. If you hold a University-level Professional Degree, you can use it as collateral to demonstrate financial solvency and avoid having to make the above-mentioned deposit. If you are a pensioner, the notification of your pension also serves as proof of financial solvency and the deposit will not be required."
+                },
+                {
+                    "@type": "Requirement",
+                    "name": "Health Certificate",
+                    "description": "This document can be obtained directly in Paraguay during your visit to apply for residency."
+                },
+                {
+                    "@type": "Requirement",
+                    "name": "Pension notification",
+                    "description": "If you are a pensioner, you must present the document indicating the amount you currently receive, issued by the competent authority, pension fund, etc., in order to prove financial solvency."
+                }
+            ]
+        }
+    ]
+}
