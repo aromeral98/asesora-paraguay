@@ -25,7 +25,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org/",
       "@type": "Article",
-      "name": "Clima de Paraguay: temperaturas y condiciones meteorológicas",
+      "name": "Paraguay Weather: Temperatures and Meteorological Conditions",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/weather"
@@ -37,8 +37,8 @@ export const articlesJSONLD = {
         "width": "1920"
       },
       "id": "weather",
-      "headline": "Clima de Paraguay: temperaturas y condiciones meteorológicas",
-      "description": "Descubre todo sobre el clima de Paraguay: temperaturas, estaciones del año y condiciones meteorológicas. ¿Cuál es la mejor época para visitar el país? Encuentra la respuesta aquí. #Paraguay #Clima",
+      "headline": "Paraguay Weather: Temperatures and Meteorological Conditions",
+      "description": "Discover all about Paraguay's weather: temperatures, seasons, and meteorological conditions. When is the best time to visit the country? Find out the answer here. #Paraguay #Weather",
       "datePublished": "2023-03-13",
       "dateModified": "2023-03-13"
     }
@@ -47,7 +47,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org/",
       "@type": "Article",
-      "name": "Turismo en Paraguay: lugares para visitar",
+      "name": "Tourism in Paraguay: Best Places to Visit",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/tourism"
@@ -59,8 +59,8 @@ export const articlesJSONLD = {
         "width": "1920"
       },
       "id": "tourism",
-      "headline": "Turismo en Paraguay: lugares para visitar",
-      "description": "Descubre algunos de los mejores destinos y lugares para visitar en Paraguay. Desde su cultura hasta su gastronomía, pasando por su rica historia y sus impresionantes paisajes naturales, hay algo para todos. #TurismoParaguay #LugaresVisitar",
+      "headline": "Tourism in Paraguay: Best Places to Visit",
+      "description": "Discover some of the best destinations and places to visit in Paraguay. From its culture to its gastronomy, rich history and impressive natural landscapes, there's something for everyone. Plan your perfect Paraguay trip with our expert travel tips. #ParaguayTourism #BestPlacesToVisit",
       "datePublished": "2023-03-14",
       "dateModified": "2023-03-14"
     }
@@ -69,7 +69,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "name": "Países con baja tributación: Descubre los lugares con los impuestos más bajos",
+      "name": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/lowesttaxedcountries"
@@ -81,9 +81,9 @@ export const articlesJSONLD = {
         "width": "1920"
       },
       "id": "lowesttaxedcountries",
-      "headline": "Países con baja tributación: Descubre los lugares con los impuestos más bajos",
-      "description": "¿Estás buscando países con baja tributación? Descubre los lugares del mundo donde puedes ahorrar dinero en impuestos y tener más libertad financiera. Encuentra toda la información que necesitas aquí. #bajatributación #bajosimpuestos #ahorrodeimpuestos",
-      "keywords": "países con baja tributación, impuestos bajos, ahorro de impuestos, paraíso fiscal",
+      "headline": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
+      "description": "Are you looking for countries with low taxation? Discover the places in the world where you can save money on taxes and have more financial freedom. Find all the information you need here. #lowesttaxedcountries #lowtaxes #taxsavings",
+      "keywords": "countries with low taxation, low taxes, tax savings, tax haven",
     }
   ]
 }
