@@ -87,7 +87,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { id } = params;
-  const rawData = await import(`../../articles/${id}.json`)
+  const rawData = await import(`../../articles/en/${id}.json`)
   const serializableObject = { /* your serializable data */ };
   return {
     props: {
