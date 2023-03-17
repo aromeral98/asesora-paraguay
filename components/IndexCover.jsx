@@ -14,7 +14,7 @@ export default function IndexCover() {
             <div className='index-cover-caption-container'>
                 <div className="index-cover-caption-title">
                     <h1>
-                        {t('homelayout.firstcontainer')}
+                    {t('homelayout.firstcontainer.title')}
                     </h1>
                 </div>
             </div>

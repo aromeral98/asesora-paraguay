@@ -10,24 +10,29 @@
     "freelanceadvantages": "Ventajas freelancers",
     "procedures": "Tramites",
     "homelayout": {
-        "firstcontainer": "En Asesora Paraguay, nos especializamos en brindar asesoramiento a freelancers y empresarios que desean trasladar su residencia fiscal a Paraguay. Contamos con un equipo de expertos en asesoría fiscal y abogados de inmigración, quienes te guiarán para encontrar la mejor opción según tus necesidades. Además, nos encargamos de agilizar todos los trámites necesarios en tiempo récord, para que puedas comenzar a ahorrar en impuestos cuanto antes. ¡Contáctanos y comienza a disfrutar de los beneficios fiscales que ofrece Paraguay!",
-        "secondcontainer": {
+        "firstcontainer": {
+            "title": "Asesoramiento experto en impuestos e inmigración para freelancers y emprendedores en Paraguay",
+            "description": "En Asesora Paraguay, nos especializamos en brindar asesoramiento experto y orientación a freelancers y emprendedores que desean trasladar su residencia fiscal a Paraguay. Nuestro equipo de experimentados asesores fiscales y abogados de inmigración lo ayudará a encontrar la mejor opción de acuerdo a sus necesidades y objetivos únicos."
+            },
+            "secondcontainer": {
             "firsttitle": "¿Quiénes somos?",
-            "firstparagraph": "¡Bienvenido a nuestra web de tramitación de residencias en Paraguay! Si eres una persona que trabaja de forma remota o eres un nómada digital, has llegado al lugar indicado.",
-            "secondparagraph": "Paraguay es un país con un clima excepcional y con una economía en crecimiento que ofrece una gran cantidad de beneficios fiscales, como bajos impuestos del 10% que pueden llegar a ser del 0%.",
-            "thirdparagraph": "Además, en Paraguay puedes obtener una residencia sin tener que residir físicamente en el país, lo que lo convierte en una excelente opción para aquellos que buscan establecer una base en América Latina.",
-            "fourthparagraph": "En nuestra web, te ayudaremos a tramitar tu residencia de forma rápida y fácil, para que puedas disfrutar de todo lo que Paraguay tiene para ofrecer. ¡Empecemos hoy mismo!",
+            "firstparagraph": "En Asesora Paraguay, somos un equipo especializado de asesores fiscales y abogados de inmigración dedicados a ayudar a digital nomads, emprendedores e inversores a establecer su residencia fiscal en Paraguay. Nuestro objetivo es brindarle asesoramiento y orientación expertos durante todo el proceso de obtención de residencia y ciudadanía en este hermoso país.",
+            "secondparagraph": "Paraguay ofrece una amplia gama de beneficios fiscales, incluyendo bajos impuestos que pueden llegar a 0%, lo que lo convierte en una excelente opción para aquellos que buscan optimizar su situación fiscal. Además, es posible obtener la residencia en Paraguay sin residir físicamente en el país, lo que lo convierte en una opción atractiva para aquellos que desean establecer una base en América Latina.",
+            "thirdparagraph": "Ofrecemos una amplia gama de servicios para ayudarlo a establecer su residencia fiscal en Paraguay, que incluyen asesoramiento fiscal, procedimientos de residencia y solicitudes de ciudadanía. Nuestro equipo de expertos se compromete a hacer que el proceso sea lo más fluido y eficiente posible, para que pueda comenzar a disfrutar de los beneficios fiscales que Paraguay ofrece sin demora.",
+            "fourthparagraph": "Ya sea que sea un nomada digital freelance, un inversor o un emprendedor, tenemos la experiencia y el conocimiento para ayudarlo a navegar por las complejas leyes fiscales y de inmigración en Paraguay. ",
+            "fourthparagraph2" :" Contáctenos hoy para programar una consulta ",
+            "fourthparagraph3": " y comenzar a planificar su mudanza a Paraguay. ¡Permítanos ayudarlo a aprovechar las muchas oportunidades que este hermoso país tiene para ofrecer! ",
             "cardstitle": "¿En qué podemos ayudarte?",
             "firstcardtitle": "REGISTRO CIVIL PARAGUAYO",
             "firstcarddescription": "Tramitamos actas de registro civil, matrimonio, defunción, partidas de nacimiento, certificados de antecedentes penales y legalizaciones en Paraguay, con rapidez y eficiencia. Confía en nosotros para gestionar tus trámites de manera efectiva.",
             "secondcardtitle": "CIUDADANÍA PARAGUAYA",
             "secondcarddescription": "Especialistas en la solicitud de la ciudadanía paraguaya, brindando asesoría y acompañamiento en todas las fases del proceso. Agilizamos todos tus tramites para conseguir tu ciudadania en tiempo record",
             "thirdcardtitle": "Residencia en Paraguay",
-            "thirdcarddescription": "Obtén tu residencia en Paraguay de manera rápida y sencilla con Asesora Paraguay. Disfruta de las jugosas políticas económicas del país y comienza a invertir y pagar impuestos cuanto antes. ¡Asegura tu futuro financiero hoy mismo con nuestro servicio eficiente!",
+            "thirdcarddescription": "Consigue tu residencia en Paraguay de forma rápida y sencilla con Asesora Paraguay. Aprovecha las beneficiosas políticas económicas del país y comienza a invertir y pagar impuestos sin demora. Asegura tu futuro financiero hoy mismo con nuestro servicio eficiente.",
             "fourthcardtitle": "TRAMITES EN PARAGUAY",
             "fourthcarddescription": "En Asesora Paraguay te informamos de todos los tramites necesarios, para que tengas que hacer el minimo esfuerzo, nosotros haremos todo lo posible.",
             "fifthcardtitle": "FREELANCE",
-            "fifthcarddescription": "Te informaremos de todas las ventajas que tendrás como nómada digital a la hora de establecerte en el país"
+            "fifthcarddescription": "Ventajas para nómadas digitales en Paraguay. Descubre por qué este país es una excelente opción para establecerte como freelance. Conoce los requisitos y beneficios fiscales."
         }
     },
     "freelancelayout": {

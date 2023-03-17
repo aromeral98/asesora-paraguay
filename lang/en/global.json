@@ -9,24 +9,29 @@
     "freelanceadvantages": "Freelancers Advantages",
     "procedures": "Procedures",
     "homelayout": {
-        "firstcontainer": "At Asesora Paraguay, we specialize in providing advice to freelancers and entrepreneurs who want to move their tax residence to Paraguay. We have a team of experts in tax advice and immigration lawyers who will guide you to find the best option according to your needs. Additionally, we take care of expediting all necessary procedures in record time so that you can start saving on taxes as soon as possible. Contact us and start enjoying the tax benefits that Paraguay offers!",
+        "firstcontainer": {
+            "title": "Expert Tax and Immigration Advice for Freelancers and Entrepreneurs in Paraguay",
+            "description": "At Asesora Paraguay, we specialize in providing expert advice and guidance for freelancers and entrepreneurs who want to move their tax residence to Paraguay. Our team of experienced tax advisors and immigration lawyers will help you find the best option according to your unique needs and goals."
+        },
         "secondcontainer": {
             "firsttitle": "Who are we?",
-            "firstparagraph": "Welcome to our website for processing residences in Paraguay! If you are a person who works remotely or is a digital nomad, you have come to the right place.",
-            "secondparagraph": "Paraguay is a country with exceptional weather and a growing economy that offers a great deal of tax benefits, such as low taxes of 10% that can go down to 0%.",
-            "thirdparagraph": "In addition, in Paraguay, you can obtain a residence without having to physically reside in the country, making it an excellent option for those looking to establish a base in Latin America.",
-            "fourthparagraph": "On our website, we will help you process your residence quickly and easily, so you can enjoy everything that Paraguay has to offer. Let's get started today!",
+            "firstparagraph": "Asesora Paraguay, we are a specialized team of tax advisors and immigration lawyers dedicated to helping digital nomads, entrepreneurs, and investors establish their tax residence in Paraguay. Our goal is to provide you with expert advice and guidance throughout the process of obtaining residency and citizenship in this beautiful country.",
+            "secondparagraph": "Paraguay offers a range of tax benefits, including low taxes that can go down to 0%, making it an excellent choice for those looking to optimize their tax situation. Moreover, it's possible to obtain residency in Paraguay without physically residing in the country, which makes it an attractive option for those who want to establish a base in Latin America.",
+            "thirdparagraph": "We offer a wide range of services to help you establish your tax residence in Paraguay, including tax advice, residency procedures, and citizenship applications. Our team of experts is committed to making the process as smooth and efficient as possible, so you can start enjoying the tax benefits that Paraguay offers without delay.",
+            "fourthparagraph": "Whether you're a digital nomad, an investor, or an entrepreneur, we have the expertise and knowledge to help you navigate the complex tax and immigration laws in Paraguay.",
+            "fourthparagraph2" :" Contact us today to schedule a consultation ",
+            "fourthparagraph3": " and start planning your move to Paraguay. Let us help you take advantage of the many opportunities this beautiful country has to offer! ",
             "cardstitle": "How can we help you?",
             "firstcardtitle": "PARAGUAYAN CIVIL REGISTRY",
             "firstcarddescription": "We process civil registry records, marriage, death, birth certificates, criminal record certificates, and legalizations in Paraguay quickly and efficiently. Trust us to manage your procedures effectively.",
             "secondcardtitle": "PARAGUAYAN CITIZENSHIP",
             "secondcarddescription": "Specialists in the request for Paraguayan citizenship, providing advice and accompaniment in all phases of the process. We expedite all your procedures to obtain your citizenship in record time.",
             "thirdcardtitle": "Residence in Paraguay",
-            "thirdcarddescription": "Obtain your residence in Paraguay quickly and easily with Asesora Paraguay. Enjoy the country's juicy economic policies and start investing and paying taxes as soon as possible. Secure your financial future today with our efficient service!",
+            "thirdcarddescription": "Obtain your residency in Paraguay quickly and easily with Asesora Paraguay. Take advantage of the country's beneficial economic policies and start investing and paying taxes without delay. Secure your financial future today with our efficient service.",
             "fourthcardtitle": "PROCEDURES IN PARAGUAY",
             "fourthcarddescription": "At Asesora Paraguay, we inform you of all the necessary procedures, so that you have to make the minimum effort. We will do everything possible.",
             "fifthcardtitle": "FREELANCE",
-            "fifthcarddescription": "We will inform you about the advantages of being freelancer on our country."
+            "fifthcarddescription": "Advantages for Digital Nomads in Paraguay. Discover why this country is an excellent option to establish yourself as a freelancer. Learn about the requirements and tax benefits."
         }
     },
     "freelancelayout": {
