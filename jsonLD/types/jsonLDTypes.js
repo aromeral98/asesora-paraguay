@@ -6,10 +6,10 @@ export const jsonLDTypes = {
         "url": "https://asesoraparaguay.com/",
         "logo": "https://asesoraparaguay.com/logo.webp",
         "description": "We offer advisory services for residency processing in Paraguay to foreigners, especially for digital nomads and freelancers who want to pay less taxes.",
-        "sameAs": [
-            "https://www.facebook.com/AsesoraParaguay/",
-            "https://twitter.com/AsesoraParaguay/",
-            "https://www.instagram.com/AsesoraParaguay/"
+        "rss": [
+            "https://www.facebook.com/asesoraparaguay/",
+            "https://twitter.com/asesoraparaguay/",
+            "https://www.instagram.com/asesoraparaguay/"
         ],
         "address": {
             "@type": "PostalAddress",
@@ -25,7 +25,7 @@ export const jsonLDTypes = {
             "@type": "Advantages",
             "name": "Advantages of Applying for Residency in Paraguay",
             "description": "We process residency in Paraguay for foreigners, mainly focused on digital nomads or freelancers who want to pay less taxes.",
-            "url": "https://asesoraparaguay.com",
+            "url": "https://asesoraparaguay.com/freelance",
             "mainEntity": {
                 "@type": "offers",
                 "name": "Residency for Freelancers",
