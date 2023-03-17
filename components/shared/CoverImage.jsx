@@ -8,7 +8,7 @@ export default function CoverImage() {
     const { t } = useTranslation('global')
   const router = useRouter()
   const titles = [
-    {title: t('freelanceadvantages'), subtitle: t('freelance'), path: '/freelance'},
+    {title: t('freelanceadvantages'), subtitle: t('freelance'), path: '/move-to-paraguay-as-a-freelancer'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
     {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
     {title: t('residence'), subtitle: t('residence'), path: '/residency'},
