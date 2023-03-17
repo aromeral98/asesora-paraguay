@@ -9,18 +9,18 @@ export default function Freelance() {
   return (
     <>
       <Head>
-        <title>Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay</title>
-        <meta name="description" content="Descubre las ventajas e inconvenientes de mudarte a Paraguay como freelance. Te contamos sobre el sistema de tributación territorial, la regulación de visitas al país, el clima para emprendimiento y mucho más." />
-        <meta name="keywords" content="Mudarse a Paraguay, Freelance, Impuestos, Tributación territorial, Residencia permanente, Derechos de residencia, Paraguay, Inmigración, Asesoría migratoria, Nómadas digitales, Países para emigrar siendo freelance, Donde pagar menos impuestos" />
-        <meta property="og:title" content="Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay" />
-        <meta property="og:description" content="Descubre las ventajas e inconvenientes de mudarte a Paraguay como freelance. Te contamos sobre el sistema de tributación territorial, la regulación de visitas al país, el clima para emprendimiento y mucho más." />
+      <title>Moving to Paraguay as a Freelancer: Advantages and Disadvantages | Asesora Paraguay</title>
+        <meta name="description" content="Discover the advantages and disadvantages of moving to Paraguay as a freelancer. Learn about the territorial taxation system, regulation of visits to the country, climate for entrepreneurship, and much more." />
+        <meta name="keywords" content="Moving to Paraguay, Freelancer, Taxes, Territorial taxation, Permanent residency, Residence rights, Paraguay, Immigration, Migration consultancy, Digital nomads, Countries to immigrate as a freelancer, Where to pay less taxes" />
+        <meta property="og:title" content="Moving to Paraguay as a Freelancer: Advantages and Disadvantages | Asesora Paraguay" />
+        <meta property="og:description" content="Discover the advantages and disadvantages of moving to Paraguay as a freelancer. Learn about the territorial taxation system, regulation of visits to the country, climate for entrepreneurship, and much more." />
         <meta property="og:image" content="https://asesoraparaguay.com/img/articles/tourism/3.jpg" />
         <meta property="og:url" content="https://asesoraparaguay.com/move-to-paraguay-as-a-freelancer" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mudarse a Paraguay como Freelance: Ventajas e Inconvenientes | Asesora Paraguay" />
-        <meta name="twitter:description" content="Descubre las ventajas e inconvenientes de mudarte a Paraguay como freelance. Te contamos sobre el sistema de tributación territorial, la regulación de visitas al país, el clima para emprendimiento y mucho más." />
-        <meta name="twitter:image" content="https://asesoraparaguay.com/img/articles/tourism/3.jpg" />move-to-paraguay-as-a-freelancer
+        <meta name="twitter:title" content="Moving to Paraguay as a Freelancer: Advantages and Disadvantages | Asesora Paraguay" />
+        <meta name="twitter:description" content="Discover the advantages and disadvantages of moving to Paraguay as a freelancer. Learn about the territorial taxation system, regulation of visits to the country, climate for entrepreneurship, and much more." />
+        <meta name="twitter:image" content="https://asesoraparaguay.com/img/articles/tourism/3.jpg" />
         <meta name="twitter:url" content="https://asesoraparaguay.com/move-to-paraguay-as-a-freelancer" />
         <script type="application/ld+json">
           {JSON.stringify(jsonLDTypes.organization[0])}
