@@ -1,5 +1,5 @@
 export const articlesJSONLD = {
-  advantages: [
+  "ventajas-ser-freelance-paraguay": [
     {
       "@context": "https://schema.org/",
       "@type": "Article",
@@ -14,7 +14,7 @@ export const articlesJSONLD = {
       "dateModified": "2023-03-12",
     }
   ],
-  weather: [
+  "clima-paraguay": [
     {
       "@context": "https://schema.org/",
       "@type": "Article",
@@ -29,7 +29,7 @@ export const articlesJSONLD = {
       "dateModified": "2023-03-13"
     }
   ],
-  tourism: [
+  "turismo-paraguay-sitios-visitar": [
       {
         "@context": "https://schema.org/",
         "@type": "Article",
@@ -44,7 +44,7 @@ export const articlesJSONLD = {
         "dateModified": "2023-03-14"
       }
   ],
-  lowesttaxedcountries: [
+  "países-bajos-en-impuestos-mundo": [
     {
       "@context": "https://schema.org",
       "@type": "Article",

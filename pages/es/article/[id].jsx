@@ -3,6 +3,7 @@ import { jsonLDTypes } from '../../../jsonLD/types/es/jsonLDTypes'
 import { articlesJSONLD } from '../../../jsonLD/types/es/articlesJSONLD'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
+import ShareBar from '../../../components/shared/ShareBar'
 
 export default function ArticleES({ id, data = {} }) {
   let path = id.split('/')[1]
@@ -66,6 +67,9 @@ export default function ArticleES({ id, data = {} }) {
           {/* <div className="flex justify-end my-8">
             <ShareBar title={article?.seo?.title} description={article?.seo?.description} />
           </div> */}
+          <div className="flex justify-end my-8">
+            <ShareBar title={articlesJSONLD?.[id]?.[0]?.name} />
+          </div>
         </article>
       </Layout>
     </>
