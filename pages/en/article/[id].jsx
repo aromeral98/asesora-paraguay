@@ -19,7 +19,7 @@ export default function ArticleEN({ id, data = {} }) {
     if (article) {
       for (const [key, value] of Object.entries(article['article'])) {
         if (key.startsWith('title')) {
-          html += `<h5 class="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">${value}</h5>`;
+          html += `<h2 class="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">${value}</h2>`;
         } else if (key.startsWith('paragraph')) {
           html += `<p class="text-dark lg:text-lg">${value}</p>`;
         } else if (key.startsWith('image')) {
@@ -60,9 +60,9 @@ export default function ArticleEN({ id, data = {} }) {
       <Layout>
         <article className='relative py-8 lg:px-8 px-4 bg-white w-full lg:w-8/12 mx-auto flex flex-col grow'>
           <section className="container space-y-4 text-left mx-auto px-5" >
-            <h2 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
+            <h1 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
               {article?.seo?.title}
-            </h2>
+            </h1>
             <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
             </div>
           </section>
