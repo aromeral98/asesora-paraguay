@@ -1,4 +1,25 @@
 export const articlesJSONLD = {
+  "how-paraguay-attracts-freelancers":[
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Countries with low taxation: Discover the places with the lowest taxes",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://asesoraparaguay.com/img/articles/how-paraguay-attracts-freelancers/0.webp",
+        "height": "1080",
+        "width": "1920"
+      },
+      "id": "how-paraguay-attracts-freelancers",
+      "headline": "Paraguay: A Haven for Digital Nomads. How Paraguay attracts Digital Nomads?",
+      "description": "Discover how Paraguay is becoming a go-to destination for digital nomads around the world. Learn about the country's new immigration law and how it provides opportunities for remote workers. #Paraguay #DigitalNomads",
+      "keywords": "countries with low taxation, low taxes, tax savings, tax haven",
+    },
+  ],
   "advantages-being-freelance-paraguay": [
     {
       "@context": "https://schema.org/",
@@ -84,6 +105,6 @@ export const articlesJSONLD = {
       "headline": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
       "description": "Are you looking for countries with low taxation? Discover the places in the world where you can save money on taxes and have more financial freedom. Find all the information you need here. #lowesttaxedcountries #lowtaxes #taxsavings",
       "keywords": "countries with low taxation, low taxes, tax savings, tax haven",
-    }
+    },
   ]
 }
