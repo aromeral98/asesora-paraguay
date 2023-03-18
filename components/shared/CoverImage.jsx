@@ -8,12 +8,12 @@ export default function CoverImage() {
     const { t } = useTranslation('global')
   const router = useRouter()
   const titles = [
-    {title: t('freelanceadvantages'), subtitle: t('freelance'), path: '/move-to-paraguay-as-a-freelancer'},
+    {title: "Freelancers' Guide to Moving to Paraguay: Benefits and requiriments", subtitle: t('freelance'), path: '/move-to-paraguay-as-a-freelancer'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
     {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
-    {title: t('residence'), subtitle: t('residence'), path: '/residency'},
+    {title: "Obtaining Residency in Paraguay: Requirements and Process", subtitle: t('residence'), path: '/residency'},
     {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
-    {title: t('contact.form.contact'), subtitle: t('contact.form.contact'), path: '/contact'}
+    {title: "Contact Asesora Paraguay's Team", subtitle: t('contact.form.contact'), path: '/contact'}
   ]
   const caption = titles.find(routes => router.route === routes.path)
 
@@ -24,7 +24,7 @@ export default function CoverImage() {
         <Image src={cover} layout='fill' alt="Trámite Paraguay" className="h-full w-full object-cover" />
       </picture>
       <section className="text-center h-full w-full flex items-center justify-center flex-col z-20 py-28">
-        <h1 className="text-3xl lg:text-5xl text-white font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
+        <h1 className="text-xl lg:text-3xl text-white px-8 font-medium uppercase lg:max-w-3xl z-10">{caption?.title}</h1>
         <div className="flex text-white text-sm lg:text-base space-x-2 mt-4 font-normal z-10">
           <p>
             <Link passHref href='/'>

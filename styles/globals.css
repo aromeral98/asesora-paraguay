@@ -93,41 +93,57 @@ button {
   margin: auto;
   z-index: 10;
 }
-.index-cover-caption-title h1{
+.index-cover-caption-title{
   display: none;
+}
+.index-cover-caption-title h1 {
+  opacity: 0;
   text-align: left;
-  font-size: 1.65rem;
-  line-height: 1.75rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   width: 100%;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 24px;
 }
-.index-cover-caption-title h2{
+
+.index-cover-caption-title h2 {
   display: none;
   font-size: 1.1rem;
   line-height: 1.75rem;
 }
+
 @media (min-width: 1024px) {
-   .index-cover-caption-container {
+  .index-cover-caption-container {
     min-height: 400px;
     padding-left: 64px;
   }
-  .index-cover-caption-title h1{
+
+  .index-cover-caption-title {
     display: block;
   }
-  .index-cover-caption-title h2{
+
+  .index-cover-caption-title h1 {
+    opacity: 1;
+  }
+
+  .index-cover-caption-title h2 {
     display: block;
   }
+
   .index-cover-passport {
     display: block;
   }
-  .index-cover-caption-title{
+
+  .index-cover-caption-title {
     width: 50%;
   }
 }
 
 @media (min-width: 1280px) {
   .index-cover-caption-container {
+    padding-left: 32px;
+  }
+  .index-cover-caption-title {
     padding-left: 32px;
   }
 }
@@ -138,9 +154,11 @@ button {
     padding-bottom: 192px;
   }
 }
+
 .icon {
   transition: 400ms ease;
 }
-.icon:hover{
+
+.icon:hover {
   opacity: 0.8;
 }
