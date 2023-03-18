@@ -23,25 +23,25 @@ function generateSiteMap() {
            <priority>0.98</priority>
        </url>
        <url>
-           <loc>https://www.asesoraparaguay.com/en/article/advantages-being-freelance-paraguay/</loc>
+           <loc>https://www.asesoraparaguay.com/es/article/ventajas-ser-freelance-paraguay/</loc>
            <lastmod>2023-03-12</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.97</priority>
        </url>
        <url>
-           <loc>https://www.asesoraparaguay.com/en/article/climate-paraguay/</loc>
+           <loc>https://www.asesoraparaguay.com/es/article/clima-paraguay/</loc>
            <lastmod>2023-03-12</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.96</priority>
        </url>
        <url>
-           <loc>https://www.asesoraparaguay.com/en/article/tourism-paraguay-sites-visit/</loc>
+           <loc>https://www.asesoraparaguay.com/es/article/turismo-paraguay-sitios-visitar/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.95</priority>
        </url>
        <url>
-           <loc>https://www.asesoraparaguay.com/en/article/low-taxed-countries-world/</loc>
+           <loc>https://www.asesoraparaguay.com/es/article/países-bajos-en-impuestos-mundo/</loc>
            <lastmod>2023-03-15</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.94</priority>
