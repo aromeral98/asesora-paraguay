@@ -1,46 +1,57 @@
 {
-    "advantages": {
-    "title": "Tax advantages for freelancers in Paraguay | Low taxes and facilities for entrepreneurs",
-    "description": "Discover why Paraguay is attractive for freelancers and self-employed workers. Low taxes, facilities for entrepreneurship and cheap labor. Favorable climate and banked economy. The perfect place to work and do business.",
-    "image": {
-    "src": "../../img/articles/advantages/0.webp",
-    "width": 780,
-    "height": 437,
-    "alt": "Landscape of Asunción"
+    "how-paraguay-attracts-freelancers": {
+        "title": "Paraguay: A Haven for Digital Nomads. How Paraguay attracts Digital Nomads?",
+        "description": "Discover how Paraguay is becoming a go-to destination for digital nomads around the world. Learn about the country's new immigration law and how it provides opportunities for remote workers. #Paraguay #DigitalNomads",
+        "image": {
+            "src": "../../img/articles/how-paraguay-attracts-freelancers/0.webp",
+            "width": 1024,
+            "height": 683,
+            "alt": "Men on nature working with a PC"
+        },
+        "href": "/en/article/how-paraguay-attracts-freelancers"
     },
-    "href": "/en/article/advantages-being-freelance-paraguay"
+    "advantages": {
+        "title": "Tax advantages for freelancers in Paraguay | Low taxes and facilities for entrepreneurs",
+        "description": "Discover why Paraguay is attractive for freelancers and self-employed workers. Low taxes, facilities for entrepreneurship and cheap labor. Favorable climate and banked economy. The perfect place to work and do business.",
+        "image": {
+            "src": "../../img/articles/advantages/0.webp",
+            "width": 780,
+            "height": 437,
+            "alt": "Landscape of Asunción"
+        },
+        "href": "/en/article/advantages-being-freelance-paraguay"
     },
     "weather": {
-    "title": "Climate in Paraguay: temperatures and weather conditions",
-    "description": "Discover everything about the climate in Paraguay: temperatures, seasons and weather conditions. What is the best time to visit the country? Find the answer here.",
-    "image": {
-    "src": "../../img/articles/weather/0.png",
-    "width": 909,
-    "height": 555,
-    "alt": "Landscape of Paraguay with the Paraná river in the foreground"
-    },
-    "href": "/en/article/climate-paraguay"
+        "title": "Climate in Paraguay: temperatures and weather conditions",
+        "description": "Discover everything about the climate in Paraguay: temperatures, seasons and weather conditions. What is the best time to visit the country? Find the answer here.",
+        "image": {
+            "src": "../../img/articles/weather/0.png",
+            "width": 909,
+            "height": 555,
+            "alt": "Landscape of Paraguay with the Paraná river in the foreground"
+        },
+        "href": "/en/article/climate-paraguay"
     },
     "tourism": {
-    "title": "Tourism in Paraguay: places to visit",
-    "description": "Discover some of the best destinations and places to visit in Paraguay. From its culture to its gastronomy, passing through its rich history and its impressive natural landscapes, there is something for everyone.",
-    "image": {
-    "src": "../../img/articles/tourism/0.jpg",
-    "width": 550,
-    "height": 413,
-    "alt": "Landscape of the Akatí hill with 2 people on a bench observing nature"
-    },
-    "href": "/en/article/tourism-paraguay-sites-visit"
+        "title": "Tourism in Paraguay: places to visit",
+        "description": "Discover some of the best destinations and places to visit in Paraguay. From its culture to its gastronomy, passing through its rich history and its impressive natural landscapes, there is something for everyone.",
+        "image": {
+            "src": "../../img/articles/tourism/0.jpg",
+            "width": 550,
+            "height": 413,
+            "alt": "Landscape of the Akatí hill with 2 people on a bench observing nature"
+        },
+        "href": "/en/article/tourism-paraguay-sites-visit"
     },
     "lowesttaxedcountries": {
-    "title": "Countries with low taxation: Discover the places with the lowest taxes",
-    "description": "Are you looking for countries with low taxation? Discover the places in the world where you can save money on taxes and have more financial freedom. Find all the information you need here. #lowtaxation #lowtaxes #taxsavings",
-    "image": {
-    "src": "../../img/articles/lowesttaxedcountries/0.webp",
-    "width": 1900,
-    "height": 1069,
-    "alt": "Panoramic view of the city of Asuncion, Paraguay"
-    },
-    "href": "/en/article/low-taxed-countries-world"
+        "title": "Countries with low taxation: Discover the places with the lowest taxes",
+        "description": "Are you looking for countries with low taxation? Discover the places in the world where you can save money on taxes and have more financial freedom. Find all the information you need here. #lowtaxation #lowtaxes #taxsavings",
+        "image": {
+            "src": "../../img/articles/lowesttaxedcountries/0.webp",
+            "width": 1900,
+            "height": 1069,
+            "alt": "Panoramic view of the city of Asuncion, Paraguay"
+        },
+        "href": "/en/article/low-taxed-countries-world"
     }
-    }
+}

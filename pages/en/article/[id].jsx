@@ -85,7 +85,9 @@ export async function getStaticPaths() {
       { params: { id: 'advantages-being-freelance-paraguay' } },
       { params: { id: 'climate-paraguay' } },
       { params: { id: 'low-taxed-countries-world' } },
-      { params: { id: 'tourism-paraguay-sites-visit' } }
+      { params: { id: 'tourism-paraguay-sites-visit' } },
+      { params: { id: 'how-paraguay-attracts-freelancers' } },
+
     ],
     fallback: false, // can also be true or 'blocking'
   }
