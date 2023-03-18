@@ -1,6 +1,6 @@
-import Layout from '../../components/shared/Layout'
-import { jsonLDTypes } from '../../jsonLD/types/jsonLDTypes'
-import { articlesJSONLD } from '../../jsonLD/types/articlesJSONLD'
+import Layout from '../../../components/shared/Layout'
+import { jsonLDTypes } from '../../../jsonLD/types/es/jsonLDTypes'
+import { articlesJSONLD } from '../../../jsonLD/types/es/articlesJSONLD'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 
@@ -87,7 +87,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { id } = params;
-  const rawData = await import(`../../articles/en/${id}.json`)
+  const rawData = await import(`../../articles/es/${id}.json`)
   const serializableObject = { /* your serializable data */ };
   return {
     props: {
