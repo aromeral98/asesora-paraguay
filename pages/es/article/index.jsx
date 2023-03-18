@@ -4,7 +4,7 @@ import articles from '../../articles/en/index.json'
 import Link from "next/link"
 import Head from "next/head"
 
-export default function ArticleList() {
+export default function ArticleListES() {
     const data = articles
     return (
         <>

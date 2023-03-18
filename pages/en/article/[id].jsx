@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Layout from '../../../components/shared/Layout'
 
-export default function Article({ id, data = {} }) {
+export default function ArticleEN({ id, data = {} }) {
   let path = id.split('/')[1]
   const [article, setArticle] = useState()
   useEffect(() => {
@@ -76,10 +76,10 @@ export default function Article({ id, data = {} }) {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { id: 'advantages' } },
-      { params: { id: 'weather' } },
-      { params: { id: 'tourism' } },
-      { params: { id: 'lowesttaxedcountries' } }
+      { params: { id: 'advantages-being-freelance-paraguay' } },
+      { params: { id: 'climate-paraguay' } },
+      { params: { id: 'low-taxed-countries-world' } },
+      { params: { id: 'tourism-paraguay-sites-visit' } }
     ],
     fallback: false, // can also be true or 'blocking'
   }
@@ -87,7 +87,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { id } = params;
-  const rawData = await import(`../../articles/en/${id}.json`)
+  const rawData = await import(`../../../articles/en/${id}.json`)
   const serializableObject = { /* your serializable data */ };
   return {
     props: {
