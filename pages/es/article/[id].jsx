@@ -1,9 +1,9 @@
-import Layout from '../../../components/shared/Layout'
-import { jsonLDTypes } from '../../../jsonLD/types/es/jsonLDTypes'
-import { articlesJSONLD } from '../../../jsonLD/types/es/articlesJSONLD'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import ShareBar from '../../../components/shared/ShareBar'
+import { articlesJSONLD } from '../../../jsonLD/types/es/articlesJSONLD'
+import Layout from '../../../components/shared/Layout'
+import { jsonLDTypes } from '../../../jsonLD/types/en/jsonLDTypes'
 
 export default function ArticleES({ id, data = {} }) {
   let path = id.split('/')[1]
