@@ -23,33 +23,39 @@ function generateSiteMap() {
            <priority>0.98</priority>
        </url>
        <url>
+           <loc>https://www.asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers/</loc>
+           <lastmod>2023-03-12</lastmod>
+           <changefreq>daily</changefreq>
+           <priority>0.97</priority>
+       </url>
+       <url>
            <loc>https://www.asesoraparaguay.com/en/article/advantages-being-freelance-paraguay/</loc>
            <lastmod>2023-03-12</lastmod>
-           <changefreq>monthly</changefreq>
-           <priority>0.97</priority>
+           <changefreq>daily</changefreq>
+           <priority>0.90</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/climate-paraguay/</loc>
            <lastmod>2023-03-12</lastmod>
-           <changefreq>monthly</changefreq>
+           <changefreq>daily</changefreq>
            <priority>0.96</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/tourism-paraguay-sites-visit/</loc>
            <lastmod>2023-03-11</lastmod>
-           <changefreq>monthly</changefreq>
+           <changefreq>daily</changefreq>
            <priority>0.95</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/low-taxed-countries-world/</loc>
            <lastmod>2023-03-15</lastmod>
-           <changefreq>monthly</changefreq>
+           <changefreq>daily</changefreq>
            <priority>0.94</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
            <lastmod>2023-03-11</lastmod>
-           <changefreq>monthly</changefreq>
+           <changefreq>daily</changefreq>
            <priority>0.5</priority>
        </url>
    </urlset>
