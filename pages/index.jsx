@@ -2,7 +2,7 @@ import Layout from '../components/shared/Layout'
 import IndexContent from '../components/IndexContent'
 import IndexCover from '../components/IndexCover'
 import IndexCards from '../components/IndexCards'
-import { jsonLDTypes } from '../jsonLD/types/jsonLDTypes'
+ import { jsonLDTypes } from '../jsonLD/types/en/jsonLDTypes'
 import Head from 'next/head';
 
 export default function Home() {

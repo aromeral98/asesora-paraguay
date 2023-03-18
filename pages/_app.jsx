@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   let lang = ''
   if(typeof window !== 'undefined'){
     if (window.localStorage.getItem('lang') === null) {
-      window.localStorage.setItem('lang', window.navigator.language)
-      lang = window.navigator.language
+      window.localStorage.setItem('lang', 'en-EN')
+      lang = 'en-EN'
     } else {
       lang = window.localStorage.getItem('lang')
     }
