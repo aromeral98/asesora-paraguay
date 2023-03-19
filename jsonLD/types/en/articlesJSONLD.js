@@ -5,6 +5,7 @@ export const articlesJSONLD = {
       "@type": "Article",
       "name": "Paraguay: A Haven for Digital Nomads. How Paraguay attracts Digital Nomads?",
       "author": "admin",
+      "url": "https://asesoraparaguay.com/article/en/how-paraguay-attracts-freelancers",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers"
@@ -27,6 +28,7 @@ export const articlesJSONLD = {
       "@type": "Article",
       "name": "Tax advantages for freelancers in Paraguay",
       "author": "admin",
+      "url": "https://asesoraparaguay.com/en/article/advantages-being-freelance-paraguay",
       "headline": "Tax advantages for freelancers in Paraguay",
       "description": "Discover why Paraguay is attractive for freelancers and self-employed individuals. Low taxes, ease of entrepreneurship, and inexpensive labor. Favorable climate and banked economy. The perfect place to work and do business. #Paraguay #Freelancers #Business",
       "id": "advantages",
@@ -38,7 +40,7 @@ export const articlesJSONLD = {
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://asesoraparaguay.com/advantages"
+        "@id": "https://asesoraparaguay.com/en/article/advantages-being-freelance-paraguay"
       },
       "datePublished": "2023-03-12",
       "dateModified": "2023-03-12"
@@ -50,9 +52,11 @@ export const articlesJSONLD = {
       "@type": "Article",
       "name": "Paraguay Weather: Temperatures and Meteorological Conditions",
       "author": "admin",
+      "url": "https://asesoraparaguay.com/en/article/climate-paraguay",
+
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://asesoraparaguay.com/weather"
+        "@id": "https://asesoraparaguay.com/en/article/climate-paraguay"
       },
       "image": {
         "@type": "ImageObject",
@@ -73,9 +77,11 @@ export const articlesJSONLD = {
       "@type": "Article",
       "name": "Tourism in Paraguay: Best Places to Visit",
       "author": "admin",
+      "url": "https://asesoraparaguay.com/en/article/tourism-paraguay-sites-visit",
+
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://asesoraparaguay.com/tourism"
+        "@id": "https://asesoraparaguay.com/en/article/tourism-paraguay-sites-visit"
       },
       "image": {
         "@type": "ImageObject",
@@ -96,9 +102,10 @@ export const articlesJSONLD = {
       "@type": "Article",
       "name": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
       "author": "admin",
+      "url": "https://asesoraparaguay.com/article/en/lowesttaxedcountries",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://asesoraparaguay.com/lowesttaxedcountries"
+        "@id": "https://asesoraparaguay.com/article/en/lowesttaxedcountries"
       },
       "image": {
         "@type": "ImageObject",
