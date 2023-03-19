@@ -36,6 +36,11 @@ module.exports = withBundleAnalyzer({
         destination: '/move-to-paraguay-as-a-freelancer',
         permanent: true,
       },
+      {
+        source: '/advantages',
+        destination: '/en/article/advantages-being-freelance-paraguay',
+        permanent: true,
+      },
     ];
   },
   i18n: {
