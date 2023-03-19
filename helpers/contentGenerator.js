@@ -7,7 +7,7 @@ export const generateArticle = (article) => {
         } else if (key.startsWith('paragraph')) {
           html += `<p class="text-dark lg:text-lg">${value}</p>`;
         } else if (key.startsWith('image')) {
-          html += `<img src=${value.src} alt=${value.alt} />`;
+          html += `<Image width=${value.width} height=${value.height} src=${value.src} alt=${value.alt} className="card__img" />`;
         }
       }
     }
