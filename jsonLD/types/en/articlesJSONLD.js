@@ -3,7 +3,8 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "name": "Countries with low taxation: Discover the places with the lowest taxes",
+      "name": "Paraguay: A Haven for Digital Nomads. How Paraguay attracts Digital Nomads?",
+      "author": "admin",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers"
@@ -25,14 +26,15 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Tax advantages for freelancers in Paraguay",
+      "author": "admin",
       "headline": "Tax advantages for freelancers in Paraguay",
       "description": "Discover why Paraguay is attractive for freelancers and self-employed individuals. Low taxes, ease of entrepreneurship, and inexpensive labor. Favorable climate and banked economy. The perfect place to work and do business. #Paraguay #Freelancers #Business",
       "id": "advantages",
       "image": {
         "@type": "ImageObject",
         "url": "https://asesoraparaguay.com/img/articles/advantages/0.webp",
-        "height": "1080",
-        "width": "1920"
+        "height": "683",
+        "width": "1024"
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -47,6 +49,7 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Paraguay Weather: Temperatures and Meteorological Conditions",
+      "author": "admin",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/weather"
@@ -69,6 +72,7 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Tourism in Paraguay: Best Places to Visit",
+      "author": "admin",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/tourism"
@@ -91,6 +95,7 @@ export const articlesJSONLD = {
       "@context": "https://schema.org",
       "@type": "Article",
       "name": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
+      "author": "admin",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/lowesttaxedcountries"

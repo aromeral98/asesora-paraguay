@@ -36,13 +36,13 @@ export default function ArticleListEN() {
                         {Object.entries(data).map(([key, value]) => (
                             <Link passHref href={value.href} className="container space-y-5 text-left mx-auto cursor-pointer w-full" key={key}>
                                 <div className="max-w-sm w-full lg:max-w-full lg:flex">
-                                    <div className="border-r border-t border-l border-gray-400 lg:border-l-1 lg:border-t lg:border-b lg:border-gray-400 bg-white rounded-t lg:rounded-b-none lg:rounded-l p-4 flex flex-col justify-between leading-normal">
+                                    <div className="border-r border-t border-l border-gray-400 lg:border-l-1 lg:border-t lg:border-b lg:border-gray-400 bg-white rounded-t lg:rounded-b-none lg:rounded-l lg:rounded-r-none p-4 flex flex-col justify-between leading-normal">
                                         <div className="mb-8">
                                             <div className="text-gray-900 font-bold text-xl mb-2">{value.title}</div>
                                             <p className="text-gray-700 text-base">{value.description}</p>
                                         </div>
                                     </div>
-                                    <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-b lg:rounded-t-none lg:rounded-r text-center overflow-hidden" style={{ backgroundImage: `url(${value?.image?.src})`, backgroundPosition: 'center' }} title={value?.image?.alt}>
+                                    <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-b lg:rounded-b-none lg:rounded-t lg:rounded-r lg:rounded-l-none text-center overflow-hidden" style={{ backgroundImage: `url(${value?.image?.src})`, backgroundPosition: 'center' }} title={value?.image?.alt}>
                                     </div>
                                 </div>
                             </Link>
