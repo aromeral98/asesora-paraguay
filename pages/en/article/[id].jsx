@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Layout from '../../../components/shared/Layout'
 import ShareBar from '../../../components/shared/ShareBar'
+import { generateArticle } from '../../../helpers/contentGenerator'
 
 export default function ArticleEN({ id, data = {} }) {
   let path = id.split('/')[1]
@@ -14,24 +15,6 @@ export default function ArticleEN({ id, data = {} }) {
     }
   }, [data])
 
-  function renderArticle() {
-    let html = '';
-    if (article) {
-      for (const [key, value] of Object.entries(article['article'])) {
-        if (key.startsWith('title')) {
-          html += `<h2 class="text-lg lg:text-xl font-bold leading-tight lg:leading-relaxed">${value}</h2>`;
-        } else if (key.startsWith('paragraph')) {
-          html += `<p class="text-dark lg:text-lg">${value}</p>`;
-        } else if (key.startsWith('image')) {
-          html += `<img src=${value.src} alt=${value.alt} />`;
-        }
-      }
-    }
-
-
-    return html;
-  }
-  console.log(articlesJSONLD?.[id]?.[0].name)
 
   return (
     <>
@@ -63,7 +46,7 @@ export default function ArticleEN({ id, data = {} }) {
             <h1 className="text-secondaryColor text-xl lg:text-3xl font-medium capitalize">
               {article?.seo?.title}
             </h1>
-            <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: renderArticle() }}>
+            <div className="space-y-4 lg:space-y-6" dangerouslySetInnerHTML={{ __html: generateArticle(article) }}>
             </div>
           </section>
           {/* <div className="flex justify-end my-8">
