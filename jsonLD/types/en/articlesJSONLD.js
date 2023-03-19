@@ -4,8 +4,11 @@ export const articlesJSONLD = {
       "@context": "https://schema.org",
       "@type": "Article",
       "name": "Paraguay: A Haven for Digital Nomads. How Paraguay attracts Digital Nomads?",
-      "author": "admin",
-      "url": "https://asesoraparaguay.com/article/en/how-paraguay-attracts-freelancers",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/how-paraguay-attracts-freelancers"
+      },
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers"
@@ -27,8 +30,11 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Tax advantages for freelancers in Paraguay",
-      "author": "admin",
-      "url": "https://asesoraparaguay.com/en/article/advantages-being-freelance-paraguay",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/en/article/advantages-being-freelance-paraguay"
+      },
       "headline": "Tax advantages for freelancers in Paraguay",
       "description": "Discover why Paraguay is attractive for freelancers and self-employed individuals. Low taxes, ease of entrepreneurship, and inexpensive labor. Favorable climate and banked economy. The perfect place to work and do business. #Paraguay #Freelancers #Business",
       "id": "advantages",
@@ -51,9 +57,11 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Paraguay Weather: Temperatures and Meteorological Conditions",
-      "author": "admin",
-      "url": "https://asesoraparaguay.com/en/article/climate-paraguay",
-
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/en/article/climate-paraguay"
+      },
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/en/article/climate-paraguay"
@@ -76,9 +84,11 @@ export const articlesJSONLD = {
       "@context": "https://schema.org/",
       "@type": "Article",
       "name": "Tourism in Paraguay: Best Places to Visit",
-      "author": "admin",
-      "url": "https://asesoraparaguay.com/en/article/tourism-paraguay-sites-visit",
-
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/en/article/tourism-paraguay-sites-visit"
+      },
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/en/article/tourism-paraguay-sites-visit"
@@ -101,8 +111,11 @@ export const articlesJSONLD = {
       "@context": "https://schema.org",
       "@type": "Article",
       "name": "Lowest Taxed Countries: Discover the Places with the Lowest Taxes",
-      "author": "admin",
-      "url": "https://asesoraparaguay.com/article/en/lowesttaxedcountries",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/lowesttaxedcountries"
+      },
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://asesoraparaguay.com/article/en/lowesttaxedcountries"
