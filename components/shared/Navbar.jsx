@@ -19,7 +19,7 @@ export default function Navbar() {
     // { title: 'Ciudadania', path: '/citizenship' },
     { title: t('residence'), path: '/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
-    { title: t('articles'), path: '/en/article' },
+    { title: t('blog'), path: '/en/article' },
     { title: t('contact.form.contact'), path: '/contact' },
   ]
   return (
