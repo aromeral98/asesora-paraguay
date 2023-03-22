@@ -64,5 +64,16 @@
             "alt": "Andorra and Paraguay flags"
         },
         "href": "/en/article/paraguay-the-andorra-of-south-america"
+    },
+    "paraguay-cuisine-discover-traditional-dishes": {
+        "title": "Paraguay Cuisine: Discover Traditional Dishes of the Country",
+        "description": "If you're planning a trip to Paraguay, you can't miss trying its delicious cuisine. Discover the country's typical dishes and what they're made of in this article.",
+        "image": {
+            "src": "../../img/articles/paraguay-cuisine-discover-traditional-dishes/0.webp",
+            "width": 2000,
+            "height": 1600,
+            "alt": "Traditional paraguayan food"
+        },
+        "href": "/en/article/paraguay-cuisine-discover-traditional-dishes"
     }
 }
