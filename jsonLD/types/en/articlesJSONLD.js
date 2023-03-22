@@ -131,5 +131,31 @@ export const articlesJSONLD = {
       "description": "Are you looking for countries with low taxation? Discover the places in the world where you can save money on taxes and have more financial freedom. Find all the information you need here. #lowesttaxedcountries #lowtaxes #taxsavings",
       "keywords": "countries with low taxation, low taxes, tax savings, tax haven",
     },
+  ],
+  "paraguay-the-andorra-of-south-america": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Paraguay: The Andorra of South America - Low Taxes, Warm Climate, Easy Residency, Unique Culture and Personal Freedom",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/paraguay-the-andorra-of-south-america"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://asesoraparaguay.com/article/en/paraguay-the-andorra-of-south-america"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://asesoraparaguay.com/img/articles/paraguay-the-andorra-of-south-america/0.webp",
+        "height": "900",
+        "width": "600"
+      },
+      "id": "paraguay-the-andorra-of-south-america",
+      "headline": "Paraguay: The Andorra of South America - Low Taxes, Warm Climate, Easy Residency, Unique Culture and Personal Freedom",
+      "description": "Discover why Paraguay is known as the Andorra of South America. With low taxes, a warm climate, easy residency, unique culture and personal freedom, it's an attractive destination for those seeking a relaxed lifestyle.",
+      "keywords": "Paraguay, Andorra of South America, low taxes, warm climate, easy residency, unique culture, personal freedom, South America",
+    },
   ]
 }

@@ -53,5 +53,16 @@
             "alt": "Panoramic view of the city of Asuncion, Paraguay"
         },
         "href": "/en/article/low-taxed-countries-world"
+    },
+    "paraguay-the-andorra-of-south-america": {
+        "title": "Paraguay: The Andorra of South America - Low Taxes, Warm Climate, Easy Residency, Unique Culture and Personal Freedom",
+        "description": "Discover why Paraguay is known as the Andorra of South America. With low taxes, a warm climate, easy residency, unique culture and personal freedom, it's an attractive destination for those seeking a relaxed lifestyle.",
+        "image": {
+            "src": "../../img/articles/paraguay-the-andorra-of-south-america/1.webp",
+            "width": 900,
+            "height": 600,
+            "alt": "Andorra and Paraguay flags"
+        },
+        "href": "/en/article/paraguay-the-andorra-of-south-america"
     }
 }

@@ -53,6 +53,12 @@ function generateSiteMap() {
            <priority>0.94</priority>
        </url>
        <url>
+           <loc>https://www.asesoraparaguay.com/en/article/paraguay-the-andorra-of-south-america/</loc>
+           <lastmod>2023-03-15</lastmod>
+           <changefreq>daily</changefreq>
+           <priority>0.93</priority>
+       </url>
+       <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
            <lastmod>2023-03-11</lastmod>
            <changefreq>daily</changefreq>
