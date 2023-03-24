@@ -83,7 +83,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org/",
       "@type": "Article",
-      "name": "Tourism in Paraguay: Best Places to Visit",
+      "name": "Discover the Best Places to Visit in Paraguay: A Guide to Tourism in Paraguay",
       "author": {
         "@type": "Person",
         "name": "admin",
@@ -100,8 +100,8 @@ export const articlesJSONLD = {
         "width": "1920"
       },
       "id": "tourism",
-      "headline": "Tourism in Paraguay: Best Places to Visit",
-      "description": "Discover some of the best destinations and places to visit in Paraguay. From its culture to its gastronomy, rich history and impressive natural landscapes, there's something for everyone. Plan your perfect Paraguay trip with our expert travel tips. #ParaguayTourism #BestPlacesToVisit",
+      "headline": "Discover the Best Places to Visit in Paraguay: A Guide to Tourism in Paraguay",
+      "description": "Discover Paraguay's top destinations! Explore vibrant Asunción, stunning Ybycuí National Park, and beautiful Lake Ypacaraí. Uncover hidden gems and immerse yourself in the country's rich culture. Plan your trip now! #Paraguay #Tourism #PlacesToVisit",
       "datePublished": "2023-03-14",
       "dateModified": "2023-03-14"
     }
@@ -162,7 +162,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "name": "Paraguay Cuisine: Discover Traditional Dishes of the Country",
+      "name": "Paraguay Cuisine: Discover Traditional Dishes and Foods in Paraguay",
       "author": {
         "@type": "Person",
         "name": "admin",
@@ -179,8 +179,8 @@ export const articlesJSONLD = {
         "width": "600"
       },
       "id": "paraguay-cuisine-discover-traditional-dishes",
-      "headline": "Paraguay Cuisine: Discover Traditional Dishes of the Country",
-      "description": "If you're planning a trip to Paraguay, you can't miss trying its delicious cuisine. Discover the country's typical dishes and what they're made of in this article.",
+      "headline": "Paraguay Cuisine: Discover Traditional Dishes and Foods in Paraguay",
+      "description": "Explore the traditional and mouth-watering dishes of Paraguay's cuisine, including the famous sopa paraguaya, chipa, and asado. Learn about the gastronomy and culture of Paraguay in this article.",
       "keywords": "Paraguay, cuisine, traditional dishes, sopa paraguaya, chipa, mbejú, asado, dulce de mamón, queso paraguay",
     },
   ]
