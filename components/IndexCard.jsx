@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function IndexCard({ title, description, href, src }) {
     return (
-        <article className='card mx-auto content cursor-pointer' style={{ maxWidth: 576 }}>
+        <article className='card mx-auto content cursor-pointer lg:hover:scale-105 transition-all duration-300' style={{ maxWidth: 576 }}>
         <Link passHref href={href}>
              <div className='content-overlay z-10' />
         </Link> 

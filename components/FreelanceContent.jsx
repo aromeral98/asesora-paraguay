@@ -17,7 +17,6 @@ export default function FreelanceContent() {
                             {t('freelancelayout.advantages.firstadvantagedescription')}
                             <strong>{t('freelancelayout.advantages.firstadvantagedescription2')}</strong>
                             {t('freelancelayout.advantages.firstadvantagedescription3')}
-                            <strong>{t('freelancelayout.advantages.firstadvantagedescription4')}</strong>
                         </p>
                     </article>
                     <article>
