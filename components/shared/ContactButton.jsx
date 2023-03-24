@@ -4,13 +4,6 @@ import { useTranslation } from 'react-i18next';
 
 export default function ContactButton() {
   const { t } = useTranslation('global')
-  useEffect(() => {
-    ReactGA.initialize([
-      {
-        trackingId: "G-M6PYSY246X",
-      },
-    ]);
-  }, []);
 
   return (
     <a onClick={() =>
