@@ -1,6 +1,6 @@
 import Layout from "../../../components/shared/Layout"
 import { jsonLDTypes } from "../../../jsonLD/types/en/jsonLDTypes"
-import articles from '../../../articles/en/index.json'
+import articles from '../../../articles/en/0/index.json'
 import Link from "next/link"
 import Head from "next/head"
 
