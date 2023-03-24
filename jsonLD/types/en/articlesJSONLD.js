@@ -83,7 +83,7 @@ export const articlesJSONLD = {
     {
       "@context": "https://schema.org/",
       "@type": "Article",
-      "name": "Tourism in Paraguay: Best Places to Visit",
+      "name": "Discover the Best Places to Visit in Paraguay: A Guide to Tourism in Paraguay",
       "author": {
         "@type": "Person",
         "name": "admin",
@@ -100,8 +100,8 @@ export const articlesJSONLD = {
         "width": "1920"
       },
       "id": "tourism",
-      "headline": "Tourism in Paraguay: Best Places to Visit",
-      "description": "Discover some of the best destinations and places to visit in Paraguay. From its culture to its gastronomy, rich history and impressive natural landscapes, there's something for everyone. Plan your perfect Paraguay trip with our expert travel tips. #ParaguayTourism #BestPlacesToVisit",
+      "headline": "Discover the Best Places to Visit in Paraguay: A Guide to Tourism in Paraguay",
+      "description": "Discover Paraguay's top destinations! Explore vibrant Asunción, stunning Ybycuí National Park, and beautiful Lake Ypacaraí. Uncover hidden gems and immerse yourself in the country's rich culture. Plan your trip now! #Paraguay #Tourism #PlacesToVisit",
       "datePublished": "2023-03-14",
       "dateModified": "2023-03-14"
     }
