@@ -14,7 +14,7 @@ export default function ResidencyContent() {
                         Are you <strong>considering a move to South America?</strong> Look no further than Paraguay, a hidden gem that is quickly gaining popularity among <strong>expats and digital nomads</strong> alike.
                     </p>
                     <p className="text-dark lg:text-lg">
-                        Obtaining <strong>residency in Paraguay</strong> is a relatively straightforward process, with clear requirements. To qualify, you'll need to prove a steady source of income, pass a background check, and provide a few other key documents. Once you're approved, you&apos;ll have the <strong>freedom to live and work in Paraguay</strong> for as long as you like.
+                        Obtaining <strong>residency in Paraguay</strong> is a relatively straightforward process, with clear requirements. To qualify, you&apos;ll need to prove a steady source of income, pass a background check, and provide a few other key documents. Once you&apos;re approved, you&apos;ll have the <strong>freedom to live and work in Paraguay</strong> for as long as you like.
                     </p>
                     <p className="text-dark lg:text-lg">
                         But residency is just the beginning. Paraguay offers a high quality of life at a low cost, with affordable housing, excellent healthcare, and a laid-back lifestyle that&apos;s hard to beat. Whether you&apos;re looking to retire in a peaceful, picturesque town or start a business in a bustling urban center, Paraguay has something to offer.
