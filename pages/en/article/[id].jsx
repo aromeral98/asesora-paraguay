@@ -74,7 +74,7 @@ export async function getStaticPaths() {
       { params: { id: 'paraguay-cuisine-discover-traditional-dishes' } },
       { params: { id: 'paraguay-history-culture' } },
       { params: { id: 'import-exports-paraguay' } },
-      { params: { id: 'import-exports-paraguays' } },
+      { params: { id: 'largest-river-fleets-in-the-world' } },
     ],
     fallback: false, // can also be true or 'blocking'
   }

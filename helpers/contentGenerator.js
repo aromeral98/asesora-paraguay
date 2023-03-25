@@ -20,7 +20,7 @@ export const generateArticle = (article) => {
           html += `<p class="text-dark lg:text-lg">${value}</p>`;
         }
       } else if (key.startsWith('image')) {
-        html += `<Image width=${value.width} height=${value.height} src=${value.src} alt=${value.alt} title=${value.alt} className="card__img" />`;
+        html += `<Image width=100% src=${value.src} alt=${value.alt} title=${value.alt} className="card__img" />`;
       }
       else if (key.startsWith('anchor')) {
         html += `<Link passHref href=${value.href} aria-value=${value.title} className="link" >${value.text}</Link>`;

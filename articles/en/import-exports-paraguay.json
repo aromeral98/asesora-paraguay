@@ -5,6 +5,12 @@
         "keywords": "Paraguay, river market, import, export, neighboring countries, reduced costs, higher cargo capacity, shorter waiting times, transportation connections, reduced carbon footprint, flexibility, greater safety"
     },
     "article": {
+        "image": {
+            "src": "../../img/articles/import-exports-paraguay/0.webp",
+            "width": 999,
+            "height": 751,
+            "alt": "some_boats_on_a_river"
+        },
         "paragraph": "There are several advantages to importing or exporting through Paraguay's river market, including:",
         "title1": "Access to neighboring countries",
         "paragraph1": "Paraguay's river market is connected with Argentina, Bolivia, Brazil, and Uruguay, allowing access to a potential market of over 300 million people.",

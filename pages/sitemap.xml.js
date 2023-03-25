@@ -76,6 +76,18 @@ function generateSiteMap() {
            <changefreq>daily</changefreq>
            <priority>0.5</priority>
        </url>
+       <url>
+       <loc>https://www.asesoraparaguay.com/en/article/import-exports-paraguay/</loc>
+       <lastmod>2023-03-25</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1</priority>
+   </url>
+   <url>
+       <loc>https://www.asesoraparaguay.com/en/article/largest-river-fleets-in-the-world/</loc>
+       <lastmod>2023-03-25</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1</priority>
+   </url>
    </urlset>
  `;
 }
