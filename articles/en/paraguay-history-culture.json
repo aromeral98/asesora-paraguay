@@ -5,13 +5,13 @@
         "keywords": "Paraguay, history, culture, pre-Columbian era, Spanish influence, distinct identity"
     },
     "article": {
-        "title1": "Introduction",
         "image": {
             "src": "../../img/articles/paraguay-history-culture/0.webp",
             "width": 1320,
             "height": 880,
             "alt": "paraguayan_women"
         },
+        "title1": "Introduction",
         "paragraph1": "Paraguay is a South American country located in the heart of the continent. With a rich and diverse history, Paraguay is home to a vibrant and unique culture.",
         "title2": "History",
         "paragraph2": "The history of Paraguay dates back to the indigenous peoples who inhabited the region before the arrival of Spanish conquerors in the 16th century. The indigenous population was largely of Guarani origin and was characterized by their skill in agriculture and ceramics.",
