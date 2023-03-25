@@ -183,5 +183,31 @@ export const articlesJSONLD = {
       "description": "Explore the traditional and mouth-watering dishes of Paraguay's cuisine, including the famous sopa paraguaya, chipa, and asado. Learn about the gastronomy and culture of Paraguay in this article.",
       "keywords": "Paraguay, cuisine, traditional dishes, sopa paraguaya, chipa, mbejú, asado, dulce de mamón, queso paraguay",
     },
+  ],
+  "paraguay-history-cultures": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "History and Culture of Paraguay: A Fascinating and Diverse Story",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/paraguay-history-cultures"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://asesoraparaguay.com/article/en/paraguay-history-cultures"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://asesoraparaguay.com/img/articles/paraguay-history-culture/0.webp",
+        "height": "900",
+        "width": "600"
+      },
+      "id": "paraguay-cuisine-discover-traditional-dishes",
+      "headline": "History and Culture of Paraguay: A Fascinating and Diverse Story",
+      "description": "Discover the rich history and unique culture of Paraguay. From the pre-Columbian era to the Spanish influence and the distinct identity that developed in the country, Paraguay is full of history and culture.",
+      "keywords": "Paraguay, history, culture, pre-Columbian era, Spanish influence, distinct identity",
+    },
   ]
 }
