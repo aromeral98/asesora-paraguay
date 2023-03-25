@@ -72,6 +72,7 @@ export async function getStaticPaths() {
       { params: { id: 'how-paraguay-attracts-freelancers' } },
       { params: { id: 'paraguay-the-andorra-of-south-america' } },
       { params: { id: 'paraguay-cuisine-discover-traditional-dishes' } },
+      { params: { id: 'paraguay-history-culture' } },
     ],
     fallback: false, // can also be true or 'blocking'
   }
