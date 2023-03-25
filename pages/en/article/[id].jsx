@@ -73,6 +73,8 @@ export async function getStaticPaths() {
       { params: { id: 'paraguay-the-andorra-of-south-america' } },
       { params: { id: 'paraguay-cuisine-discover-traditional-dishes' } },
       { params: { id: 'paraguay-history-culture' } },
+      { params: { id: 'import-exports-paraguay' } },
+      { params: { id: 'import-exports-paraguays' } },
     ],
     fallback: false, // can also be true or 'blocking'
   }
