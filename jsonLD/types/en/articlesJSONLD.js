@@ -204,10 +204,62 @@ export const articlesJSONLD = {
         "height": "900",
         "width": "600"
       },
-      "id": "paraguay-cuisine-discover-traditional-dishes",
+      "id": "paraguay-history-cultures",
       "headline": "History and Culture of Paraguay: A Fascinating and Diverse Story",
       "description": "Discover the rich history and unique culture of Paraguay. From the pre-Columbian era to the Spanish influence and the distinct identity that developed in the country, Paraguay is full of history and culture.",
       "keywords": "Paraguay, history, culture, pre-Columbian era, Spanish influence, distinct identity",
+    },
+  ],
+  "import-exports-paraguay": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Advantages of Paraguay's river market for importing or exporting",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/import-exports-paraguay"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://asesoraparaguay.com/article/en/import-exports-paraguay"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://asesoraparaguay.com/img/articles/import-exports-paraguay/0.webp",
+        "height": "900",
+        "width": "600"
+      },
+      "id": "import-exports-paraguay",
+      "headline": "History and Culture of Paraguay: A Fascinating and Diverse Story",
+      "description": "Discover the advantages of importing or exporting through Paraguay's river market, including access to neighboring countries, reduced costs, higher cargo capacity, shorter waiting times, connections with other transportation modes, reduced carbon footprint, flexibility, and greater safety. #Paraguay #RiverMarket #ImportExport",
+      "keywords": "Paraguay, river market, import, export, neighboring countries, reduced costs, higher cargo capacity, shorter waiting times, transportation connections, reduced carbon footprint, flexibility, greater safety",
+    },
+  ],
+  "largest-river-fleets-in-the-world": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Fluvial Fleets of China, Russia, the United States, Brazil, and Paraguay",
+      "author": {
+        "@type": "Person",
+        "name": "admin",
+        "url": "https://asesoraparaguay.com/article/en/largest-river-fleets-in-the-world"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://asesoraparaguay.com/article/en/largest-river-fleets-in-the-world"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://asesoraparaguay.com/img/articles/largest-river-fleets-in-the-world/0.webp",
+        "height": "900",
+        "width": "600"
+      },
+      "id": "largest-river-fleets-in-the-world",
+      "headline": "Fluvial Fleets of China, Russia, the United States, Brazil, and Paraguay",
+      "description": "Discover the fluvial fleets of China, Russia, the United States, Brazil, and Paraguay, including the size of their fleets and their main waterways. Learn about their contributions to transportation and trade.",
+      "keywords": "China, Russia, United States, Brazil, Paraguay, fluvial fleets, size, main waterways, transportation, trade",
     },
   ]
 }

@@ -1,4 +1,26 @@
 {
+    "largest-river-fleets-in-the-world":{
+        "title": "Fluvial Fleets of China, Russia, the United States, Brazil, and Paraguay",
+        "description": "Discover the fluvial fleets of China, Russia, the United States, Brazil, and Paraguay, including the size of their fleets and their main waterways. Learn about their contributions to transportation and trade.",
+        "image": {
+            "src": "../../img/articles/largest-river-fleets-in-the-world/0.webp",
+            "width": 1320,
+            "height": 880,
+            "alt": "some_boats_on_a_river"
+        },
+        "href": "/en/article/largest-river-fleets-in-the-world"
+    },
+    "import-exports-paraguay":{
+        "title": "Advantages of Paraguay's river market for importing or exporting",
+        "description": "Discover the advantages of importing or exporting through Paraguay's river market, including access to neighboring countries, reduced costs, higher cargo capacity, shorter waiting times, connections with other transportation modes, reduced carbon footprint, flexibility, and greater safety. #Paraguay #RiverMarket #ImportExport",
+        "image": {
+            "src": "../../img/articles/import-exports-paraguay/0.webp",
+            "width": 1320,
+            "height": 880,
+            "alt": "paraguayan women"
+        },
+        "href": "/en/article/import-exports-paraguay"
+    },
     "paraguay-history-culture": {
         "title": "History and Culture of Paraguay: A Fascinating and Diverse Story",
         "description": "Discover the rich history and unique culture of Paraguay. From the pre-Columbian era to the Spanish influence and the distinct identity that developed in the country, Paraguay is full of history and culture.",
