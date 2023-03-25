@@ -184,7 +184,7 @@ export const articlesJSONLD = {
       "keywords": "Paraguay, cuisine, traditional dishes, sopa paraguaya, chipa, mbejú, asado, dulce de mamón, queso paraguay",
     },
   ],
-  "paraguay-history-cultures": [
+  "paraguay-history-culture": [
     {
       "@context": "https://schema.org",
       "@type": "Article",
