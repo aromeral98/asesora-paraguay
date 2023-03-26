@@ -5,7 +5,7 @@ import CoverImage from './CoverImage'
 import ContactButton from './ContactButton'
 import ReactGA from 'react-ga4'
 
-import { FloatingWhatsApp } from '../../js/react-floating-whatsapp'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 
 
