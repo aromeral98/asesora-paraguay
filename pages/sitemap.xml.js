@@ -6,85 +6,85 @@ function generateSiteMap() {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
            <loc>https://www.asesoraparaguay.com/</loc>
-           <lastmod>2023-03-20</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>monthly</changefreq>
            <priority>1.0</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/move-to-paraguay-as-a-freelancer/</loc>
-           <lastmod>2023-03-25</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.99</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/residency/</loc>
-           <lastmod>2023-03-25</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>weekly</changefreq>
            <priority>0.98</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/paraguay-history-culture/</loc>
-           <lastmod>2023-03-25</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>1</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/how-paraguay-attracts-freelancers/</loc>
-           <lastmod>2023-03-23</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.97</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/advantages-being-freelance-paraguay/</loc>
-           <lastmod>2023-03-23</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.90</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/climate-paraguay/</loc>
-           <lastmod>2023-03-23</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.96</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/tourism-paraguay-sites-visit/</loc>
-           <lastmod>2023-03-23</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.95</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/low-taxed-countries-world/</loc>
-           <lastmod>2023-03-23</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.94</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/paraguay-the-andorra-of-south-america/</loc>
-           <lastmod>2023-03-24</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.93</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/en/article/paraguay-cuisine-discover-traditional-dishes/</loc>
-           <lastmod>2023-03-24</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.92</priority>
        </url>
        <url>
            <loc>https://www.asesoraparaguay.com/contact/</loc>
-           <lastmod>2023-03-11</lastmod>
+           <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>
            <priority>0.5</priority>
        </url>
        <url>
        <loc>https://www.asesoraparaguay.com/en/article/import-exports-paraguay/</loc>
-       <lastmod>2023-03-25</lastmod>
+       <lastmod>2023-04-15</lastmod>
        <changefreq>daily</changefreq>
        <priority>1</priority>
    </url>
    <url>
        <loc>https://www.asesoraparaguay.com/en/article/largest-river-fleets-in-the-world/</loc>
-       <lastmod>2023-03-25</lastmod>
+       <lastmod>2023-04-15</lastmod>
        <changefreq>daily</changefreq>
        <priority>1</priority>
    </url>
