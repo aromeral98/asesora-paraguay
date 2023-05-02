@@ -3,13 +3,13 @@ import React, { useEffect, useState } from 'react'
 export default function Calc() {
   const [PYGExchangeRate, setPYGExchangeRate] = useState(0)
   const [totalSalary, setTotalSalary] = useState(0)
-  const [totalGrossCurrentSalary, setTotalGrossCurrentSalary] = useState(0)
+  // const [totalGrossCurrentSalary, setTotalGrossCurrentSalary] = useState(0)
   const [totalHours, setTotalHours] = useState(0)
   const [autocalculatedSalary, setAutocalculatedSalary] = useState(0)
   const [autocalculatedSalaryPYG, setAutocalculatedSalaryPYG] = useState(0)
-  const [autocalculatedGrossSalary, setAutocalculatedGrossSalary] = useState(0)
+  // const [autocalculatedGrossSalary, setAutocalculatedGrossSalary] = useState(0)
   const [rateHour, setRateHour] = useState(0)
-  const [rateGrossHour, setRateGrossHour] = useState(0)
+  // const [rateGrossHour, setRateGrossHour] = useState(0)
 
   const day = new Date().getDate()
   const month = new Date().getMonth()
@@ -85,25 +85,25 @@ export default function Calc() {
     const currentWorkedTimeMiliseconds = new Date().getTime() - firstOfMonth
     const currentWorkedTimeHours = currentWorkedTimeMiliseconds / 3600000
     setRateHour(hourSalary)
-    setRateGrossHour(hourGrossSalary)
+    // setRateGrossHour(hourGrossSalary)
     setTimeout(() => {
       setAutocalculatedSalary(currentWorkedTimeHours * hourSalary)
       setAutocalculatedSalaryPYG(new Intl.NumberFormat('de-DE', { maximumSignificantDigits: 6 }).format(currentWorkedTimeHours * hourSalary * PYGExchangeRate))
-      setAutocalculatedGrossSalary(currentWorkedTimeHours * hourGrossSalary)
+      // setAutocalculatedGrossSalary(currentWorkedTimeHours * hourGrossSalary)
     }, 1000);
   }, [autocalculatedSalary])
 
   useEffect(() => {
     const total = getWeekdaysInMonth(month, year) * hourWorkedSalary
-    const totalGross = getWeekdaysInMonth(month, year) * hourGrossWorkedSalary
+    // const totalGross = getWeekdaysInMonth(month, year) * hourGrossWorkedSalary
     setTotalSalary(total)
-    setTotalGrossCurrentSalary(totalGross)
+    // setTotalGrossCurrentSalary(totalGross)
     setTotalHours(getWeekdaysInMonth(month, year) * 8)
-  }, [])
+  }, [getWeekdaysInMonth, month, year])
 
   useEffect(() => {
     setTotalSalary(totalHours * parseFloat(hourWorkedSalary))
-    setTotalGrossCurrentSalary(totalHours * parseFloat(hourGrossWorkedSalary))
+    // setTotalGrossCurrentSalary(totalHours * parseFloat(hourGrossWorkedSalary))
   }, [totalHours])
 
   return (
