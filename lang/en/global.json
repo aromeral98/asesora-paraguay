@@ -58,23 +58,17 @@
             "fifthadvantagedescription3": "except for political participation. You can start businesses, invest, buy properties, and more."
         },
         "requirements": {
-            "title": "What requirements must I meet?",
-            "firstrequiretitle": "Birth certificate",
-            "firstrequiredescription": "A current copy of the original issued by the corresponding civil registry is sufficient.",
-            "secondrequiretitle": "Certificate of good conduct or criminal record",
-            "secondrequiredescription": "This document is only necessary for people over 14 years old and must not be more than 2.5 months old.",
-            "thirdrequiretitle": "Marriage or divorce certificate",
-            "thirdrequiredescription": "If you're married or divorced, you must present the respective certificate to prove your marital status.",
-            "thirdrequiredescription2": "Depending on your country of origin, these documents must either be apostilled with the Hague Apostille, as is the case in Spain, or in certain cases, they must be legalized by the corresponding Paraguayan consulate in your country of origin or current residence.",
-            "fourthrequiretitle": "A local currency account with a deposit of 34,331,150 Guaraníes (approximately €4,600) to demonstrate economic solvency.",
-            "fourthrequiredescription": "This money will remain blocked until obtaining the residency card and the ID card. Once these documents are obtained, the deposit can also be withdrawn.",
-            "fourthrequiredescription2": "In case of being married, only a single account is required for the couple and/or the family with underage children. If you have a University-level Professional Degree, you can use it as collateral to demonstrate economic solvency and avoid having to make the aforementioned deposit. If you are a pensioner, the notification of the pension also serves as proof of economic solvency and the deposit will not be required.",
-            "fourthrequiredescription3": "If you have a University-level Professional Degree, you can use it as collateral to demonstrate economic solvency and avoid having to make the aforementioned deposit.",
-            "fourthrequiredescription4": "If you are a pensioner, the notification of the pension also serves as proof of economic solvency and the deposit will not be required.",
-            "fifthrequiretitle": "Health Certificate",
-            "fifthrequiredescription": "This document is obtained directly in Paraguay during your visit to apply for residency.",
-            "sixthrequiretitle": "If you are a pensioner",
-            "sixthrequiredescription": "You must present notification of your pension, a document indicating the amount you currently receive, issued by the competent entity, pension fund, etc., in order to prove economic solvency."
+            "title": "What requirements must I meet to get my temporary residency?",
+            "firstrequiretitle": "Identity document from the country of origin or valid passport.",
+            "secondrequiretitle": "Consult visa if required.",
+            "thirdrequiretitle": "Proof of entry to the country, such as an entry ticket or immigration stamp.",
+            "fourthrequiretitle": "Birth certificate of the country of origin, legalized and apostilled by The Hague.",
+            "fifthrequiretitle": "Certificate of civil status (marriage, divorce, or widowhood). Not necessary if you are single.",
+            "sixthrequiretitle": "Current criminal record certificate from the country of origin, legalized and apostilled if it was your last residence. If you resided in another country for the past 3 years, you must obtain it from that country.",
+            "seventhrequiretitle": "Interpol background certificate.",
+            "eightrequiretitle": "Background certificate for foreigners in Paraguay.",
+            "ninerequiretitle": "Sworn statement of commitment and compliance with respect for the national constitution, laws, and regulations. This will be issued at the time of submitting the application.",
+            "tenrequiretitle": "Affidavit stating your profession, activity, or trade that you will carry out in the country, along with your fixed address. This will also be issued at the time of submitting the application."
         }
     },
     "contact": {

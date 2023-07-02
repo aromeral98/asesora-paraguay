@@ -30,51 +30,36 @@ export default function ResidencyContent() {
                 <h3 className="text-secondaryColor text-xl lg:text-4xl font-medium leading-tight lg:leading-relaxed text-center">
                     {t('freelancelayout.requirements.title')}
                 </h3>
-                <div className="space-y-4 lg:space-y-8">
+                <div className="space-y-4">
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.requirements.firstrequiretitle')}</h5>
-                        <p className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.firstrequiredescription')}
-                        </p>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">1. {t('freelancelayout.requirements.firstrequiretitle')}</h5>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.requirements.secondrequiretitle')}</h5>
-                        <p className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.secondrequiredescription')}
-                        </p>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">2. {t('freelancelayout.requirements.secondrequiretitle')}</h5>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.requirements.thirdrequiretitle')}</h5>
-                        <div className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.thirdrequiredescription')}
-                            <p className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">
-                                {t('freelancelayout.requirements.thirdrequiredescription2')}
-                            </p>
-                        </div>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">3. {t('freelancelayout.requirements.thirdrequiretitle')}</h5>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.requirements.fourthrequiretitle')}</h5>
-                        <div className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.fourthrequiredescription')}
-                            <div className="bg-yellow-300 border border-yellow-600 my-2 p-2 rounded-lg">{t('freelancelayout.requirements.fourthrequiredescription2')}
-                                <p className="my-2">{t('freelancelayout.requirements.fourthrequiredescription3')}</p>
-                                <p className="my-2">
-                                    {t('freelancelayout.requirements.fourthrequiredescription4')}
-                                </p>
-                            </div>
-                        </div>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">4. {t('freelancelayout.requirements.fourthrequiretitle')}</h5>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.requirements.fifthrequiretitle')}</h5>
-                        <p className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.fifthrequiredescription')}
-                        </p>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">5. {t('freelancelayout.requirements.fifthrequiretitle')}</h5>
                     </article>
                     <article>
-                        <h5 className="text-primaryColor text-lg lg:text-xl font-medium leading-tight lg:leading-relaxed text-center">6. {t('freelancelayout.requirements.sixthrequiretitle')} </h5>
-                        <p className="text-dark lg:text-lg">
-                            {t('freelancelayout.requirements.sixthrequiredescription')}
-                        </p>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">6. {t('freelancelayout.requirements.sixthrequiretitle')} </h5>
+                    </article>
+                    <article>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">7. {t('freelancelayout.requirements.seventhrequiretitle')} </h5>
+                    </article>
+                    <article>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">8. {t('freelancelayout.requirements.eightrequiretitle')} </h5>
+                    </article>
+                    <article>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">9. {t('freelancelayout.requirements.ninerequiretitle')} </h5>
+                    </article>
+                    <article>
+                        <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">10. {t('freelancelayout.requirements.tenrequiretitle')} </h5>
                     </article>
                 </div>
             </section>
