@@ -52,7 +52,7 @@ export default function FreelanceContent() {
                     </article>
                 </div>
             </section>
-            <section className="container space-y-4 pt-8 lg:pt-16 text-center mx-auto px-5 active">
+            {/* <section className="container space-y-4 pt-8 lg:pt-16 text-center mx-auto px-5 active">
                 <h2 className="text-secondaryColor text-xl lg:text-4xl font-medium leading-tight lg:leading-relaxed text-center">
                     {t('freelancelayout.requirements.title')}
                 </h2>
@@ -88,7 +88,7 @@ export default function FreelanceContent() {
                         <h5 className="text-black text-lg font-bold leading-tight lg:leading-relaxed text-center">10. {t('freelancelayout.requirements.tenrequiretitle')} </h5>
                     </article>
                 </div>
-            </section>
+            </section> */}
             <div className="flex justify-end my-8">
                 <ShareBar />
             </div>

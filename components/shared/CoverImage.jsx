@@ -11,6 +11,7 @@ export default function CoverImage() {
     {title: "Freelancers' Guide to Moving to Paraguay: Benefits and requiriments", subtitle: t('freelance'), path: '/move-to-paraguay-as-a-freelancer'},
     {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
     {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
+    {title: "Available services on Asesora Paraguay", subtitle: 'Services', path: '/services'},
     {title: "Obtaining Residency in Paraguay: Requirements and Process", subtitle: t('residence'), path: '/residency'},
     {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
     {title: "Contact Asesora Paraguay's Team", subtitle: t('contact.form.contact'), path: '/contact'}

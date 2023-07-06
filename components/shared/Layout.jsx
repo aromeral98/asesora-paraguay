@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         category: "click",
         action: `Click Whatsapp Popup`,
         label: "Click Whatsapp Popup",
-      })} phoneNumber='+34618408582' allowEsc allowClickAway accountName='Asesora Paraguay' avatar={'http://asesoraparaguay.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.5c0b33cf.PNG&w=64&q=75'} />
+      })} phoneNumber='+34618408582' allowEsc allowClickAway accountName='Asesora Paraguay' avatar={'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/1920px-Flag_of_Paraguay.svg.png'} />
       {typeof window !== "undefined" && window.location.pathname !== '/' && window.location.pathname !== '/contact' && !window.location.pathname.includes('article')
         ? <ContactButton />
         : null}
