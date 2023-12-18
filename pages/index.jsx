@@ -29,6 +29,7 @@ export default function Home() {
       </Head>
       <Layout>
         <div className='w-full'>
+          PRUEBA PARA DEPLOY
           <IndexCover />
           <IndexContent />
           <IndexCards />
