@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.jsx", "components/shared/Footer.jsx", "components/shared/Layout.jsx", "components/Slider.jsx", "components/shared/Navbar.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.jsx", "components/shared/Footer.jsx", "components/shared/Layout.jsx", "components/Slider.jsx", "components/shared/Navbar.jsx", "pages/services.jsx"],
   "exclude": ["node_modules"]
 }

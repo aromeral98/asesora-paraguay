@@ -5,6 +5,7 @@ import { I18nextProvider } from 'react-i18next'
 import globalEn from '../lang/en/global.json'
 import globalEs from '../lang/es/global.json'
 import i18next from 'i18next'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   let lang = ''
@@ -39,6 +40,10 @@ function MyApp({ Component, pageProps }) {
 
   
   return <I18nextProvider i18n={i18next}>
+    <Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540483073331516"
+     crossorigin="anonymous"></script>
+    </Head>
     <Component {...pageProps} />
   </I18nextProvider>
 }
