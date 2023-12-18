@@ -44,7 +44,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch">
-                <div className="hidden lg:flex sm:space-x-8">
+                <div className="hidden lg:flex sm:space-x-8 items-center justify-center">
                   {routes.map(route => {
                     return <Link
                       passHref
