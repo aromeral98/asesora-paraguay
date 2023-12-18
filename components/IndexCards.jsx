@@ -1,8 +1,6 @@
 import IndexCard from "./IndexCard"
 import card from '../public/img/card.webp'
 import residency from '../public/img/residency.webp'
-import passport from '../public/img/passport.webp'
-import civilRegister from '../public/img/civilregister.webp'
 import { useTranslation } from "react-i18next"
 
 export default function IndexCards() {
