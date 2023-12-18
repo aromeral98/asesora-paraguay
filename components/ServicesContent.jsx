@@ -4,7 +4,6 @@ import ShareBar from './shared/ShareBar'
 import Link from 'next/link'
 
 export default function ServicesContent() {
-    const { t } = useTranslation('global')
     return (
         <div className="max-w-7xl mx-auto px-5 bg-white text-center">
             <section className="container space-y-4 lg:space-y-8 py-8 text-center mx-auto px-5 active">
@@ -27,7 +26,7 @@ export default function ServicesContent() {
                     When it comes to <strong>Paraguay residency requirements</strong>, there are a few key things to keep in mind. Keep reading to get all the details.
                 </p>
             </section>
-            <Link href={'/residency'} >
+            <Link passHref={'/residency'} >
                     <span className="text-secondaryColor hover:text-red-700 cursor-pointer text-xl lg:text-2xl font-medium leading-tight lg:leading-relaxed text-center p">Go to residency requirements</span>
                 </Link>
             <div className="flex justify-end my-8">

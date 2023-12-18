@@ -24,7 +24,7 @@ export default function IndexContent() {
 
           <p className="text-dark lg:text-lg leading-loose">
           {t('homelayout.secondcontainer.fourthparagraph')}
-          <Link href={'/contact'}><strong className="cursor-pointer transition-all hover:text-secondaryColor duration-300">{t('homelayout.secondcontainer.fourthparagraph2')}</strong></Link>
+          <Link passHref={'/contact'}><strong className="cursor-pointer transition-all hover:text-secondaryColor duration-300">{t('homelayout.secondcontainer.fourthparagraph2')}</strong></Link>
           {t('homelayout.secondcontainer.fourthparagraph3')}
           </p>
         </div>
