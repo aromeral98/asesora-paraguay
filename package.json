@@ -15,20 +15,15 @@
     "@next/bundle-analyzer": "^14.0.4",
     "autosize": "^6.0.1",
     "cross-env": "^7.0.3",
-    "gsap": "^3.12.4",
     "i18n": "^0.15.1",
     "i18next": "^23.7.11",
-    "jsonld": "^8.3.2",
     "moment": "^2.29.4",
     "next": "14.0.4",
-    "nuka-carousel": "^7.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-ga4": "^2.1.0",
-    "react-helmet": "^6.1.0",
     "react-i18next": "^13.5.0",
     "react-share": "^5.0.3",
-    "sharp": "^0.33.1",
     "webpack-bundle-analyzer": "^4.10.1"
   },
   "devDependencies": {
@@ -44,6 +39,6 @@
     "typescript": "5.3.3"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=16"
   }
 }
