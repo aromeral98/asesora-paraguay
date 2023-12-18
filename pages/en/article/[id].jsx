@@ -61,7 +61,6 @@ export default function ArticleEN({ id, data = {} }) {
   )
 }
 
-// Generates `/posts/1` and `/posts/2`
 export async function getStaticPaths() {
   return {
     paths: [
