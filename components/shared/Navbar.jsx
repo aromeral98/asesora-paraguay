@@ -17,7 +17,7 @@ export default function Navbar() {
     { title: t('freelance'), path: '/move-to-paraguay-as-a-freelancer' },
     // { title: 'Certificados', path: '/certificates' },
     // { title: 'Ciudadania', path: '/citizenship' },
-    { title: 'Services', path: '/services' },
+    { title: 'Services', path: 'services' },
     { title: t('residence'), path: '/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
     { title: t('blog'), path: '/en/article' },
