@@ -13,15 +13,15 @@ function classNames(...classes) {
 export default function Navbar() {
   const { t } = useTranslation('global')
   const routes = [
-    { title: t('home'), path: '/' },
-    { title: t('freelance'), path: '/move-to-paraguay-as-a-freelancer' },
+    { title: t('home'), path: '/en/home' },
+    { title: t('freelance'), path: '/en/move-to-paraguay-as-a-freelancer' },
     // { title: 'Certificados', path: '/certificates' },
     // { title: 'Ciudadania', path: '/citizenship' },
-    { title: 'Services', path: 'services' },
-    { title: t('residence'), path: '/residency' },
+    { title: 'Services', path: '/en/services' },
+    { title: t('residence'), path: '/en/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
     { title: t('blog'), path: '/en' },
-    { title: t('contact.form.contact'), path: '/contact' },
+    { title: t('contact.form.contact'), path: '/en/contact' },
   ]
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">

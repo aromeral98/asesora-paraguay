@@ -8,16 +8,15 @@ export default function CoverImage() {
     const { t } = useTranslation('global')
   const router = useRouter()
   const titles = [
-    {title: "Freelancers' Guide to Moving to Paraguay: Benefits and requiriments", subtitle: t('freelance'), path: '/move-to-paraguay-as-a-freelancer'},
-    {title: 'Certificados', subtitle: 'Certificados', path: '/certificates'},
-    {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/citizenship'},
-    {title: "Available services on Asesora Paraguay", subtitle: 'Services', path: '/services'},
-    {title: "Obtaining Residency in Paraguay: Requirements and Process", subtitle: t('residence'), path: '/residency'},
-    {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/procedures'},
-    {title: "Contact Asesora Paraguay's Team", subtitle: t('contact.form.contact'), path: '/contact'}
+    {title: "Freelancers' Guide to Moving to Paraguay: Benefits and requiriments", subtitle: t('freelance'), path: '/[lang]/move-to-paraguay-as-a-freelancer'},
+    {title: 'Certificados', subtitle: 'Certificados', path: '/[lang]/certificates'},
+    {title: 'Obtener Ciudadania en Paraguay', subtitle: 'Ciudadania', path: '/[lang]/citizenship'},
+    {title: "Available services on Asesora Paraguay", subtitle: 'Services', path: '/[lang]/services'},
+    {title: "Obtaining Residency in Paraguay: Requirements and Process", subtitle: t('residence'), path: '/[lang]/residency'},
+    {title: 'Tramites', subtitle: 'Tramites en Paraguay', path: '/[lang]/procedures'},
+    {title: "Contact Asesora Paraguay's Team", subtitle: t('contact.form.contact'), path: '/[lang]/contact'}
   ]
   const caption = titles.find(routes => router.route === routes.path)
-
   return (
     <div className="aspect-w-16 aspect-h-6 lg:aspect-h-3 relative">
       <div className="absolute w-full h-full bg-black/70 z-10"></div>

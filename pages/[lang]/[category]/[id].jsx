@@ -1,9 +1,7 @@
 import { jsonLDTypes } from '../../../jsonLD/types/en/jsonLDTypes'
 import { articlesJSONLD } from '../../../jsonLD/types/en/articlesJSONLD'
-import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Layout from '../../../components/shared/Layout'
-import ShareBar from '../../../components/shared/ShareBar'
 import Post from '../../../components/shared/Post'
 
 export default function ArticleEN({ id }) {

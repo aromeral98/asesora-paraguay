@@ -7,15 +7,15 @@ import ReactGA from 'react-ga4'
 
 
 const Layout = ({ children }) => {
-
-
+  const routesAvailable = ['/en/move-to-paraguay-as-a-freelancer','/en/services', '/en/residency','/en/contact' ]
+  const pathName= typeof window !== "undefined" && window.location.pathname
   return (
     <>
       <Navbar />
-      {typeof window !== "undefined" && window.location.pathname !== '/' && window.location.pathname !== '/contact' && !window.location.pathname.includes('article')
+      {typeof window !== "undefined" && routesAvailable.find(route => route === pathName) && pathName !== 'en/contact'
         ? <ContactButton />
         : null}
-      {typeof window !== "undefined" && window.location.pathname !== '/' && !window.location.pathname.includes('article')
+      {typeof window !== "undefined" && routesAvailable.find(route => route === pathName) && !pathName.includes('blog')
         ? <CoverImage />
         : null}
       <main className='flex flex-grow flex-col mx-auto contactPattern overflow-hidden min-h-screen'>
