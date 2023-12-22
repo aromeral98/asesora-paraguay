@@ -53,8 +53,8 @@ export default function CategoryRoute({ responseData, params }: { responseData: 
 
     return (
         <Layout>
-            <section className="bg-white min-h-screen">
-                <PageHeader heading={name} text={description} />
+            <section className='bg-white min-h-screen min-w-full container p-8 mx-auto'>
+                <PageHeader heading={name} />
                 <PostList data={data} />
             </section>
         </Layout>
