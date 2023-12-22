@@ -5,7 +5,7 @@ import Link from "next/link";
 import { formatDate, getStrapiMedia } from "../../pages/[lang]/utils/api-helpers";
 
 interface Article {
-  id: 4;
+  id: number;
   attributes: {
     title: string;
     description: string;
@@ -49,7 +49,7 @@ export default function PostList({
   data: articles,
   children,
 }: {
-  data: Article[];
+  data: any[];
   children?: React.ReactNode;
 }) {
   return (
