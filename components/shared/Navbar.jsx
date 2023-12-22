@@ -13,14 +13,14 @@ function classNames(...classes) {
 export default function Navbar() {
   const { t } = useTranslation('global')
   const routes = [
-    { title: t('home'), path: '/en/home' },
+    { title: t('home'), path: '/en' },
     { title: t('freelance'), path: '/en/move-to-paraguay-as-a-freelancer' },
     // { title: 'Certificados', path: '/certificates' },
     // { title: 'Ciudadania', path: '/citizenship' },
     { title: 'Services', path: '/en/services' },
     { title: t('residence'), path: '/en/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
-    { title: t('blog'), path: '/en' },
+    { title: t('blog'), path: '/en/blog' },
     { title: t('contact.form.contact'), path: '/en/contact' },
   ]
   return (
