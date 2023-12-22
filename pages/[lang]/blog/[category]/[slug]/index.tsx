@@ -1,8 +1,9 @@
 
 import type { Metadata } from 'next';
-import { fetchAPI } from '../../utils/fetch-api';
-import Post from '../../../../components/shared/Post';
-import Layout from '../../../../components/shared/Layout';
+import Layout from '../../../../../components/shared/Layout';
+import Post from '../../../../../components/shared/Post';
+import { fetchAPI } from '../../../utils/fetch-api';
+
 
 async function getPostBySlug(slug: string) {
     const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
@@ -22,7 +23,7 @@ async function getPostBySlug(slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const meta = await getMetaData(params.slug);
+    const meta = await getMetadata(params.slug);
     const metadata = meta?.[0]?.attributes?.seo;
 
     return {
