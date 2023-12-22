@@ -29,7 +29,6 @@ async function fetchPostsByCategory(filter: string) {
         };
         const options = { headers: { Authorization: `Bearer ${token}` } };
         const responseData = await fetchAPI(path, urlParamsObject, options);
-        console.log(responseData)
         return responseData;
     } catch (error) {
         console.error(error);

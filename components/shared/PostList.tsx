@@ -66,7 +66,7 @@ export default function PostList({
           const avatarUrl = getStrapiMedia(
             authorsBio?.avatar?.data?.attributes?.url
           );
-            console.log(`/${category?.slug}/${article.attributes.slug}`)
+
           return (
             <Link
               passHref
