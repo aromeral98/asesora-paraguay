@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Layout from '../../../../../components/shared/Layout';
 import Post from '../../../../../components/shared/Post';
 import { fetchAPI } from '../../../utils/fetch-api';
-
+import { generateMetaData } from "../../../utils/generateMetaData"
 
 async function getPostBySlug(slug: string) {
     const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
@@ -15,21 +15,12 @@ async function getPostBySlug(slug: string) {
             authorsBio: { populate: '*' },
             category: { fields: ['name'] },
             blocks: { populate: '*' },
+            seo: { populate: '*' },
         },
     };
     const options = { headers: { Authorization: `Bearer ${token}` } };
     const response = await fetchAPI(path, urlParamsObject, options);
     return response;
-}
-
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const meta = await getMetadata(params.slug);
-    const metadata = meta?.[0]?.attributes?.seo;
-
-    return {
-        title: metadata?.metaTitle,
-        description: metadata?.metaDescription,
-    };
 }
 
 export async function getServerSideProps({ params }: { params: { slug: string } }) {
@@ -44,17 +35,30 @@ export async function getServerSideProps({ params }: { params: { slug: string } 
 
     return {
         props: {
-            data: data.data[0],
+            data: data.data[0]
         },
     };
 }
 
 export default function PostRoute({ data }: { data: any }) {
+    const seoData = {
+        ...data.attributes.seo,
+        author: data?.attributes?.authorsBio?.data?.attributes?.name,
+        dates: {
+            publishedAt: new Date(data.attributes.publishedAt),
+            updatedAt: new Date(data.attributes.updatedAt)
+        },
+        seoUrl: data.attributes.category.data.attributes.name + "/" + data.attributes.slug
+    }
+
     return (
-        <Layout>
-            <section className='bg-white flex lg:w-8/12 justify-center container p-12 mx-auto'>
-                <Post data={data} />
-            </section>
-        </Layout>
+        <>
+            {generateMetaData({ seo: seoData })}
+            <Layout>
+                <section className='bg-white flex w-full xl:w-8/12 justify-center container p-12 mx-auto'>
+                    <Post data={data} />
+                </section>
+            </Layout>
+        </>
     );
 }
