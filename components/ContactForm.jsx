@@ -125,12 +125,10 @@ export default function ContactForm({ bigTitle = false }) {
           <div className="px-4 py-6 bg-gray-50 text-right sm:px-6">
             <button
               type="submit"
-              className="inline-flex justify-center px-4 border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primaryColor hover:bg-white hover:text-secondaryColor
+              className="inline-flex justify-center px-4 border-transparent shadow-sm text-sm font-semibold rounded-md text-white bg-primaryColor hover:bg-white hover:text-secondaryColor
               transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2"
             >
-              <strong>                
                 {t('contact.form.contact')}
-              </strong>
             </button>
           </div>
         </div>

@@ -22,6 +22,7 @@ export default function Navbar() {
     // { title: 'Tramites en Paraguay', path: '/procedures' },
     { title: t('blog'), path: '/en/blog' },
     { title: t('contact.form.contact'), path: '/en/contact' },
+    { title: "Privacy Policy", path: '/en/privacy-policy' },
   ]
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">
