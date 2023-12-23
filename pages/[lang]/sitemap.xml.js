@@ -38,6 +38,7 @@ async function generateSiteMap() {
            <changefreq>weekly</changefreq>
            <priority>0.98</priority>
        </url>
+       <url>
            <loc>https://www.asesoraparaguay.com/en/contact/</loc>
            <lastmod>2023-04-15</lastmod>
            <changefreq>daily</changefreq>

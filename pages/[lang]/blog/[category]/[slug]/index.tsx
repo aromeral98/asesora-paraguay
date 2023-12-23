@@ -1,5 +1,4 @@
 
-import type { Metadata } from 'next';
 import Layout from '../../../../../components/shared/Layout';
 import Post from '../../../../../components/shared/Post';
 import { fetchAPI } from '../../../../../utils/fetch-api';
