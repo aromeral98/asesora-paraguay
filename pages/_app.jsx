@@ -43,13 +43,11 @@ function MyApp({ Component, pageProps }) {
     <Script
       id="adsbygoogle-init"
       strategy="afterInteractive"
-      crossOrigin="anonymous"
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540483073331516"
     />
     <Script
       id="gpt-init"
       strategy="afterInteractive"
-      crossOrigin="anonymous"
       src="https://www.googletagservices.com/tag/js/gpt.js" />
     <Component {...pageProps} />
   </I18nextProvider>

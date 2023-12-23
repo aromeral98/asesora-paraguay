@@ -55,7 +55,7 @@ export default function PostList({
   return (
     <section className="container p-6 mx-auto space-y-6 sm:space-y-12">
       <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {articles.map((article) => {
+        {articles?.map((article) => {
           const imageUrl = getStrapiMedia(
             article.attributes.cover.data?.attributes.url
           );
@@ -84,7 +84,7 @@ export default function PostList({
                 />
               )}
               <div className="p-6 space-y-2 relative">
-
+.
                 <h3 className="text-2xl font-semibold group-focus:underline">
                   {article.attributes.title}
                 </h3>

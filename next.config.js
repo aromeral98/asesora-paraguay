@@ -57,7 +57,7 @@ module.exports = withBundleAnalyzer({
       },
       {
         protocol: 'https',
-        hostname: 'images.pexels.com',
+        hostname: 'asesora-paraguay-cms-e42c2dd2fe88.herokuapp.com',
       }
     ],
   },

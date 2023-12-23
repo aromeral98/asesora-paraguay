@@ -4,6 +4,7 @@ import Layout from '../../../../../components/shared/Layout';
 import Post from '../../../../../components/shared/Post';
 import { fetchAPI } from '../../../utils/fetch-api';
 import { generateMetaData } from "../../../utils/generateMetaData"
+import ShareBar from '../../../../../components/shared/ShareBar';
 
 async function getPostBySlug(slug: string) {
     const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
@@ -55,8 +56,11 @@ export default function PostRoute({ data }: { data: any }) {
         <>
             {generateMetaData({ seo: seoData })}
             <Layout>
-                <section className='bg-white flex w-full xl:w-8/12 justify-center container p-12 mx-auto'>
+                <section className='bg-white flex w-full xl:w-8/12 justify-center container p-12 mx-auto flex-col'>
                     <Post data={data} />
+                    <section id='shareBar' className='flex justify-end'>
+                        <ShareBar title={data?.attributes?.seo?.name} description={data?.attributes?.seo?.description} />
+                    </section>
                 </section>
             </Layout>
         </>
