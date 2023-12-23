@@ -5,7 +5,7 @@ import PostList from "../../../components/shared/PostList"
 import PageHeader from "../../../components/shared/PageHeader"
 import Loader from "../../../components/shared/Loader"
 import { useCallback, useEffect, useState } from "react"
-import { fetchAPI } from "../utils/fetch-api"
+import { fetchAPI } from "../../../utils/fetch-api"
 
 export default function ArticleListEN() {
   const [meta, setMeta] = useState();
