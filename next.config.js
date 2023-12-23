@@ -47,5 +47,20 @@ module.exports = withBundleAnalyzer({
     locales: ['es'],
     defaultLocale: 'es'
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '127.0.0.1',
+        port: '1337',
+        pathname: '/uploads/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'asesora-paraguay-cms-e42c2dd2fe88.herokuapp.com',
+      }
+    ],
+  },
   reactStrictMode: true,
+  swcMinify: false
 })

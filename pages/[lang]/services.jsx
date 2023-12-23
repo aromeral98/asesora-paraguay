@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Layout from "../components/shared/Layout";
-import { jsonLDTypes } from "../jsonLD/types/en/jsonLDTypes";
-import ServicesContent from "../components/ServicesContent";
+import Layout from "../../components/shared/Layout";
+import { jsonLDTypes } from "../../jsonLD/types/en/jsonLDTypes";
+import ServicesContent from "../../components/ServicesContent";
 
 export default function Residency() {
   return (

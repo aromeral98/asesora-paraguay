@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import ResidencyContent from '../components/ResidencyContent'
-import Layout from '../components/shared/Layout'
- import { jsonLDTypes } from '../jsonLD/types/en/jsonLDTypes'
+import ResidencyContent from '../../components/ResidencyContent'
+import Layout from '../../components/shared/Layout'
+ import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
 
 
 export default function Residency() {

@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import ContactForm from '../components/ContactForm'
-import Layout from '../components/shared/Layout'
- import { jsonLDTypes } from '../jsonLD/types/en/jsonLDTypes'
+import ContactForm from '../../components/ContactForm'
+import Layout from '../../components/shared/Layout'
+ import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
 
-export default function Contact() {
+export default function Jose() {
   return (
     <>
       <Head>

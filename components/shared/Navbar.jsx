@@ -13,15 +13,16 @@ function classNames(...classes) {
 export default function Navbar() {
   const { t } = useTranslation('global')
   const routes = [
-    { title: t('home'), path: '/' },
-    { title: t('freelance'), path: '/move-to-paraguay-as-a-freelancer' },
+    { title: t('home'), path: '/en' },
+    { title: t('freelance'), path: '/en/move-to-paraguay-as-a-freelancer' },
     // { title: 'Certificados', path: '/certificates' },
     // { title: 'Ciudadania', path: '/citizenship' },
-    { title: 'Services', path: '/services' },
-    { title: t('residence'), path: '/residency' },
+    { title: 'Services', path: '/en/services' },
+    { title: t('residence'), path: '/en/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
-    { title: t('blog'), path: '/en/article' },
-    { title: t('contact.form.contact'), path: '/contact' },
+    { title: t('blog'), path: '/en/blog' },
+    { title: t('contact.form.contact'), path: '/en/contact' },
+    { title: "Privacy Policy", path: '/en/privacy-policy' },
   ]
   return (
     <Disclosure as="nav" className="bg-primaryColor shadow">
@@ -30,7 +31,7 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className='absolute left-0 h-full p-4 bg-white rounded-full cursor-pointer'>
-                <Link passHref href={'/'}>
+                <Link passHref href={'/en'}>
                   <div>
                     <Image width={58} height={32} alt='brand' className='h-full' src={logo} />
                   </div>

@@ -29,18 +29,6 @@ export default function ResidencyContent() {
                     <article>
                         <h5 className="text-black text-lg leading-tight lg:leading-relaxed text-left">6. {t('freelancelayout.requirements.sixthrequiretitle')} </h5>
                     </article>
-                    <article>
-                        <h5 className="text-black text-lg leading-tight lg:leading-relaxed text-left">7. {t('freelancelayout.requirements.seventhrequiretitle')} </h5>
-                    </article>
-                    <article>
-                        <h5 className="text-black text-lg leading-tight lg:leading-relaxed text-left">8. {t('freelancelayout.requirements.eightrequiretitle')} </h5>
-                    </article>
-                    <article>
-                        <h5 className="text-black text-lg leading-tight lg:leading-relaxed text-left">9. {t('freelancelayout.requirements.ninerequiretitle')} </h5>
-                    </article>
-                    <article>
-                        <h5 className="text-black text-lg leading-tight lg:leading-relaxed text-left">10. {t('freelancelayout.requirements.tenrequiretitle')} </h5>
-                    </article>
                 </div>
             </section>
             <div className="flex justify-end my-8">
