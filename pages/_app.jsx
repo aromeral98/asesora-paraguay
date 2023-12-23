@@ -6,6 +6,7 @@ import globalEn from '../lang/en/global.json'
 import globalEs from '../lang/es/global.json'
 import i18next from 'i18next'
 import Script from 'next/script'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function MyApp({ Component, pageProps }) {
   let lang = ''
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }) {
 
 
   return <I18nextProvider i18n={i18next}>
+    <SpeedInsights />
     <Script
       id="adsbygoogle-init"
       strategy="afterInteractive"

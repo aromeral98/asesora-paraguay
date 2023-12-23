@@ -50,7 +50,7 @@ async function generateSiteMap() {
           const slug = article.attributes.slug;
           const lastmod = new Date(article.attributes.updatedAt).toLocaleDateString(); // Set the last modification date as needed
           const changefreq = 'daily'; // Set the change frequency as needed
-          const priority = (97 - index) / 100; // Priority decreases with index
+          const priority = (96 - index) / 100; // Priority decreases with index
 
           return `
             <url>
