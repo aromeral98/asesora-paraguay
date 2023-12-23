@@ -26,12 +26,30 @@ async function generateSiteMap() {
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
       </url>
+      <url>
+           <loc>https://www.asesoraparaguay.com/en/move-to-paraguay-as-a-freelancer/</loc>
+           <lastmod>2023-04-15</lastmod>
+           <changefreq>monthly</changefreq>
+           <priority>0.99</priority>
+       </url>
+       <url>
+           <loc>https://www.asesoraparaguay.com/en/residency/</loc>
+           <lastmod>2023-04-15</lastmod>
+           <changefreq>weekly</changefreq>
+           <priority>0.98</priority>
+       </url>
+           <loc>https://www.asesoraparaguay.com/en/contact/</loc>
+           <lastmod>2023-04-15</lastmod>
+           <changefreq>daily</changefreq>
+           <priority>0.97</priority>
+       </url>
+
       ${sortedArticles
         .map((article, index) => {
           const slug = article.attributes.slug;
           const lastmod = new Date(article.attributes.updatedAt).toLocaleDateString(); // Set the last modification date as needed
           const changefreq = 'daily'; // Set the change frequency as needed
-          const priority = (99 - index) / 100; // Priority decreases with index
+          const priority = (97 - index) / 100; // Priority decreases with index
 
           return `
             <url>
