@@ -22,15 +22,18 @@ export default function Freelance() {
         <meta name="twitter:description" content="Discover the advantages and disadvantages of moving to Paraguay as a freelancer. Learn about the territorial taxation system, regulation of visits to the country, climate for entrepreneurship, and much more." />
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/articles/tourism/3.jpg" />
         <meta name="twitter:url" content="https://asesoraparaguay.com/move-to-paraguay-as-a-freelancer" />
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.freelance[0])}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.freelance[1])}
-        </script>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
+        />
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.freelance[0]) }}
+        />
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.freelance[1]) }}
+        />
       </Head>
       <Layout>
         <section className='w-full'>

@@ -1,8 +1,8 @@
-import RichText from "../../../components/shared/RichText";
-import ImageSlider from "../../../components/shared/ImageSlider";
-import Quote from "../../../components/shared/Quote";
-import Media from "../../../components/shared/Media";
-import VideoEmbed from "../../../components/shared/VideoEmbed";
+import RichText from "../components/shared/RichText";
+import ImageSlider from "../components/shared/ImageSlider";
+import Quote from "../components/shared/Quote";
+import Media from "../components/shared/Media";
+import VideoEmbed from "../components/shared/VideoEmbed";
 
 export function postRenderer(section: any, index: number) {
   switch (section.__component) {

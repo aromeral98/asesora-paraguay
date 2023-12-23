@@ -22,9 +22,10 @@ export default function Residency() {
         <meta name="twitter:description" content="We are a specialized firm in migration and processing of residency and citizenship in Paraguay. We provide advice to entrepreneurs, investors, and digital nomads throughout the process." />
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
         <meta name="twitter:url" content="https://asesoraparaguay.com/residency" />
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
+        />
       </Head>
       <Layout>
         <section className='w-full'>

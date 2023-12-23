@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { formatDate, getStrapiMedia } from "../../pages/[lang]/utils/api-helpers";
+import { formatDate, getStrapiMedia } from "../../utils/api-helpers";
 
 interface Article {
   id: number;

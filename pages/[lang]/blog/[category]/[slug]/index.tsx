@@ -2,8 +2,8 @@
 import type { Metadata } from 'next';
 import Layout from '../../../../../components/shared/Layout';
 import Post from '../../../../../components/shared/Post';
-import { fetchAPI } from '../../../utils/fetch-api';
-import { generateMetaData } from "../../../utils/generateMetaData"
+import { fetchAPI } from '../../../../../utils/fetch-api';
+import { generateMetaData } from "../../../../../utils/generateMetaData"
 import ShareBar from '../../../../../components/shared/ShareBar';
 
 async function getPostBySlug(slug: string) {

@@ -23,9 +23,10 @@ export default function Home() {
         <meta name="twitter:description" content="Explore our blog to get updated information about Paraguay, its culture, tourism, and more. Asesora Paraguay is your online guide to discover everything related to this beautiful country." />
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/articles/tourism/0.jpg" />
         <meta name="twitter:url" content="https://asesoraparaguay.com" />
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
+        />
       </Head>
       <Layout>
         <div className='w-full'>

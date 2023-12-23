@@ -8,7 +8,7 @@ export default function NotFound () {
     setTimeout(() => {
       router.push('/en');
     }, 3000);
-  }, []);
+  }, [router]);
 
   return (
     <>

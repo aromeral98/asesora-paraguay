@@ -54,9 +54,10 @@ export default function Residency() {
           name="twitter:url"
           content="https://asesoraparaguay.com/services"
         />
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
+       <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
+        />
       </Head>
       <Layout>
         <section className="w-full"><ServicesContent /></section>

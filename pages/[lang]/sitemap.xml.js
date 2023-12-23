@@ -1,6 +1,6 @@
 // pages/sitemap.xml.js
 
-import { fetchAPI } from './utils/fetch-api';
+import { fetchAPI } from '../../utils/fetch-api';
 
 async function generateSiteMap() {
   // Fetch the list of articles from your backend

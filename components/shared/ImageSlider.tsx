@@ -1,7 +1,7 @@
 "use client";
 import { Fade } from "react-slideshow-image";
 import Image from "next/image";
-import { getStrapiMedia } from "../../pages/[lang]/utils/api-helpers";
+import { getStrapiMedia } from "../../utils/api-helpers";
 
 interface Image {
   id: number;

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { getStrapiMedia } from "./api-helpers";
-import { jsonLDTypes } from "../../../jsonLD/types/en/jsonLDTypes";
+import { jsonLDTypes } from "../jsonLD/types/en/jsonLDTypes";
 
 type MetaDataProps = {
     seo: {

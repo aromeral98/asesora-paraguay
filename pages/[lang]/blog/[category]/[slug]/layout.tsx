@@ -1,6 +1,6 @@
 import React from "react";
 import ArticleSelect from "../../../../../components/shared/ArticleSelect";
-import { fetchAPI } from "../../../utils/fetch-api";
+import { fetchAPI } from "../../../../../utils/fetch-api";
 
 
 

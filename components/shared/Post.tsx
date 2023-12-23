@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
-import { formatDate, getStrapiMedia } from '../../pages/[lang]/utils/api-helpers';
-import { postRenderer } from '../../pages/[lang]/utils/post-renderer';
+import { formatDate, getStrapiMedia } from '../../utils/api-helpers';
+import { postRenderer } from '../../utils/post-renderer';
 
 interface Article {
     id: number;
