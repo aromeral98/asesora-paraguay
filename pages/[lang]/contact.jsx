@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import ContactForm from '../../components/ContactForm'
 import Layout from '../../components/shared/Layout'
- import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
+import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
 
 export default function Jose() {
   return (
     <>
       <Head>
-      <title>Contact | Asesora Paraguay - Your Migration Advisor</title>
+        <title>Contact | Asesora Paraguay - Your Migration Advisor</title>
         <meta name="description" content="Contact us for any questions or inquiries related to our migration advisory services. Fill out the contact form and we will respond as soon as possible." />
         <meta name="keywords" content="Contact, Asesora Paraguay, Migration advisory, FAQ, Contact form" />
         <link rel="icon" href="/favicon.ico" />
@@ -25,13 +25,11 @@ export default function Jose() {
           {JSON.stringify(jsonLDTypes.organization[0])}
         </script>
       </Head>
-      <Layout>
-        <section className='w-full relative contactPattern'>
-          <div className='lg:w-6/12 mx-auto relative z-10 pt-10 bg-white'>
-            <ContactForm bigTitle />
-          </div>
-        </section>
-      </Layout>
+      <section className='w-full relative contactPattern'>
+        <div className='lg:w-6/12 mx-auto relative z-10 pt-10 bg-white'>
+          <ContactForm bigTitle />
+        </div>
+      </section>
     </>
   )
 }

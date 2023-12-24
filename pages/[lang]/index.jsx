@@ -28,13 +28,11 @@ export default function Home() {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
         />
       </Head>
-      <Layout>
         <div className='w-full'>
           <IndexCover />
           <IndexContent />
           <IndexCards />
         </div>
-      </Layout>
     </>
   );
 }

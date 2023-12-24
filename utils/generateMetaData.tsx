@@ -2,29 +2,27 @@ import Head from "next/head";
 import { getStrapiMedia } from "./api-helpers";
 import { jsonLDTypes } from "../jsonLD/types/en/jsonLDTypes";
 
-type MetaDataProps = {
+export type MetaDataProps = {
     seo: {
         seoUrl: string;
         metaTitle: string;
-        metaDescription: string;
-        author: string;
-        shareImage: {
-            data: null | any
-        };
-        dates: {
-            publishedAt: string;
-            updatedAt: string;
+        metaDescription?: string;
+        author?: string;
+        shareImage?: string;
+        dates?: {
+            publishedAt?: string;
+            updatedAt?: string;
         }
     }
 };
 
 export const generateMetaData = ({ seo }: MetaDataProps): JSX.Element => {
-    const seoImage = getStrapiMedia(seo?.shareImage?.data?.attributes?.url)
-    const title = seo.metaTitle || '';
-    const description = seo.metaDescription || '';
+    const seoImage = seo?.shareImage && getStrapiMedia(seo?.shareImage)
+    const title = seo?.metaTitle || '';
+    const description = seo?.metaDescription || '';
     const keywords = extractKeywords(description);
-    const seoUrlWithHost = seo.seoUrl;
-    const dates = seo.dates;
+    const seoUrlWithHost = seo?.seoUrl || window?.location?.href;
+    const dates = seo?.dates;
     const author = seo?.author;
 
     return (<Head>

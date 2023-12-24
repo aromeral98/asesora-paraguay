@@ -35,11 +35,9 @@ export default function Freelance() {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.freelance[1]) }}
         />
       </Head>
-      <Layout>
         <section className='w-full'>
           <FreelanceContent />
         </section>
-      </Layout>
     </>
   )
 }

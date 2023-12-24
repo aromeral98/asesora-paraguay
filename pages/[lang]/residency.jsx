@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import ResidencyContent from '../../components/ResidencyContent'
 import Layout from '../../components/shared/Layout'
- import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
+import { jsonLDTypes } from '../../jsonLD/types/en/jsonLDTypes'
 
 
 export default function Residency() {
@@ -23,15 +23,13 @@ export default function Residency() {
         <meta name="twitter:image" content="https://asesoraparaguay.com/img/card.webp" />
         <meta name="twitter:url" content="https://asesoraparaguay.com/residency" />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
         />
       </Head>
-      <Layout>
-        <section className='w-full'>
-          <ResidencyContent />
-        </section>
-      </Layout>
+      <section className='w-full'>
+        <ResidencyContent />
+      </section>
     </>
   )
 }

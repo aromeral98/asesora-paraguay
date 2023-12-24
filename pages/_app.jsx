@@ -7,6 +7,7 @@ import globalEs from '../lang/es/global.json'
 import i18next from 'i18next'
 import Script from 'next/script'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Layout from '../components/shared/Layout'
 
 function MyApp({ Component, pageProps }) {
   let lang = ''
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
 
 
   return <I18nextProvider i18n={i18next}>
+    <Layout>
     <SpeedInsights />
     <Script
       id="adsbygoogle-init"
@@ -52,6 +54,7 @@ function MyApp({ Component, pageProps }) {
       strategy="afterInteractive"
       src="https://www.googletagservices.com/tag/js/gpt.js" />
     <Component {...pageProps} />
+    </Layout>
   </I18nextProvider>
 }
 

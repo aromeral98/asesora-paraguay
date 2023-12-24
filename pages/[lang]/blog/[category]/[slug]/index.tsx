@@ -1,5 +1,4 @@
 
-import Layout from '../../../../../components/shared/Layout';
 import Post from '../../../../../components/shared/Post';
 import { fetchAPI } from '../../../../../utils/fetch-api';
 import { generateMetaData } from "../../../../../utils/generateMetaData"
@@ -43,6 +42,7 @@ export async function getServerSideProps({ params }: { params: { slug: string } 
 export default function PostRoute({ data }: { data: any }) {
     const seoData = {
         ...data.attributes.seo,
+        shareImage: data?.attributes?.seo?.shareImage?.data?.attributes?.url,
         author: data?.attributes?.authorsBio?.data?.attributes?.name,
         dates: {
             publishedAt: new Date(data.attributes.publishedAt),
@@ -54,14 +54,12 @@ export default function PostRoute({ data }: { data: any }) {
     return (
         <>
             {generateMetaData({ seo: seoData })}
-            <Layout>
-                <section className='bg-white flex w-full xl:w-8/12 justify-center container p-12 mx-auto flex-col'>
-                    <Post data={data} />
-                    <section id='shareBar' className='flex justify-end'>
-                        <ShareBar title={data?.attributes?.seo?.name} description={data?.attributes?.seo?.description} />
-                    </section>
+            <section className='bg-white flex w-full xl:w-8/12 justify-center container p-12 mx-auto flex-col'>
+                <Post data={data} />
+                <section id='shareBar' className='flex justify-end'>
+                    <ShareBar title={data?.attributes?.seo?.name} description={data?.attributes?.seo?.description} />
                 </section>
-            </Layout>
+            </section>
         </>
     );
 }
