@@ -72,7 +72,7 @@ export default function PostList({
               passHref
               href={`/en/blog/${category?.slug}/${article.attributes.slug}`}
               key={article.id}
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline lg:w-[300px] xl:min-w-[375px] rounded-2xl overflow-hidden shadow-lg transition-all 300ms ease-in-out hover:scale-105"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline lg:w-[300px] xl:min-w-[375px] rounded-2xl overflow-hidden shadow-lg transition-all 300ms ease-in-out lg:hover:scale-105"
             >
               {imageUrl && (
                 <Image
