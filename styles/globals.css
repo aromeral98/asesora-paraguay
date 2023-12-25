@@ -178,10 +178,6 @@ button {
 @tailwind utilities;
 @import "react-slideshow-image/dist/styles.css";
 
-body {
-  @apply dark:bg-black
-}
-
 
 /******************************************* 
   Rich Text Styles
