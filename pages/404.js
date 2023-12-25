@@ -2,12 +2,10 @@ import Link from "next/link";
 import { useRouter } from 'next/router';
 import { useEffect } from "react";
 
-export default function NotFound () {
+export default function NotFound() {
   const router = useRouter();
   useEffect(() => {
-    setTimeout(() => {
-      router.push('/en');
-    }, 3000);
+    router.push('/en');
   }, [router]);
 
   return (
