@@ -4,61 +4,61 @@ function generateSiteMap() {
   const xml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
   <loc>https://www.asesoraparaguay.com/en</loc>
-  <lastmod>2023-04-15</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/move-to-paraguay-as-a-freelancer/</loc>
-  <lastmod>2023-04-15</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.99</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/residency/</loc>
-  <lastmod>2023-04-15</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.98</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/contact/</loc>
-  <lastmod>2023-04-15</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.97</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/paraguay-cuisine-discover-traditional-dishes-and-foods-in-paraguay</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.96</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/fluvial-fleets-of-china-russia-the-united-states-brazil-and-paraguay</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.95</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/exploring-the-culinary-delight-of-vori-vori-in-paraguayan-cuisine</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.94</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/discover-the-best-places-to-visit-in-paraguay-a-guide-to-tourism-in-paraguay</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.93</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/advantages-of-paraguay-s-river-market-for-importing-or-exporting</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.92</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/a-haven-for-digital-nomads-how-paraguay-attracts-digital-nomads</loc>
-  <lastmod>12/25/2023</lastmod>
+  <lastmod>2023-12-23T13:44:29.516Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.91</priority>
   </url>

@@ -48,7 +48,7 @@ async function generateSiteMap() {
       ${sortedArticles
         .map((article, index) => {
           const slug = article.attributes.slug;
-          const lastmod = new Date(article.attributes.updatedAt).toLocaleDateString(); // Set the last modification date as needed
+          const lastmod = article.attributes.updatedAt; // Set the last modification date as needed
           const changefreq = 'daily'; // Set the change frequency as needed
           const priority = (96 - index) / 100; // Priority decreases with index
 
