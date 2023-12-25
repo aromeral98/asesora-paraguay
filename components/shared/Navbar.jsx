@@ -20,7 +20,7 @@ export default function Navbar() {
     { title: 'Services', path: '/en/services' },
     { title: t('residence'), path: '/en/residency' },
     // { title: 'Tramites en Paraguay', path: '/procedures' },
-    // { title: t('blog'), path: '/en/blog' },
+    { title: t('blog'), path: '/en/blog' },
     { title: t('contact.form.contact'), path: '/en/contact' },
     { title: "Privacy Policy", path: '/en/privacy-policy' },
   ]
