@@ -55,7 +55,7 @@ export default function CategoryRoute({ responseData, params }: { responseData: 
     return (
         <>
         {generateMetaData({ seo: seoData })}
-        <section className='bg-white min-h-screen min-w-full container p-8 mx-auto'>
+        <section className='bg-white min-h-screen min-w-full container py-8 mx-auto'>
             <PageHeader heading={name} />
             <PostList data={data} />
         </section>
