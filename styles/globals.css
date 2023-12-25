@@ -189,7 +189,7 @@ body {
 
 /* Headers */
 .rich-text h1 {
-  @apply text-4xl font-bold mb-4 text-violet-400;
+  @apply text-4xl font-bold mb-4 text-primaryColor;
 }
 
 .rich-text h2 {

@@ -41,7 +41,7 @@ export default function ArticleSelect({
 
   return (
     <div className="p-4 rounded-lg dark:bg-gray-900 min-h-[365px] relative">
-      <h4 className="text-xl font-semibold">Browse By Category</h4>
+      <h4 className="text-xl font-semibold">Browse by category</h4>
 
       <div>
         <div className="flex flex-wrap py-6 space-x-2 dark:border-gray-400">
@@ -50,7 +50,7 @@ export default function ArticleSelect({
             return (
               <Link
                 key={category.id}
-                href={`/${category.attributes.slug}`}
+                href={`/en/blog/${category.attributes.slug}`}
                 className={selectedFilter(
                   category.attributes.slug,
                   params.category
@@ -60,7 +60,7 @@ export default function ArticleSelect({
               </Link>
             );
           })}
-          <Link href={"/"} className={selectedFilter("", "filter")}>
+          <Link href={"/en/blog"} className={selectedFilter("", "filter")}>
             #all
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default function ArticleSelect({
                 <li key={article.id}>
                   <Link
                     rel="noopener noreferrer"
-                    href={`/${params.category}/${article.attributes.slug}`}
+                    href={`/en/blog/${params.category}/${article.attributes.slug}`}
                     className={`${
                       params.slug === article.attributes.slug &&
                       "text-violet-400"

@@ -1,4 +1,3 @@
-import Head from "next/head"
 import PostList from "../../../components/shared/PostList"
 import PageHeader from "../../../components/shared/PageHeader"
 import { useCallback, useEffect, useState } from "react"
