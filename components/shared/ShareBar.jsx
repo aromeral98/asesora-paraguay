@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FacebookIcon, TelegramIcon, TwitterIcon, TwitterShareButton, WhatsappIcon } from "react-share";
 
-export default function ShareBar({title = 'example', description = "We offer advisory services for residency processing in Paraguay to foreigners, especially for digital nomads and freelancers who want to pay less taxes."}) {
+export default function ShareBar({title = '', description = "We offer advisory services for residency processing in Paraguay to foreigners, especially for digital nomads and freelancers who want to pay less taxes."}) {
     const [shareRoute, setshareRoute] = useState('')
     useEffect(() => {
     if(typeof window !== 'undefined'){
