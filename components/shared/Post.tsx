@@ -32,11 +32,12 @@ interface Article {
         };
         blocks: any[];
         publishedAt: string;
+        updatedAt: string;
     };
 }
 
 export default function Post({ data}: { data: Article }) {
-    const { title, description, publishedAt, cover, authorsBio } = data.attributes;
+    const { title, description, updatedAt, cover, authorsBio } = data.attributes;
     const author = authorsBio?.data?.attributes;
     const imageUrl = getStrapiMedia(cover?.data?.attributes.url);
     const authorImgUrl = getStrapiMedia(authorsBio?.data?.attributes?.avatar?.data?.attributes?.url);
@@ -66,7 +67,7 @@ export default function Post({ data}: { data: Article }) {
                             />
                         )}
                         <p className="text-md dark:text-violet-400">
-                            {author && author.name} • {formatDate(publishedAt)}
+                            {author && author.name} • {formatDate(updatedAt)}
                         </p>
                     </div>
                 </div>

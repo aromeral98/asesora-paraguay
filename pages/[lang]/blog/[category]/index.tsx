@@ -2,9 +2,7 @@ import Layout from "../../../../components/shared/Layout";
 import PageHeader from "../../../../components/shared/PageHeader";
 import PostList from "../../../../components/shared/PostList";
 import { fetchAPI } from "../../../../utils/fetch-api";
-import { MetaDataProps, generateMetaData } from "../../../../utils/generateMetaData";
-
-;
+import { generateMetaData } from "../../../../utils/generateMetaData";
 
 async function fetchPostsByCategory(filter: string) {
 

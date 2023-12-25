@@ -1,5 +1,3 @@
-import Layout from "../../../components/shared/Layout"
-import { jsonLDTypes } from "../../../jsonLD/types/en/jsonLDTypes"
 import Head from "next/head"
 import PostList from "../../../components/shared/PostList"
 import PageHeader from "../../../components/shared/PageHeader"
@@ -7,6 +5,7 @@ import { useCallback, useEffect, useState } from "react"
 import { fetchAPI } from "../../../utils/fetch-api"
 import PostListSkeleton from "../../../components/shared/PostListSkeleton"
 import NoDataFound from "../../../components/shared/NoDataFound"
+import { generateMetaData } from "../../../utils/generateMetaData"
 
 export default function ArticleListEN() {
   const [meta, setMeta] = useState();
@@ -59,19 +58,19 @@ export default function ArticleListEN() {
     fetchData(0, Number(process.env.NEXT_PUBLIC_PAGE_LIMIT));
   }, [fetchData]);
 
-  if (isLoading) return <PostListSkeleton />;
-  if (!isLoading && data.length === 0) return <NoDataFound title={"No posts found"} />
+  if (!isLoading && Array.isArray(data) && data?.length === 0) return <NoDataFound title={"No posts found"} />
+  const seoData = {
+    seoUrl: `https://asesoraparaguay.com/en/blog/`,
+    metaTitle: "Asesora Paraguay - Blog",
+    metaDescription: "Asesora Paraguay Blog",
+  }
+
   return (
     <>
-      <Head>
-  {/* // TODO META TAGS */}
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLDTypes.organization[0])}
-        </script>
-      </Head>
+      {generateMetaData({ seo: seoData })}
       <section className='py-6 bg-white'>
         <PageHeader heading="Last articles" />
-        <PostList data={data}>
+        {isLoading ? <PostListSkeleton /> : <PostList data={data}>
           {meta?.pagination?.start + meta?.pagination?.limit <
             meta?.pagination?.total && (
               <div className="flex justify-center">
@@ -85,7 +84,7 @@ export default function ArticleListEN() {
                 </button>
               </div>
             )}
-        </PostList>
+        </PostList>}
       </section>
     </>
   )
