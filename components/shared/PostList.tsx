@@ -84,7 +84,6 @@ export default function PostList({
                 />
               )}
               <div className="p-6 space-y-2 relative">
-.
                 <h3 className="text-2xl font-semibold group-focus:underline">
                   {article.attributes.title}
                 </h3>
