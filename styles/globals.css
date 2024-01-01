@@ -185,7 +185,7 @@ button {
 
 /* Headers */
 .rich-text h1 {
-  @apply text-4xl font-bold mb-4 text-primaryColor;
+  @apply text-4xl font-bold mb-4 text-violet-400;
 }
 
 .rich-text h2 {
