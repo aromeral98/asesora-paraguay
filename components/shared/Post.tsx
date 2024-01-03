@@ -62,8 +62,8 @@ export default function Post({ data}: { data: Article }) {
                     <div className="flex items-center md:space-x-2">
                         {authorImgUrl && (
                             <Image
-                                src={author.name}
-                                alt="author"
+                                src={authorImgUrl}
+                                alt={author.name}
                                 width={400}
                                 height={400}
                                 className="w-14 h-14 border rounded-full"
