@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { getStrapiMedia } from "./api-helpers";
 import { jsonLDTypes } from "../jsonLD/types/en/jsonLDTypes";
 
 export type MetaDataProps = {
@@ -20,7 +19,6 @@ export const generateMetaData = ({ seo }: MetaDataProps): JSX.Element => {
     const seoImage = seo?.shareImage || ""
     const title = seo?.metaTitle || '';
     const description = seo?.metaDescription || '';
-    const keywords = extractKeywords(description);
     const seoUrlWithHost = seo?.seoUrl || window?.location?.href;
     const dates = seo?.dates;
     const author = seo?.author;
@@ -28,7 +26,6 @@ export const generateMetaData = ({ seo }: MetaDataProps): JSX.Element => {
     return (<Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta name="keywords" content={keywords.join(', ')} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={seoImage || ""} />
@@ -80,12 +77,4 @@ const generateJSONLD = ({ title, description, seoUrlWithHost, dates, seoImage, a
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}
     />
-};
-
-const extractKeywords = (description: string) => {
-    const words = description.split(/\s+/);
-    const filteredWords = words.filter(word => word.length >= 4);
-    const uniqueWords = Array.from(new Set(filteredWords));
-    const limitedKeywords = uniqueWords.slice(0, 10);
-    return limitedKeywords;
 };
