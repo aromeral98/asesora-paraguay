@@ -17,7 +17,7 @@ export type MetaDataProps = {
 };
 
 export const generateMetaData = ({ seo }: MetaDataProps): JSX.Element => {
-    const seoImage = seo?.shareImage && getStrapiMedia(seo?.shareImage)
+    const seoImage = seo?.shareImage || ""
     const title = seo?.metaTitle || '';
     const description = seo?.metaDescription || '';
     const keywords = extractKeywords(description);

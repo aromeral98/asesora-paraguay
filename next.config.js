@@ -58,6 +58,10 @@ module.exports = withBundleAnalyzer({
       {
         protocol: 'https',
         hostname: 'asesora-paraguay-cms-e42c2dd2fe88.herokuapp.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
       }
     ],
   },
