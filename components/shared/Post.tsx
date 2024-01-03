@@ -13,6 +13,7 @@ interface Article {
             data: {
                 attributes: {
                     url: string;
+                    alternativeText: string | undefined;
                 };
             };
         };
@@ -38,16 +39,18 @@ interface Article {
 
 export default function Post({ data}: { data: Article }) {
     const { title, description, updatedAt, cover, authorsBio } = data.attributes;
+    const imageUrl = cover?.data?.attributes?.url;
+    const altImage = cover?.data?.attributes?.alternativeText;
+
     const author = authorsBio?.data?.attributes;
-    const imageUrl = cover?.data?.attributes.url;
-    const authorImgUrl =authorsBio?.data?.attributes?.avatar?.data?.attributes?.url;
+    const authorImgUrl = author?.avatar?.data?.attributes?.url;
 
     return (
         <article className="space-y-8">
             {imageUrl && (
                 <Image
                     src={imageUrl}
-                    alt={title}
+                    alt={altImage || title}
                     width={400}
                     height={400}
                     className="w-full h-96 object-cover rounded-lg"
@@ -59,7 +62,7 @@ export default function Post({ data}: { data: Article }) {
                     <div className="flex items-center md:space-x-2">
                         {authorImgUrl && (
                             <Image
-                                src={authorImgUrl}
+                                src={author.name}
                                 alt="author"
                                 width={400}
                                 height={400}
