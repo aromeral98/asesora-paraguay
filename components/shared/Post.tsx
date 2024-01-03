@@ -59,7 +59,7 @@ export default function Post({ data}: { data: Article }) {
             <div className="space-y-6">
                 <h1 className="leading-tight text-3xl lg:text-5xl font-bold">{title}</h1>
                 <div className="flex flex-col items-start justify-between w-full md:flex-row md:items-center">
-                    <div className="flex items-center md:space-x-2">
+                    <div className="flex items-center gap-4">
                         {authorImgUrl && (
                             <Image
                                 src={authorImgUrl}
