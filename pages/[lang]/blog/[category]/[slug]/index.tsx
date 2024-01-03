@@ -96,9 +96,9 @@ export default function PostRoute({ data }: { data: any }) {
         <>
             {generateMetaData({ seo: seoData })}
             <section className="container p-8 mx-auto space-y-6 sm:space-y-12">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4">
+                <div className="grid grid-cols-1">
                     <div className="col-span-2">  
-                    <section className='bg-white flex w-full justify-center container p-4 mx-auto flex-col'>
+                    <section className='bg-white flex w-full lg:w-8/12 justify-center container p-4 mx-auto flex-col'>
                         <Post data={article} />
                         <section id='shareBar' className='flex justify-end'>
                             <ShareBar title={data?.attributes?.seo?.name} description={data?.attributes?.seo?.description} />

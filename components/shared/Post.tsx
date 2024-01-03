@@ -70,7 +70,7 @@ export default function Post({ data}: { data: Article }) {
                             />
                         )}
                         <p className="text-md">
-                            {author && author.name} • {formatDate(updatedAt)}
+                            <strong>{author && author.name}</strong> {formatDate(updatedAt)}
                         </p>
                     </div>
                 </div>
