@@ -1,8 +1,7 @@
 
 
 function generateSiteMap() {
-  const xml = `This XML file does not appear to have any style information associated with it. The document tree is shown below.
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  const xml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
   <loc>https://www.asesoraparaguay.com/en</loc>
   <lastmod>2023-04-15</lastmod>
