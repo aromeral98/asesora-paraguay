@@ -51,6 +51,7 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
       primaryColor: '#0038a8',
+      primaryColorHover: '#4d69b6',
       secondaryColor: '#d52b1e'
     }),
     columns: {

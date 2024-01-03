@@ -22,8 +22,8 @@ interface Article {
 
 function selectedFilter(current: string, selected: string) {
   return current === selected
-    ? "px-3 py-1 rounded-lg hover:underline"
-    : "px-3 py-1 rounded-lg hover:underline";
+    ? "py-1 rounded-lg hover:underline"
+    : "";
 }
 
 export default function ArticleSelect({
@@ -44,7 +44,7 @@ export default function ArticleSelect({
       <h4 className="text-xl font-semibold">Browse by category</h4>
 
       <div>
-        <div className="flex flex-wrap py-6 space-x-2">
+        <div className="flex flex-wrap py-6 gap-2">
           {categories.map((category: Category) => {
             if (category.attributes.articles.data.length === 0) return null;
             return (
@@ -76,8 +76,8 @@ export default function ArticleSelect({
                     href={`/en/blog/${params.category}/${article.attributes.slug}`}
                     className={`${
                       params.slug === article.attributes.slug &&
-                      "text-violet-400"
-                    }  hover:underline hover:text-violet-400 transition-colors duration-200`}
+                      "text-primaryColor"
+                    }  hover:underline hover:text-primaryColorHover transition-colors duration-200`}
                   >
                     {article.attributes.title}
                   </Link>
