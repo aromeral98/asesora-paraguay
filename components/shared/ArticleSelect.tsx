@@ -22,8 +22,8 @@ interface Article {
 
 function selectedFilter(current: string, selected: string) {
   return current === selected
-    ? "py-1 rounded-lg hover:underline"
-    : "";
+    ? "py-1 rounded-lg hover:underline text-primaryColor"
+    : "py-1 rounded-lg hover:underline";
 }
 
 export default function ArticleSelect({
