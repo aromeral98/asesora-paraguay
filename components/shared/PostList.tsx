@@ -74,8 +74,8 @@ export default function PostList({
               {imageUrl && (
                 <Image
                   alt="presentation"
-                  width="240"
-                  height="240"
+                  width="300"
+                  height="300"
                   className="object-cover w-full h-44 "
                   src={imageUrl}
                 />

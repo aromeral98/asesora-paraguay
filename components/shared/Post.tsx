@@ -48,8 +48,8 @@ export default function Post({ data}: { data: Article }) {
                 <Image
                     src={imageUrl}
                     alt="article cover image"
-                    width={400}
-                    height={400}
+                    width={450}
+                    height={450}
                     className="w-full h-96 object-cover rounded-lg"
                 />
             )}
