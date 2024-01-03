@@ -73,10 +73,11 @@ export default function PostList({
             >
               {imageUrl && (
                 <Image
-                  alt="presentation"
+                  alt={article.attributes.title}
                   width="300"
                   height="300"
-                  className="object-cover w-full h-44 "
+                  className="object-cover w-full"
+                  style={{ height: "225px"}}
                   src={imageUrl}
                 />
               )}
