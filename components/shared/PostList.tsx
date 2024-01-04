@@ -4,45 +4,63 @@ import Image from "next/image";
 import Link from "next/link";
 import { formatDate } from "../../utils/api-helpers";
 
+interface Large {
+  ext: string;
+  url: string;
+  hash: string;
+  mime: string;
+  name: string;
+  path: null;
+  size: number;
+  width: number;
+  height: number;
+  provider_metadata: any;
+}
+
 interface Article {
   id: number;
   attributes: {
-    title: string;
-    description: string;
-    slug: string;
-    createdAt: string;
-    updatedAt: string;
-    publishedAt: string;
-    cover: {
-      data: {
-        attributes: {
-          url: string;
-          alternativeText: string | undefined;
-        };
-      };
-    };
-    category: {
-      data: {
-        attributes: {
-          name: string;
-          slug: string;
-        };
-      };
-    };
-    authorsBio: {
-      data: {
-        attributes: {
-          name: string;
-          avatar: {
-            data: {
+      title: string;
+      description: string;
+      slug: string;
+      cover: {
+          data: {
               attributes: {
-                url: string;
+                  formats: {
+                      large: Large;
+                      small: Large;
+                      medium: Large;
+                      thumbnail: Large;
+                  };
+                  alternativeText: string | undefined;
               };
-            };
+          };
+      };
+      category: {
+        data: {
+          attributes: {
+            name: string;
+            slug: string;
           };
         };
       };
-    };
+      authorsBio: {
+          data: {
+              attributes: {
+                  name: string;
+                  avatar: {
+                      data: {
+                          attributes: {
+                              url: string;
+                          };
+                      };
+                  };
+              };
+          };
+      };
+      blocks: any[];
+      publishedAt: string;
+      updatedAt: string;
   };
 }
 
@@ -57,7 +75,8 @@ export default function PostList({
     <section className="container p-6 mx-auto space-y-6 sm:space-y-12">
       <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {articles?.map((article) => {
-          const imageUrl = article.attributes?.cover?.data?.attributes?.url
+          const image = article.attributes?.cover?.data?.attributes.formats?.small
+          const imageUrl = image?.url
           const altImage = article.attributes?.cover?.data?.attributes?.alternativeText
           const category = article.attributes.category.data?.attributes;
           const authorsBio = article.attributes.authorsBio.data?.attributes;
@@ -75,10 +94,9 @@ export default function PostList({
               {imageUrl && (
                 <Image
                   alt={altImage || article.attributes.title}
-                  width="300"
-                  height="300"
+                  width={image.width}
+                  height={image.height}
                   className="object-cover w-full"
-                  style={{ height: "225px"}}
                   src={imageUrl}
                 />
               )}

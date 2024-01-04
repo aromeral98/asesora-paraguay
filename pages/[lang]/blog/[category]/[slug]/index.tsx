@@ -11,7 +11,7 @@ async function fetchSideMenuData(slug: string, category?: string) {
     const urlParamsObject = {
         filters: { slug },
         populate: {
-            cover: { fields: ['url', "alternativeText"] },
+            cover: { fields: ['formats', "alternativeText"] },
             authorsBio: { populate: '*' },
             category: { fields: ['name'] },
             blocks: { populate: '*' },
@@ -95,7 +95,7 @@ export default function PostRoute({ data }: { data: any }) {
     return (
         <>
             {generateMetaData({ seo: seoData })}
-            <section className="container p-8 mx-auto space-y-6 sm:space-y-12">
+            <section className="container p-2 lg:p-8 mx-auto space-y-6 sm:space-y-12">
                 <div className="grid grid-cols-1">
                     <div className="col-span-2">  
                     <section className='bg-white flex w-full lg:w-8/12 justify-center container p-4 mx-auto flex-col'>

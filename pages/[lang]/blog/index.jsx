@@ -19,7 +19,7 @@ export default function ArticleListEN() {
       const urlParamsObject = {
         sort: { updatedAt: "desc" },
         populate: {
-          cover: { fields: ["url", "alternativeText"] },
+          cover: { fields: ["url", "formats"] },
           category: { populate: "*" },
           authorsBio: {
             populate: "*",

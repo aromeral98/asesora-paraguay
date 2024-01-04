@@ -40,7 +40,7 @@ export default function ArticleSelect({
 }) {
 
   return (
-    <div className="p-4 rounded-lg min-h-[365px] relative">
+    <div className="p-4 rounded-lg min-h-[365px] relative flex flex-col lg:w-8/12 mx-auto">
       <h4 className="text-xl font-semibold">Browse by category</h4>
 
       <div>

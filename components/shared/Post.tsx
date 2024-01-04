@@ -3,6 +3,19 @@ import Image from 'next/image';
 import { formatDate } from '../../utils/api-helpers';
 import { postRenderer } from '../../utils/post-renderer';
 
+interface Large {
+    ext: string;
+    url: string;
+    hash: string;
+    mime: string;
+    name: string;
+    path: null;
+    size: number;
+    width: number;
+    height: number;
+    provider_metadata: any;
+}
+
 interface Article {
     id: number;
     attributes: {
@@ -12,7 +25,12 @@ interface Article {
         cover: {
             data: {
                 attributes: {
-                    url: string;
+                    formats: {
+                        large: Large;
+                        small: Large;
+                        medium: Large;
+                        thumbnail: Large;
+                    };
                     alternativeText: string | undefined;
                 };
             };
@@ -37,9 +55,10 @@ interface Article {
     };
 }
 
-export default function Post({ data}: { data: Article }) {
+export default function Post({ data }: { data: Article }) {
     const { title, description, updatedAt, cover, authorsBio } = data.attributes;
-    const imageUrl = cover?.data?.attributes?.url;
+    const image = cover?.data?.attributes?.formats.medium
+    const imageUrl = image?.url;
     const altImage = cover?.data?.attributes?.alternativeText;
 
     const author = authorsBio?.data?.attributes;
@@ -50,9 +69,9 @@ export default function Post({ data}: { data: Article }) {
             {imageUrl && (
                 <Image
                     src={imageUrl}
-                    alt={altImage || title}
-                    width={400}
-                    height={400}
+                    alt={altImage ?? title}
+                    width={image.width}
+                    height={image.height}
                     className="w-full h-96 object-cover rounded-lg"
                 />
             )}
@@ -69,7 +88,7 @@ export default function Post({ data}: { data: Article }) {
                                 className="w-14 h-14 border rounded-full"
                             />
                         )}
-                        <p className="text-md">
+                        <p className="text-md flex flex-col">
                             <strong>{author && author.name}</strong> {formatDate(updatedAt)}
                         </p>
                     </div>
@@ -77,7 +96,7 @@ export default function Post({ data}: { data: Article }) {
             </div>
 
             <div>
-                <p>{description}</p>
+                <p className='pb-4'>{description}</p>
                 {data.attributes.blocks.map((section: any, index: number) => postRenderer(section, index))}
             </div>
         </article>
