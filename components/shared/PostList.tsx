@@ -81,9 +81,6 @@ export default function PostList({
           const category = article.attributes.category.data?.attributes;
           const authorsBio = article.attributes.authorsBio.data?.attributes;
 
-          const avatarUrl = authorsBio?.avatar?.data?.attributes?.url
-
-
           return (
             <Link
               passHref
@@ -93,10 +90,11 @@ export default function PostList({
             >
               {imageUrl && (
                 <Image
-                  alt={altImage || article.attributes.title}
+                  alt={altImage ?? article.attributes.title}
                   width={image.width}
                   height={image.height}
                   className="object-cover w-full"
+                  style={{ height: "225px"}}
                   src={imageUrl}
                 />
               )}
