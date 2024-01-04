@@ -40,19 +40,9 @@ function MyApp({ Component, pageProps }) {
     ]);
   }, []);
 
-
   return <I18nextProvider i18n={i18next}>
     <Layout>
     <SpeedInsights />
-    <Script
-      id="adsbygoogle-init"
-      strategy="afterInteractive"
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540483073331516"
-    />
-    <Script
-      id="gpt-init"
-      strategy="afterInteractive"
-      src="https://www.googletagservices.com/tag/js/gpt.js" />
     <Component {...pageProps} />
     </Layout>
   </I18nextProvider>
