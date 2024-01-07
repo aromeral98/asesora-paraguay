@@ -8,7 +8,6 @@ interface RichTextProps {
 }
 
 export default function RichText({ data }: RichTextProps) {
-  // TODO: STYLE THE MARKDOWN
   return (
     <section className="rich-text py-2">
       <Markdown remarkPlugins={[remarkGfm]}>

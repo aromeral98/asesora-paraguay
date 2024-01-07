@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { formatDate } from "../../utils/api-helpers";
+import NoImage from "../../public/img/card.webp"
 
 interface Large {
   ext: string;
@@ -75,8 +76,9 @@ export default function PostList({
     <section className="container p-6 mx-auto space-y-6 sm:space-y-12">
       <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {articles?.map((article) => {
-          const image = article.attributes?.cover?.data?.attributes.formats?.small
-          const imageUrl = image?.url
+          const noImage = NoImage;
+          const image = article.attributes?.cover?.data?.attributes.formats?.small || noImage
+          const imageUrl = image?.url || noImage?.src
           const altImage = article.attributes?.cover?.data?.attributes?.alternativeText
           const category = article.attributes.category.data?.attributes;
           const authorsBio = article.attributes.authorsBio.data?.attributes;
@@ -95,7 +97,7 @@ export default function PostList({
                   height={image.height}
                   className="object-cover w-full"
                   style={{ height: "225px"}}
-                  src={imageUrl}
+                  src={noImage.src}
                 />
               )}
               <div className="p-6 space-y-2 relative">
