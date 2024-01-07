@@ -1,15 +1,16 @@
-import PostList from "../../../components/shared/PostList"
-import PageHeader from "../../../components/shared/PageHeader"
-import { useCallback, useEffect, useState } from "react"
-import { fetchAPI } from "../../../utils/fetch-api"
-import PostListSkeleton from "../../../components/shared/PostListSkeleton"
-import NoDataFound from "../../../components/shared/NoDataFound"
-import { generateMetaData } from "../../../utils/generateMetaData"
+import PostList from "../../../components/shared/PostList";
+import PageHeader from "../../../components/shared/PageHeader";
+import { useCallback, useEffect, useState } from "react";
+import { fetchAPI } from "../../../utils/fetch-api";
+import PostListSkeleton from "../../../components/shared/PostListSkeleton";
+import NoDataFound from "../../../components/shared/NoDataFound";
+import { generateMetaData } from "../../../utils/generateMetaData";
 
 export default function ArticleListEN() {
   const [meta, setMeta] = useState();
   const [data, setData] = useState([]);
   const [isLoading, setLoading] = useState(true);
+  const [isError, setIsError] = useState(false);
 
   const fetchData = useCallback(async (start, limit) => {
     setLoading(true);
@@ -42,6 +43,7 @@ export default function ArticleListEN() {
       setMeta(responseData.meta);
     } catch (error) {
       console.error(error);
+      setIsError(true);
     } finally {
       setLoading(false);
     }
@@ -57,34 +59,50 @@ export default function ArticleListEN() {
     fetchData(0, Number(process.env.NEXT_PUBLIC_PAGE_LIMIT));
   }, [fetchData]);
 
-  if (!isLoading && Array.isArray(data) && data?.length === 0) return <NoDataFound title={"No posts found"} />
+  if (!isLoading && Array.isArray(data) && data?.length === 0)
+    return <NoDataFound title={"No posts found"} />;
   const seoData = {
     seoUrl: `https://asesoraparaguay.com/en/blog/`,
     metaTitle: "Asesora Paraguay - Blog",
     metaDescription: "Asesora Paraguay Blog",
-  }
+  };
 
   return (
     <>
       {generateMetaData({ seo: seoData })}
-      <section className='py-6 bg-white'>
+      <section className="py-6 bg-white">
         <PageHeader heading="Last articles" />
-        {isLoading ? <PostListSkeleton /> : <PostList data={data}>
-          {meta?.pagination?.start + meta?.pagination?.limit <
-            meta?.pagination?.total && (
+        {isLoading ? (
+          <PostListSkeleton />
+        ) : !isError ? (
+          <div className="flex flex-col justify-center items-center py-40 gap-3">
+            <h1>There has been an error trying to retrieve the data</h1>
+            <button
+              className="inline-flex justify-center px-4 border-transparent shadow-sm text-sm font-semibold rounded-md text-white bg-primaryColor hover:bg-white hover:text-secondaryColor
+            transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2"
+              onClick={() => window.location.reload()}
+            >
+              Reload page
+            </button>
+          </div>
+        ) : (
+          <PostList data={data}>
+            {meta?.pagination?.start + meta?.pagination?.limit <
+              meta?.pagination?.total && (
               <div className="flex justify-center">
                 <button
                   onClick={(e) => loadMorePosts(e)}
                   type="button"
                   className="inline-flex justify-center px-4 border-transparent shadow-sm text-sm font-semibold rounded-md text-white bg-primaryColor hover:bg-white hover:text-secondaryColor
-              transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2"
+            transition-all duration-300 hover:border-secondaryColor focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondaryColor border py-2"
                 >
                   Load more posts...
                 </button>
               </div>
             )}
-        </PostList>}
+          </PostList>
+        )}
       </section>
     </>
-  )
+  );
 }
