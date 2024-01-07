@@ -74,7 +74,7 @@ export default function ArticleListEN() {
         <PageHeader heading="Last articles" />
         {isLoading ? (
           <PostListSkeleton />
-        ) : !isError ? (
+        ) : isError ? (
           <div className="flex flex-col justify-center items-center py-40 gap-3">
             <h1>There has been an error trying to retrieve the data</h1>
             <button
