@@ -36,10 +36,6 @@ export const generateMetaData = ({ seo }: MetaDataProps): JSX.Element => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={seoImage || ""} />
         <meta name="twitter:url" content={seoUrlWithHost} />
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLDTypes.organization[0]) }}
-        />
         {generateJSONLD({ title, description, seoUrlWithHost, dates, seoImage, author })}
         <meta name="google-adsense-account" content="ca-pub-5540483073331516"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540483073331516"
