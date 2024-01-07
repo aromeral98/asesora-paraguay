@@ -27,32 +27,32 @@ function generateSiteMap() {
   <priority>0.97</priority>
   </url>
   <url>
-  <loc>https://www.asesoraparaguay.com/en/covid-19-impact-resilience</loc>
-  <lastmod>2024-01-04T20:02:37.916Z</lastmod>
+  <loc>https://www.asesoraparaguay.com/en/budget-travel-worldwide</loc>
+  <lastmod>2024-01-05T08:27:34.663Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.96</priority>
   </url>
   <url>
-  <loc>https://www.asesoraparaguay.com/en/budget-travel-worldwide</loc>
-  <lastmod>2024-01-04T20:01:39.958Z</lastmod>
+  <loc>https://www.asesoraparaguay.com/en/argentinas-economic-landscape</loc>
+  <lastmod>2024-01-05T08:28:38.584Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.95</priority>
   </url>
   <url>
-  <loc>https://www.asesoraparaguay.com/en/unlocking-financial-success</loc>
-  <lastmod>2024-01-04T19:59:01.018Z</lastmod>
+  <loc>https://www.asesoraparaguay.com/en/argentinas-economic-challenge</loc>
+  <lastmod>2024-01-05T08:28:45.501Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.94</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/profound-journey-meditation</loc>
-  <lastmod>2024-01-04T19:55:44.986Z</lastmod>
+  <lastmod>2024-01-05T08:28:17.697Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.93</priority>
   </url>
   <url>
   <loc>https://www.asesoraparaguay.com/en/transformative-power-of-travel</loc>
-  <lastmod>2024-01-04T19:42:58.037Z</lastmod>
+  <lastmod>2024-01-05T08:28:33.980Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.92</priority>
   </url>

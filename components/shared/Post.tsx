@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { formatDate } from '../../utils/api-helpers';
 import { postRenderer } from '../../utils/post-renderer';
-import NoImage from "../../public/img/card.webp"
 
 interface Large {
     ext: string;
@@ -61,7 +60,6 @@ export default function Post({ data }: { data: Article }) {
     const image = cover?.data?.attributes?.formats.medium || cover?.data?.attributes?.formats.small || cover?.data?.attributes?.formats.thumbnail
     const imageUrl = image?.url;
     const altImage = cover?.data?.attributes?.alternativeText;
-    const noImage = NoImage;
     const author = authorsBio?.data?.attributes;
     const authorImgUrl = author?.avatar?.data?.attributes?.url;
 
@@ -69,7 +67,7 @@ export default function Post({ data }: { data: Article }) {
         <article className="space-y-8">
             {imageUrl && (
                 <Image
-                    src={noImage.src}
+                    src={imageUrl}
                     alt={altImage ?? title}
                     width={image.width}
                     height={image.height}
