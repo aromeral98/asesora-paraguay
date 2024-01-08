@@ -216,6 +216,9 @@ button {
 .rich-text a {
   @apply text-primaryColor underline;
 }
+.rich-text a:hover {
+  @apply text-primaryColorHover underline;
+}
 
 /* Typographic replacements */
 .rich-text p {
