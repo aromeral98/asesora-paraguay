@@ -1,13 +1,22 @@
 // pages/sitemap.xml.js
 
-import { fetchAPI } from '../../utils/fetch-api';
+import { fetchAPI } from "../../utils/fetch-api";
 
 async function generateSiteMap() {
   // Fetch the list of articles from your backend
   const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
-  const path = '/articles';
+  const path = "/articles";
   const options = { headers: { Authorization: `Bearer ${token}` } };
-  const articlesResponse = await fetchAPI(path, {}, options);
+  const articlesResponse = await fetchAPI(
+    path,
+    {
+      pagination: {
+        pageSize: 1000,
+        page: 1,
+      },
+    },
+    options
+  );
   const articles = articlesResponse.data;
 
   // Sort articles by date in descending order
@@ -49,7 +58,7 @@ async function generateSiteMap() {
         .map((article, index) => {
           const slug = article.attributes.slug;
           const lastmod = article.attributes.updatedAt; // Set the last modification date as needed
-          const changefreq = 'daily'; // Set the change frequency as needed
+          const changefreq = "daily"; // Set the change frequency as needed
           const priority = (96 - index) / 100; // Priority decreases with index
 
           return `
@@ -61,7 +70,7 @@ async function generateSiteMap() {
             </url>
           `;
         })
-        .join('')}
+        .join("")}
     </urlset>`;
 
   return xml;
@@ -75,7 +84,7 @@ export async function getServerSideProps({ res }) {
   // We generate the XML sitemap with the sorted articles data
   const sitemap = await generateSiteMap();
 
-  res.setHeader('Content-Type', 'text/xml');
+  res.setHeader("Content-Type", "text/xml");
   // We send the XML to the browser
   res.write(sitemap);
   res.end();
