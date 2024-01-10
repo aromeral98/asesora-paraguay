@@ -38,9 +38,9 @@ export default function Residency() {
         />
         <meta name="google-adsense-account" content="ca-pub-5540483073331516"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540483073331516"
-            crossOrigin="anonymous"></script>
+            ></script>
         <script async src="https://www.googletagservices.com/tag/js/gpt.js"
-            crossOrigin="anonymous"></script>
+            ></script>
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
