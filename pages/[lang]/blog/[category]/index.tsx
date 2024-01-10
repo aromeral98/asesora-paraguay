@@ -17,7 +17,7 @@ async function fetchPostsByCategory(filter: string) {
                 },
             },
             populate: {
-                cover: { fields: ['url', "alternativeText"] },
+                cover: { fields: ["url", "formats"] },
                 category: {
                     populate: '*',
                 },
