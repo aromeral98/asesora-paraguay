@@ -27,8 +27,8 @@ function generateSiteMap() {
   <priority>0.97</priority>
   </url>
   <url>
-  <loc>https://www.asesoraparaguay.com/en/budget-travel-worldwide</loc>
-  <lastmod>2024-01-05T08:27:34.663Z</lastmod>
+  <loc>https://www.asesoraparaguay.com/en/el-salvador-presidency-nayib-bukele</loc>
+  <lastmod>2024-01-08T22:43:03.422Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.96</priority>
   </url>
