@@ -71,7 +71,7 @@ export default function Post({ data }: { data: Article }) {
                     alt={altImage ?? title}
                     width={image.width}
                     height={image.height}
-                    className="w-full h-96 object-cover rounded-lg"
+                    className="w-full object-cover rounded-lg"
                 />
             )}
             <div className="space-y-6">
