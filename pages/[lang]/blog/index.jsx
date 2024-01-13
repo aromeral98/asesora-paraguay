@@ -72,7 +72,7 @@ export default function ArticleListEN() {
       {generateMetaData({ seo: seoData })}
       <section className="py-6 bg-white">
         <PageHeader heading="Last articles" />
-        {isLoading ? (
+        {isLoading && data.length === 0  ? (
           <PostListSkeleton />
         ) : isError ? (
           <div className="flex flex-col justify-center items-center py-40 gap-3">
