@@ -82,40 +82,47 @@ export default function PostList({
           const authorsBio = article.attributes.authorsBio.data?.attributes;
 
           return (
-            <Link
-              passHref
-              href={`/en/blog/${category?.slug}/${article.attributes.slug}`}
-              key={article.id}
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline lg:w-[300px] xl:min-w-[375px] rounded-2xl overflow-hidden shadow-lg transition-all 300ms ease-in-out lg:hover:scale-105"
-            >
+            <div
+            key={article.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div className="flex-shrink-0">
               {imageUrl && (
                 <Image
+                  priority={true}
                   alt={altImage ?? article.attributes.title}
                   width={image.width}
                   height={image.height}
-                  className="object-cover w-full"
-                  style={{ height: "225px"}}
+                  className="h-48 w-full object-cover"
                   src={imageUrl}
                 />
               )}
-              <div className="p-6 space-y-2 relative">
-                <h3 className="text-2xl font-semibold group-focus:underline">
-                  {article.attributes.title}
-                </h3>
-
-                <div className="flex justify-between items-center">
-                  <span className="text-xs">
-                    {formatDate(article.attributes.updatedAt)}
-                  </span>
-                  {authorsBio && (
-                    <span className="text-xs">
-                      {authorsBio.name}
-                    </span>
-                  )}
-                </div>
-                <p className="py-4">{article.attributes.description}</p>
               </div>
-            </Link>
+              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <Link href={`/en/blog/${category?.slug}`} className="hover:underline capitalize">
+                      {category?.name}
+                    </Link>
+                  </p>
+                  <Link href={`/en/blog/${category?.slug}/${article.attributes.slug}`} className="block mt-2">
+                    <p className="text-xl font-semibold text-gray-900">{article.attributes.title}</p>
+                    <p className="mt-3 text-base text-gray-500">{article.attributes.description}</p>
+                  </Link>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="ml-3">
+                    <p className="text-sm font-medium text-gray-900">
+                      <div>
+                        {authorsBio?.name}
+                      </div>
+                    </p>
+                    <div className="flex space-x-1 text-sm text-gray-500">
+                      <time dateTime={article?.attributes?.updatedAt}>{formatDate(article?.attributes?.updatedAt)}</time>
+                      <span aria-hidden="true">&middot;</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           );
         })}
       </div>
