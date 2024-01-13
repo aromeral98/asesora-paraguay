@@ -117,7 +117,6 @@ export default function PostList({
                     </p>
                     <div className="flex space-x-1 text-sm text-gray-500">
                       <time dateTime={article?.attributes?.updatedAt}>{formatDate(article?.attributes?.updatedAt)}</time>
-                      <span aria-hidden="true">&middot;</span>
                     </div>
                   </div>
                 </div>
