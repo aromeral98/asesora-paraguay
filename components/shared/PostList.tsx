@@ -84,7 +84,7 @@ export default function PostList({
           return (
             <div
             key={article.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-              <div className="flex-shrink-0">
+              <Link href={`/en/blog/${category?.slug}/${article.attributes.slug}`} className="flex-shrink-0">
               {imageUrl && (
                 <Image
                   priority={true}
@@ -95,7 +95,7 @@ export default function PostList({
                   src={imageUrl}
                 />
               )}
-              </div>
+              </Link>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
