@@ -71,7 +71,8 @@ export default function Post({ data }: { data: Article }) {
                     alt={altImage ?? title}
                     width={image.width}
                     height={image.height}
-                    className="w-full h-100 object-cover rounded-lg"
+                    className="w-full h-auto object-cover rounded-lg"
+                    style={{ aspectRatio: `${image.width}/${image.height}` }}
                 />
             )}
             <div className="space-y-6">
