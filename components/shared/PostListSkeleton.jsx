@@ -6,7 +6,7 @@ export default function PostListSkeleton() {
     return (
       <div
         key={index}
-        className="h-100 mx-auto anim group hover:no-underline focus:no-underline w-full rounded-2xl overflow-hidden shadow-lg skeletonAnimation"
+        className="h-105 mx-auto anim group hover:no-underline focus:no-underline w-full rounded-2xl overflow-hidden shadow-lg skeletonAnimation"
       ></div>
     );
   });
@@ -35,7 +35,7 @@ export default function PostListSkeleton() {
         </svg>
         <span class="sr-only">Loading...</span>
       </div>
-      <section className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {postSkeleton}
       </section>
     </article>
