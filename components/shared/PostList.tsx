@@ -73,7 +73,7 @@ export default function PostList({
 }) {
   return (
     <section className="container p-6 mx-auto space-y-6 sm:space-y-12">
-      <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {articles?.map((article) => {
           const image = article.attributes?.cover?.data?.attributes.formats?.small;
           const imageUrl = image?.url
@@ -91,7 +91,7 @@ export default function PostList({
                   alt={altImage ?? article.attributes.title}
                   width={image.width}
                   height={image.height}
-                  className="h-48 w-full object-cover"
+                  className="h-52 w-full object-cover"
                   src={imageUrl}
                 />
               )}
